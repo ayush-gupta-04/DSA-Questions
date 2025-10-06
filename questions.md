@@ -1,6 +1,7 @@
 # GRAPH
 ## BFS
 - Cycle Detection UDG.
+- Cycle Detection DG.
 - [Rotten Oranges.](https://leetcode.com/problems/rotting-oranges/description/)
 - [Word Ladder I.](https://leetcode.com/problems/word-ladder/description/)
 - [Word Ladder II.](https://leetcode.com/problems/word-ladder-ii/)
