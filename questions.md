@@ -1,3 +1,27 @@
+# Linked List
+- [Middle of a LL](https://leetcode.com/problems/middle-of-the-linked-list/description/)
+- [Reverse a LL Iterative.](https://leetcode.com/problems/reverse-linked-list/)
+- [Reverse a LL Recursive.](https://leetcode.com/problems/reverse-linked-list)
+- [Linked List Cycle.](https://leetcode.com/problems/linked-list-cycle/description/)
+- [Start of Cycle.](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [Palindrome LL](https://leetcode.com/problems/palindrome-linked-list/)
+- [Reverse LL II.](https://leetcode.com/problems/reverse-linked-list-ii/)
+- [Remove Nth Node from back.](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [Delete Middle of LL.](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
+- [Merge 2 Sorted LL.](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [Sort LL.](https://leetcode.com/problems/sort-list/)
+- Sort 0,1,2 LL.
+- [Insertion Sort LL.](https://leetcode.com/problems/insertion-sort-list/)
+- [Intersection of 2 LL.](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+- [Reorder LL.](https://leetcode.com/problems/reorder-list/description/)
+- [Reverse Nodes in K-Groups.](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+- [Rotate a LL.](https://leetcode.com/problems/rotate-list/)
+- Flatten a LL.
+- [Clone a LL with Random Pointer.](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
+- [Add 2 Numbers.](https://leetcode.com/problems/add-two-numbers/)
+
+
+
 # GRAPH
 ## BFS
 - Cycle Detection UDG.
