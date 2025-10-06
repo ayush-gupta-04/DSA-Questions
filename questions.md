@@ -28,8 +28,8 @@
 - [Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)
 - [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 - [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
--  [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)
--[Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
+- [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)
+- [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
 ## DSU
 - [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 - [Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)
