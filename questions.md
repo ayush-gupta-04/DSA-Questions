@@ -66,3 +66,14 @@
 - Bridges in Graph.
 - Articulation Point.
 - Strongly Connected Components.
+
+
+# TRIES
+## Implementation
+- Tries 1 Implementation.
+- Tries 2 Implementation.
+
+## Questions
+- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+- Number of Distinct Substrings in a String
+- [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
