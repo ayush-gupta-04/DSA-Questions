@@ -16,6 +16,26 @@
 
 
 
+
+# Stacks n Queues
+- [Longest Valid Parenthesis.](https://leetcode.com/problems/longest-valid-parentheses/)
+- [Trapping Rainwater](https://leetcode.com/problems/trapping-rain-water/description/)
+- [Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/description/?envType=problem-list-v2&envId=nbefpor5)
+- [Remove k Digits](https://leetcode.com/problems/remove-k-digits/description/)
+- [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
+- [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/)
+- [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+- Celebrity Problem.
+- [LRU Cache](https://leetcode.com/problems/lru-cache/)
+
+
+
+
+
+
+
+
+
 # GRAPH
 ### BFS
 - [Rotten Oranges.](https://leetcode.com/problems/rotting-oranges/description/)
