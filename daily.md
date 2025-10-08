@@ -22,3 +22,15 @@
 - Clear the Rightmost bit.
 - Find the Powerset
 
+
+# Graph
+- Topo Sort BFS ( Kahn's Algo )
+- Dijkistra's Algo
+- Bellman Ford Algo
+- Floyd Warshall Algo
+- Prims's Algo
+- Krushkal's Algo
+- Disjoint Set Template.
+- Bridge in a Graph ( Tarjan's Algo )
+- Articulation Point in a Graph
+- Strongly Connected Components ( Kosaraju's Algo ).
