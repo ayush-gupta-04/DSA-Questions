@@ -1,3 +1,11 @@
+# Binary Search
+- Search in Rotated Sorted Array 1.
+- Find Peak Element.
+- Koko Eating Bananas.
+- Kth Missing Positive.
+- Aggresive Cows.
+- Minimize The Max Distance Between Gas Stations.
+
 # Linked List
 - [Linked List Cycle.](https://leetcode.com/problems/linked-list-cycle/description/)
 - [Start of Cycle.](https://leetcode.com/problems/linked-list-cycle-ii/)
