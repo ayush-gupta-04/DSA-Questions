@@ -7,7 +7,6 @@
 
 ### Other
 - [Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/description/)
-- [Asteriod Collision](https://leetcode.com/problems/asteroid-collision/description/)
 - [Trapping Rainwater](https://leetcode.com/problems/trapping-rain-water/description/)
 - [Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/description/?envType=problem-list-v2&envId=nbefpor5)
 - [Remove k Digits](https://leetcode.com/problems/remove-k-digits/)
