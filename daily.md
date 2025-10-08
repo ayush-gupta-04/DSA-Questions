@@ -1,3 +1,14 @@
+# Arrays
+
+### Sorting Algos
+- Bubble Sort.
+- Insertion Sort.
+- Selection Sort.
+- Cycle Sort.
+- Merge Sort.
+- Quick Sort.
+
+
 # Stacks n Queues
 - Next Greater Element.
 - Next Smaller Element.
