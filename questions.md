@@ -18,6 +18,14 @@
 
 
 # Stacks n Queues
+### Theory
+- Implement Stack Using Array.
+- Implement Circular Queue using Array.
+- Implement Stack n Queue Using LL.
+- Implement Stack using Queue & Queue using Stack.
+- Sort a Stack Using Recursion.
+
+### Questions
 - [Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/description/)
 - [Longest Valid Parenthesis.](https://leetcode.com/problems/longest-valid-parentheses/)
 - [Trapping Rainwater](https://leetcode.com/problems/trapping-rain-water/description/)
