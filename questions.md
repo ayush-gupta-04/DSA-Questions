@@ -1,8 +1,8 @@
 # Binary Search
-- Search in Rotated Sorted Array 1.
-- Find Peak Element.
-- Koko Eating Bananas.
-- Kth Missing Positive.
+- [Search in Rotated Sorted Array 1](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- [Kth Missing Positive](https://leetcode.com/problems/kth-missing-positive-number/)
 - Aggresive Cows.
 - Minimize The Max Distance Between Gas Stations.
 
