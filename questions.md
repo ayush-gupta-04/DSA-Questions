@@ -39,7 +39,13 @@
 
 
 
-
+# Sliding Window 2 Pointer.
+- Longest Substring Without Repeating Characters.
+- Fruit Into Basket.
+- Longest Repeating Character Replacement.
+- Number of Substrings Containing All Three Characters.
+- Subarrays with K Different Integers
+- Minimum Window Substring.
 
 
 
