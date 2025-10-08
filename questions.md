@@ -18,6 +18,7 @@
 
 
 # Stacks n Queues
+- [Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/description/)
 - [Longest Valid Parenthesis.](https://leetcode.com/problems/longest-valid-parentheses/)
 - [Trapping Rainwater](https://leetcode.com/problems/trapping-rain-water/description/)
 - [Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/description/?envType=problem-list-v2&envId=nbefpor5)
