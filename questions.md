@@ -1,3 +1,29 @@
+# Arrays.
+### Sorting Algos.
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+
+### Questions
+- [Sort 0,1,2](https://leetcode.com/problems/sort-colors/)
+- [Majority Elements N/2](https://leetcode.com/problems/majority-element/)
+- Majority Elements N/3.
+- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- [Next Permutation](http://leetcode.com/problems/next-permutation/)
+- [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [3-Sum](https://leetcode.com/problems/3sum/)
+- [Merge-Interval](https://leetcode.com/problems/merge-intervals/)
+- Merge 2 Sorted-Arrays
+- Longest Sub-Array With Given Sum k.
+- Count Sub-Array Sum Equals k.
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+- Find The Missing & Repeating Number.
+- Count Inversion.
+- [Maximum Product Sub-Array](https://leetcode.com/problems/maximum-product-subarray/)
+
+
 # Binary Search
 - [Search in Rotated Sorted Array 1](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [Find Peak Element 2](https://leetcode.com/problems/find-a-peak-element-ii/)
