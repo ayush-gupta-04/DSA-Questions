@@ -1,5 +1,6 @@
 # Binary Search
 - [Search in Rotated Sorted Array 1](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [Find Peak Element 2](https://leetcode.com/problems/find-a-peak-element-ii/)
 - [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - [Kth Missing Positive](https://leetcode.com/problems/kth-missing-positive-number/)
