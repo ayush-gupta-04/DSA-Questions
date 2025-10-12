@@ -40,6 +40,7 @@
 
 ## Extra
 - [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
+- [Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/)
 
 ## Minimum Spanning Tree
 
