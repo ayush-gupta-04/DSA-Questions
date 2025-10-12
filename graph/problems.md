@@ -13,6 +13,7 @@
 - [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)
 - [Surrounded Region](https://leetcode.com/problems/surrounded-regions/description/)
 - [Is Graph Biparte](https://leetcode.com/problems/is-graph-bipartite/)
+- [Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/)
 
 ## TOPO SORT
 - [Find Eventual Safe State](https://leetcode.com/problems/find-eventual-safe-states/)
@@ -40,7 +41,7 @@
 
 ## Extra
 - [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
-- [Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/)
+
 
 ## Minimum Spanning Tree
 
