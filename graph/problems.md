@@ -46,5 +46,6 @@
 
 ## Minimum Spanning Tree
 - [Minimum cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
+- [Optimize Water Distribution in A Village](https://www.geeksforgeeks.org/dsa/minimum-cost-to-provide-water/)
 
 
