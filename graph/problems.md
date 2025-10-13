@@ -20,6 +20,7 @@
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 - [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
+- [Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)
 
 ## Shortest Path
 - [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
