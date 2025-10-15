@@ -17,6 +17,7 @@
 
 ## Bipatite Graph
 - [Is Graph Biparte](https://leetcode.com/problems/is-graph-bipartite/)
+- [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
 - [Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/)
 
 ## TOPO SORT
