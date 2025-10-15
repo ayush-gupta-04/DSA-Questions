@@ -13,6 +13,9 @@
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)
 - [Surrounded Region](https://leetcode.com/problems/surrounded-regions/description/)
+
+
+## Bipatite Graph
 - [Is Graph Biparte](https://leetcode.com/problems/is-graph-bipartite/)
 - [Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/)
 
