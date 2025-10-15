@@ -1,6 +1,4 @@
-- Segment Tree Template for Range Sum Query
-
-```
+// Segment Tree Template for Range Sum Query.
 package pack;
 
 public class SegmentTree{
@@ -66,4 +64,3 @@ public class SegmentTree{
         return leftQuery + rightQuery;
     }
 }
-```
