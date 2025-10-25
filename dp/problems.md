@@ -31,5 +31,8 @@
 - [Best Team With no Conflict](https://leetcode.com/problems/best-team-with-no-conflicts/)
 - [Longest Subsequence With Given Diff](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)
 
+## Digit DP
+- [Count Numbers With Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
+
 ## Maths
 - [Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/)
