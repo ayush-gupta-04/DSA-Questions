@@ -13,5 +13,6 @@
 - [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
 ### Variable Length
+- [Minimum Size SubArray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
