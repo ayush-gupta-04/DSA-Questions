@@ -13,6 +13,9 @@
 - [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
 ### Variable Length
-- [Minimum Size SubArray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+- [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
 - [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)
+- [Minimum Size SubArray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
