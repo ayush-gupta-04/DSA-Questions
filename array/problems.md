@@ -18,6 +18,8 @@
 
 ## Intervals
 - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals)
+- [Insert Intervals](https://leetcode.com/problems/insert-interval)
 
 ## Matrix
 - [Rotate Image](https://leetcode.com/problems/rotate-image)
