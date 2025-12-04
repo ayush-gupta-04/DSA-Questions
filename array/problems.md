@@ -22,10 +22,13 @@
 - [Insert Intervals](https://leetcode.com/problems/insert-interval)
 
 ## Matrix
-- [Rotate Image](https://leetcode.com/problems/rotate-image)
+- (*)[Rotate Image](https://leetcode.com/problems/rotate-image)
+- (*)[Spiral Matrix I](https://leetcode.com/problems/spiral-matrix/description/)
+- [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)
+
 
 ## Two Pointers
-### 2 sum type
+#### 2 sum type
 - (*)[Two Sum](https://leetcode.com/problems/two-sum/description/)
 - (*)[Two Sum - II input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - (*)[Three Sum](https://leetcode.com/problems/3sum/)
@@ -33,14 +36,14 @@
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)
 
-### Merging
+#### Merging
 - (*)[Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/description/)
 
-### Meet in the Middle
+#### Meet in the Middle
 - (*)[Partition Array into 2 Arrays to minimize sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)
 
-### Others
+#### Others
 - (*)[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 - (*)[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 - (*)[Next Permutation](https://leetcode.com/problems/next-permutation/description/)
@@ -48,3 +51,17 @@
 - [Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)
 - [Shortest Subarray to be removed to make array sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/)
 - [longest Mountain in an Array](https://leetcode.com/problems/longest-mountain-in-array/description/)
+
+
+
+
+## Other Problems
+- (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
+- (*)[Move Zeroes To End](https://leetcode.com/problems/move-zeroes/description/)
+- (*)[Majority Elements n/2](https://leetcode.com/problems/majority-element/description/)
+- (*)[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
+- (*)[Single Number I](https://leetcode.com/problems/single-number/description/)
+- [Majority Elements II n/3](https://leetcode.com/problems/majority-element-ii/description/)
+- [Single Number II](https://leetcode.com/problems/single-number-ii/)
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+- [Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)
