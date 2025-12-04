@@ -25,11 +25,17 @@
 - [Rotate Image](https://leetcode.com/problems/rotate-image)
 
 ## Two Pointers
+### 2 sum type
 - [Two Sum](https://leetcode.com/problems/two-sum/description/)
 - [Two Sum - II input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - [Three Sum](https://leetcode.com/problems/3sum/)
 - [Four Sum](https://leetcode.com/problems/4sum/)
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
-- [longest Mountain in an Array](https://leetcode.com/problems/longest-mountain-in-array/description/)
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)
+
+### Others
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
+- [Next Permutation](https://leetcode.com/problems/next-permutation/description/)
+- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 - [Shortest Subarray to be removed to make array sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/)
+- [longest Mountain in an Array](https://leetcode.com/problems/longest-mountain-in-array/description/)
