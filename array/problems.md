@@ -33,6 +33,9 @@
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)
 
+### Merging
+- (*)[Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/description/)
+
 ### Meet in the Middle
 - (*)[Partition Array into 2 Arrays to minimize sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)
