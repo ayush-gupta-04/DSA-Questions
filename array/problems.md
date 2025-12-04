@@ -44,5 +44,7 @@
 - (*)[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 - (*)[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 - (*)[Next Permutation](https://leetcode.com/problems/next-permutation/description/)
+- (*)[Count Inversions](https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/)
+- [Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)
 - [Shortest Subarray to be removed to make array sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/)
 - [longest Mountain in an Array](https://leetcode.com/problems/longest-mountain-in-array/description/)
