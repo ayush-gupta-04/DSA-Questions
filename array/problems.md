@@ -29,7 +29,6 @@
 - [Two Sum - II input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - [Three Sum](https://leetcode.com/problems/3sum/)
 - [Four Sum](https://leetcode.com/problems/4sum/)
-- [Boats to save People](https://leetcode.com/problems/boats-to-save-people/)
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
 - [longest Mountain in an Array](https://leetcode.com/problems/longest-mountain-in-array/description/)
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)
