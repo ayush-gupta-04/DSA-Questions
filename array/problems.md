@@ -14,6 +14,9 @@
 - [Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/description/)
 - [Continuous SubArray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)
 
+  ### sec - 3
+  - (*)[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)
+
 
 
 ## Intervals
