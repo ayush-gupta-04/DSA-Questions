@@ -31,6 +31,9 @@
 - [Best Team With no Conflict](https://leetcode.com/problems/best-team-with-no-conflicts/)
 - [Longest Subsequence With Given Diff](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)
 
+## Partition DP
+- [Word Break](https://leetcode.com/problems/word-break/description/)
+- [Word Break II](https://leetcode.com/problems/word-break-ii/description/)
 ## Digit DP
 - [Count Numbers With Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
 
