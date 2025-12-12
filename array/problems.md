@@ -29,9 +29,8 @@
 - [Insert Intervals](https://leetcode.com/problems/insert-interval)
 
 ## Line Sweep
-- [Max Population Year](https://leetcode.com/problems/maximum-population-year/)
 - [Intersecting Segemnent - (Tutorial)](https://cp-algorithms.com/geometry/intersecting_segments.html)
-- [My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
+- (*)[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
 
 ## Matrix
 - (*)[Rotate Image](https://leetcode.com/problems/rotate-image)
