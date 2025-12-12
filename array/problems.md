@@ -1,24 +1,24 @@
 # Questions
 
 ## Prefix-Sum
-### sec - 1
+##### sec - 1
 - (*)[Longest Subarray With Sum k](https://www.geeksforgeeks.org/dsa/longest-sub-array-sum-k/)
 - (*)[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 - [Stable Subarray With Equal Boundary and Interior Sum](https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/description/)
 - [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
 - [Count Number of Bad Pairs](https://xhamster.desi/videos/busty-blondie-paola-hard-takes-her-big-black-stepbros-dick-xhDU0K4)
 
-### sec - 2
+##### sec - 2
 - (*)[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)
 - [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/)
 - [Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/description/)
 - [Continuous SubArray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)
 
-### sec - 3
+##### sec - 3
 - (*)[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)
 - (*)[Count Wonderful Substring](https://leetcode.com/problems/number-of-wonderful-substrings/)
 
-### prefix + Binary Search.
+##### prefix + Binary Search.
 - [Total Score of Dungeon Runs](https://leetcode.com/problems/total-score-of-dungeon-runs/description/)
 
 
@@ -39,7 +39,7 @@
 
 
 ## Two Pointers
-#### 2 sum type
+##### 2 sum type
 - (*)[Two Sum](https://leetcode.com/problems/two-sum/description/)
 - (*)[Two Sum - II input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - (*)[Three Sum](https://leetcode.com/problems/3sum/)
@@ -47,14 +47,14 @@
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)
 
-#### Merging
+##### Merging
 - (*)[Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/description/)
 
-#### Meet in the Middle
+##### Meet in the Middle
 - (*)[Partition Array into 2 Arrays to minimize sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)
 
-#### Others
+##### Others
 - (*)[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 - (*)[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 - (*)[Next Permutation](https://leetcode.com/problems/next-permutation/description/)
