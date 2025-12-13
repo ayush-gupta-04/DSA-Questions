@@ -31,6 +31,7 @@ To solve Interval related problems :
 3. If nothing works -> then think of line Sweep.
 ```
 - (*)[Merge Intervals](https://leetcode.com/problems/merge-intervals)
+- (*)[Non-Overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)
 - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 - [Insert Intervals](https://leetcode.com/problems/insert-interval)
 - (*)[My Calendar II - (greedy || line sweep)](https://leetcode.com/problems/my-calendar-ii/)
