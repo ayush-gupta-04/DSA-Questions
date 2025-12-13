@@ -30,11 +30,12 @@ To solve Interval related problems :
 2. Sort by EndTime and analyse if we can solve.
 3. If nothing works -> then think of line Sweep.
 ```
+- (*)[Insert Intervals](https://leetcode.com/problems/insert-interval)
 - (*)[Merge Intervals](https://leetcode.com/problems/merge-intervals)
 - (*)[Non-Overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)
 - (*)[Meeting Rooms II](https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1)
 - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
-- [Insert Intervals](https://leetcode.com/problems/insert-interval)
+
 - (*)[My Calendar II - (greedy || line sweep)](https://leetcode.com/problems/my-calendar-ii/)
 - [Intersecting Segemnent - (Tutorial)](https://cp-algorithms.com/geometry/intersecting_segments.html)
 
