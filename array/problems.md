@@ -24,8 +24,14 @@
 
 
 ## Interval Problems || Line Sweep
-- (*)[Merge Intervals - (greedy || line sweep)](https://leetcode.com/problems/merge-intervals)
-- [Minimum Number of Arrows to Burst Balloons - (greedy || line sweep)](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+```
+To solve Interval related problems :
+1. Sort by StartTime and analyse if we can solve.
+2. Sort by EndTime and analyse if we can solve.
+3. If nothing works -> then think of line Sweep.
+```
+- (*)[Merge Intervals](https://leetcode.com/problems/merge-intervals)
+- [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 - [Insert Intervals](https://leetcode.com/problems/insert-interval)
 - (*)[My Calendar II - (greedy || line sweep)](https://leetcode.com/problems/my-calendar-ii/)
 - [Intersecting Segemnent - (Tutorial)](https://cp-algorithms.com/geometry/intersecting_segments.html)
