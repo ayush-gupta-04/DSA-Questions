@@ -35,9 +35,8 @@ To solve Interval related problems :
 - (*)[Merge Intervals](https://leetcode.com/problems/merge-intervals)
 - (*)[Non-Overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)
 - (*)[Meeting Rooms II](https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1)
-- [Car Pooling](https://leetcode.com/problems/car-pooling/)
+- (*)[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
 - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
-- (*)[My Calendar II - (greedy || line sweep)](https://leetcode.com/problems/my-calendar-ii/)
 - [Intersecting Segemnent - (Tutorial)](https://cp-algorithms.com/geometry/intersecting_segments.html)
 
 
