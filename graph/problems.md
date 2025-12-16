@@ -13,6 +13,7 @@
 - (*)[Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)
 - [Surrounded Region](https://leetcode.com/problems/surrounded-regions/description/)
+- [Most Profitable Path In A Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree)
 
 
 ## Bipatite Graph
