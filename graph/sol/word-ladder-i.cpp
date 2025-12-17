@@ -1,44 +1,37 @@
 
 class Solution {
 public:
-    int ladderLength(string begin, string end, vector<string>& list) {
-        int n = list.size();
+    int ladderLength(string startWord, string endWord, vector<string>& wordList) {
+        // Queue for BFS storing {current word, steps taken}
+        queue<pair<string, int>> q;
+        q.push({startWord, 1});
 
-        unordered_set<string> st;
-        unordered_set<string> vis;
-        queue<pair<string,int>> q;
+        // Set for quick lookup and deletion
+        unordered_set<string> st(wordList.begin(), wordList.end());
+        st.erase(startWord);
 
-        for(auto it : list) st.insert(it);
-
-        if(st.find(end) == st.end()) return 0;
-
-        q.push({begin,1});
-        vis.insert(begin);
-
-        while(!q.empty()){
-            string node = q.front().first;
-            int dist = q.front().second;
+        while (!q.empty()) {
+            string word = q.front().first;
+            int steps = q.front().second;
             q.pop();
 
-            if(node == end) return dist;
+            // If target word is found, return steps
+            if (word == endWord) return steps;
 
-
-            // for next word .. i will try to insert every alphabet from (a -> z) in every pos of node.
-            // and if the newWord exist in the list.. i will add this to q , and mark visited.
-            for(int i = 0; i < node.size() ; i++){
-                for(int k = 97 ; k  <= 122 ; k++){
-                    char ch = (char)k;
-                    string newWord = node;
-                    newWord[i] = ch;
-                    if(st.count(newWord) == 1 && vis.count(newWord) == 0){
-                        q.push({newWord , dist + 1});
-                        vis.insert(newWord);
+            // Try changing every character in the current word
+            for (int i = 0; i < word.size(); i++) {
+                char original = word[i];
+                for (char ch = 'a'; ch <= 'z'; ch++) {
+                    word[i] = ch;
+                    if (st.find(word) != st.end()) {
+                        st.erase(word);
+                        q.push({word, steps + 1});
                     }
                 }
+                word[i] = original;
             }
-
-        } 
-
+        }
+        // If no sequence exists
         return 0;
     }
 };
