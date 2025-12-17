@@ -3,12 +3,11 @@
 - (*)[Rotten Oranges](https://leetcode.com/problems/rotting-oranges/description/)
 - (*)[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - (*)[Word Ladder](https://leetcode.com/problems/word-ladder/description/)
-- (*)[Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
 - [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)
 - [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 - [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [Find The Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)
-
+- [Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
 
 ## DFS
 - (*)[Number of Islands](https://leetcode.com/problems/number-of-islands/)
