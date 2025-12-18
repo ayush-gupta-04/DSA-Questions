@@ -8,7 +8,8 @@
 // 1st approach :
 // Main AIM : Let's make something like this ...[ node1 -> {every reachable nodes from this node1},
 //                                                node2 -> {every reachable nodes from this node1}...]
-// -> I can easily make this relationship using DFS Algorithm.
+// -> I can easily make this relationship using DFS Algorithm....it will take a single flow.
+// -> I can also build this relationship using BFS Algorithm ... But i will have to run this for every node.
 // -> Now for every node 'u' i can find if i have 'v' in every reachable nodes of 'u'.
 
 
