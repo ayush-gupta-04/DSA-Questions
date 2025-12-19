@@ -8,6 +8,7 @@
 - [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [Find The Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)
 - [Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
+- [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv)
 
 ## DFS
 - (*)[Number of Islands](https://leetcode.com/problems/number-of-islands/)
@@ -28,7 +29,7 @@
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 - [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
 - [Longest Increasing Path in a Grid](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)
-- [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv)
+
 
 ## Shortest Path
 - (*)[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
