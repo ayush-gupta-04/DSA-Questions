@@ -8,7 +8,6 @@
 - [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [Find The Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)
 - [Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
-- [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i)
 
 ## DFS
 - (*)[Number of Islands](https://leetcode.com/problems/number-of-islands/)
@@ -40,6 +39,8 @@
 - [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 - [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
 - [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
+- [Minimum Cost to make at least one valid path in a grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid)
+- [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i)
  
 
 ## DSU
