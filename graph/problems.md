@@ -51,6 +51,9 @@
 - [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
 - [Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)
 
+## Eulerian Circuit
+- [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+
 ## Extra
 - (*)[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
 
