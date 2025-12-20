@@ -52,6 +52,7 @@
 - [Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)
 
 ## Eulerian Circuit
+- [Valid Arrangement Of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)
 - [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 
 ## Extra
