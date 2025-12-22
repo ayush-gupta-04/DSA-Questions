@@ -3,7 +3,7 @@
 ### Fibonacci Style
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
 - [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)
-- House Robber
+- [House Robber](https://leetcode.com/problems/house-robber/)
 - [Delete & Earn](https://leetcode.com/problems/delete-and-earn/)
 - [Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)
 - [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/)
