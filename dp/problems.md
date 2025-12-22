@@ -23,9 +23,9 @@
 
 ### Sub-Set and target DP.
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
-- Partition Sub-Set With Minimal Absolute Diff
+- [Partition Sub-Set With Minimal Absolute Diff](https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16)
 - [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
-- Count Sub-Set Sum Equals K.
+- [Count Sub-Set Sum Equals K](https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17)
 - [Target Sum](https://leetcode.com/problems/target-sum/description/)
 - [Coin Change](https://leetcode.com/problems/coin-change/description/)
 - [Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
