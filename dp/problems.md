@@ -8,6 +8,13 @@
 - [Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)
 - [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/)
 
+### Grid Problems.
+- [Unique Paths](https://leetcode.com/problems/unique-paths/description/)
+- [Unique Paths 2](https://leetcode.com/problems/unique-paths-ii/description/)
+- [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)
+- [Triangle](https://leetcode.com/problems/triangle/description/)
+- [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
+
 
 
 
