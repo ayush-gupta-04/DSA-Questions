@@ -3,7 +3,7 @@
 ### Fibonacci Style
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
 - [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)
-- [House Robber](https://leetcode.com/problems/house-robber/)
+- (*)[House Robber](https://leetcode.com/problems/house-robber/)
 - [Delete & Earn](https://leetcode.com/problems/delete-and-earn/)
 - [Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)
 - [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/)
@@ -15,19 +15,19 @@
 - [Triangle](https://leetcode.com/problems/triangle/description/)
 - [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
 - [Cherry Pickup I](https://leetcode.com/problems/cherry-pickup/description/)
-- [Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)
+- (*)[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)
 
 
 
 ### Knapsack DP
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
-- [Partition Sub-Set With Minimal Absolute Diff](https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16)
+- (*)[Partition Sub-Set With Minimal Absolute Diff](https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16)
 - [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
-- [Count Sub-Set Sum Equals K](https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17)
+- (*)[Count Sub-Set Sum Equals K](https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17)
 - [Count Partition With Given Difference D](https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18)
-- [Target Sum](https://leetcode.com/problems/target-sum/description/)
+- (*)[Target Sum](https://leetcode.com/problems/target-sum/description/)
 - [Coin Change](https://leetcode.com/problems/coin-change/description/)
-- [Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
+- (*)[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
 - [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
 - [Tallest Billboard](https://leetcode.com/problems/tallest-billboard/description/)
 - [Painting The Walls](https://leetcode.com/problems/painting-the-walls/)
