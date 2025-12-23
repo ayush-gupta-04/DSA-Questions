@@ -37,7 +37,7 @@ To solve Interval related problems :
 - (*)[Meeting Rooms II](https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1)
 - (*)[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
 - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
-- [Intersecting Segemnent - (Tutorial)](https://cp-algorithms.com/geometry/intersecting_segments.html)
+- [Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events)
 
 
 ## Matrix
