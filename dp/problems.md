@@ -40,7 +40,7 @@
 - [Longest Common Sub-String](https://takeuforward.org/data-structure/longest-common-substring-dp-27)
 - (*)[Longest Palindromic Sub-Sequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
 - (*)[Longest Palindromic Sub-String](https://leetcode.com/problems/longest-palindromic-substring/description/)
-- [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+- (*)[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)
 - [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)
 - (*)[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)
