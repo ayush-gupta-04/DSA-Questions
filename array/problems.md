@@ -74,6 +74,10 @@ To solve Interval related problems :
 
 
 
+## Cycle Sort Problems
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+- [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+- [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
 
 ## Other Problems
 - (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
@@ -83,5 +87,4 @@ To solve Interval related problems :
 - (*)[Single Number I](https://leetcode.com/problems/single-number/description/)
 - [Majority Elements II n/3](https://leetcode.com/problems/majority-element-ii/description/)
 - [Single Number II](https://leetcode.com/problems/single-number-ii/)
-- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - [Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)
