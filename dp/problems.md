@@ -35,16 +35,16 @@
 
 
 ### DP on Strings
-- [Longest Common Subsequence ( LCS )](http://leetcode.com/problems/longest-common-subsequence/description/)
-- [Print LCS](https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26)
+- (*)[Longest Common Subsequence ( LCS )](http://leetcode.com/problems/longest-common-subsequence/description/)
+- (*)[Print LCS](https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26)
 - [Longest Common Sub-String](https://takeuforward.org/data-structure/longest-common-substring-dp-27)
-- [Longest Palindromic Sub-Sequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
+- (*)[Longest Palindromic Sub-Sequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
 - [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)
 - [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)
-- [Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/description/)
+- (*)[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)
 - [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)
-- [Edit Distance](https://leetcode.com/problems/edit-distance/description/)
-- [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)
+- (*)[Edit Distance](https://leetcode.com/problems/edit-distance/description/)
+- (*)[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)
 
 ### LIS DP
 - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
