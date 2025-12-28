@@ -9,6 +9,7 @@
 - [Find The Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)
 - [Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
 - [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv)
+- [Open The Lock](https://leetcode.com/problems/open-the-lock/)
 
 ## DFS
 - (*)[Number of Islands](https://leetcode.com/problems/number-of-islands/)
