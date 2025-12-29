@@ -11,6 +11,5 @@
 - (*)[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
 - (*)[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/)
 - (*)[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-- (*)Celebrity Problem.
 - (*)[LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [Remove k Digits](https://leetcode.com/problems/remove-k-digits/)
