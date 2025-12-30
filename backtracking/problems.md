@@ -30,7 +30,7 @@
 ### Others
 - (*)[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 - (*)[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)
-- [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/)
+- (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 - [Matchstick to Square](https://leetcode.com/problems/matchsticks-to-square/)
 - [24 Game](https://leetcode.com/problems/24-game/)
 - [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
