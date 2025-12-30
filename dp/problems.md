@@ -67,8 +67,7 @@
 - [Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)
 - [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
 - [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
-- [Word Break](https://leetcode.com/problems/word-break/description/)
-- [Word Break II](https://leetcode.com/problems/word-break-ii/description/)
+- (*)[Word Break](https://leetcode.com/problems/word-break/description/)
 
 
 ## Digit DP
