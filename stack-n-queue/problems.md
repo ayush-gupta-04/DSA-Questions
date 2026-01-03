@@ -13,3 +13,12 @@
 - (*)[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 - (*)[LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [Remove k Digits](https://leetcode.com/problems/remove-k-digits/)
+
+
+### DS Implementation
+- [PreFix Postfix Infix]
+- [Queue Using Stack](https://www.geeksforgeeks.org/dsa/queue-using-stacks/)
+- [Stach Using Queue](https://www.geeksforgeeks.org/dsa/implement-stack-using-queue/)
+- [Stack Using Single Queue](https://www.geeksforgeeks.org/dsa/implement-a-stack-using-single-queue/)
+- [Sort a Stack Using a Temp Stack](https://www.geeksforgeeks.org/dsa/sort-stack-using-temporary-stack/)
+- [Sort a Stack Using Recursion](https://www.geeksforgeeks.org/dsa/sort-a-stack-using-recursion/)
