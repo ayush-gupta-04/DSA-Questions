@@ -95,3 +95,4 @@ To solve Interval related problems :
 - (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
 - (*)[Missing Number](https://leetcode.com/problems/missing-number/description/)
 - (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+- (*)[Find The Repeating and Missing number](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers)
