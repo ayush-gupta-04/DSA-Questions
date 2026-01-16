@@ -93,3 +93,4 @@ To solve Interval related problems :
 - (*)[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
 - (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
 - (*)[Missing Number](https://leetcode.com/problems/missing-number/description/)
+- (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
