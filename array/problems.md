@@ -15,6 +15,7 @@
 - [Continuous SubArray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)
 
 ##### sec - 3
+- (*)[Count Subarrays with given XOR](https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k)
 - (*)[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)
 - (*)[Count Wonderful Substring](https://leetcode.com/problems/number-of-wonderful-substrings/)
 
