@@ -91,3 +91,4 @@ To solve Interval related problems :
 - (*)[Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)
 - (*)[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - (*)[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
+- (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
