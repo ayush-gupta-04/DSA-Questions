@@ -92,3 +92,4 @@ To solve Interval related problems :
 - (*)[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - (*)[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
 - (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
+- (*)[Missing Number](https://leetcode.com/problems/missing-number/description/)
