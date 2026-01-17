@@ -1,7 +1,7 @@
 # Questions.
-- [First Occurance]()
-- [Last Occurance]()
-- [Upper Bound & Lower Bound]()
+- (*)[First Occurance]()
+- (*)[Last Occurance]()
+- (*)[Upper Bound & Lower Bound]()
 - (*)[Search in Rotated Sorted Array 1](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - (*)[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 - (*)[Find Peak Element](https://leetcode.com/problems/find-peak-element/)
