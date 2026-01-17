@@ -59,7 +59,7 @@ To solve Interval related problems :
 
 ##### Merging
 - (*)[Merge Sorted Arrays (Merge A1 , A2 into A1) (Extra space & Constant Space) ](https://leetcode.com/problems/merge-sorted-array/description/)
-- (*)[Merge Sorted Arrays (Merge A1 , A2 into A1 , A2) (Constant Space) ]([https://leetcode.com/problems/merge-sorted-array/description/](https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space))
+- (*)[Merge Sorted Arrays (Merge A1 , A2 into A1 , A2) (Constant Space) ](https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space)
 
 ##### Meet in the Middle
 - (*)[Partition Array into 2 Arrays to minimize sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
