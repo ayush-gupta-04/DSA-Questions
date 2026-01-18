@@ -5,7 +5,7 @@
 - (*)[Search in Rotated Sorted Array 1](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - (*)[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 - (*)[Find Peak Element](https://leetcode.com/problems/find-peak-element/)
-- [Find Peak Element 2](https://leetcode.com/problems/find-a-peak-element-ii/)
+
 
 ### BS on Answers
 - (*)[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
@@ -20,3 +20,7 @@
 - [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)
 
 ### BS on 2-D Arrays
+- (*)[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
+- (*)[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)
+- (*)[Find Peak Element 2](https://leetcode.com/problems/find-a-peak-element-ii/)
+- (*)[Matrix Median](https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix)
