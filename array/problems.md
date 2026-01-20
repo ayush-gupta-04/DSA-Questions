@@ -32,12 +32,12 @@ To solve Interval related problems :
 3. If nothing works -> then think of line Sweep.
 ```
 
-- [Insert Intervals](https://leetcode.com/problems/insert-interval)
 - (*)[Merge Intervals](https://leetcode.com/problems/merge-intervals)
 - (*)[Non-Overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)
 - (*)[Meeting Rooms II](https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1)
-- [My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
 - (*)[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+- [Insert Intervals](https://leetcode.com/problems/insert-interval)
+- [My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
 - [Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events)
 
 
@@ -53,20 +53,20 @@ To solve Interval related problems :
 - (*)[Two Sum](https://leetcode.com/problems/two-sum/description/)
 - (*)[Two Sum - II input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - (*)[Three Sum](https://leetcode.com/problems/3sum/)
-- [Four Sum](https://leetcode.com/problems/4sum/)
+- (*)[Four Sum](https://leetcode.com/problems/4sum/)
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)
 
 ##### Merging
 - (*)[Merge Sorted Arrays (Merge A1 , A2 into A1) (Extra space & Constant Space) ](https://leetcode.com/problems/merge-sorted-array/description/)
-- (*)[Merge Sorted Arrays (Merge A1 , A2 into A1 , A2) (Constant Space) ](https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space)
+- (*)[Merge Sorted Arrays (Merge A1 , A2 into A1 , A2) (Constant Space) ](https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space)⭐
 
 ##### Meet in the Middle
-- (*)[Partition Array into 2 Arrays to minimize sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
+- (*)[Partition Array into 2 Arrays to minimize sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)⭐
 - [Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)
 
 ##### Others
-- (*)[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
+- (*)[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)⭐
 - (*)[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 - (*)[Next Permutation](https://leetcode.com/problems/next-permutation/description/)
 - (*)[Count Inversions](https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/)
@@ -78,7 +78,7 @@ To solve Interval related problems :
 
 
 ## Cycle Sort Problems
-- (*)[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+- (*)[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)⭐
 - [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
 
@@ -87,11 +87,11 @@ To solve Interval related problems :
 - (*)[Move Zeroes To End](https://leetcode.com/problems/move-zeroes/description/)
 - (*)[Majority Elements n/2](https://leetcode.com/problems/majority-element/description/)
 - (*)[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
-- (*)[Majority Elements II n/3](https://leetcode.com/problems/majority-element-ii/description/)
+- (*)[Majority Elements II n/3](https://leetcode.com/problems/majority-element-ii/description/)⭐
 - (*)[Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)
 - (*)[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - (*)[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
 - (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
 - (*)[Missing Number](https://leetcode.com/problems/missing-number/description/)
 - (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
-- (*)[Find The Repeating and Missing number](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers)
+- (*)[Find The Repeating and Missing number](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers)⭐
