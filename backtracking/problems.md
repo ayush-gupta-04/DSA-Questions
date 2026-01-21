@@ -28,6 +28,7 @@
 - [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
 
 ### Others
+- (*)[Sort a Stack Using Recursion](https://takeuforward.org/data-structure/sort-a-stack)
 - (*)[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 - (*)[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)
 - (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
