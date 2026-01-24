@@ -25,7 +25,7 @@
 
 
 ### Partitioning Problems.
-- [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
+- (*)[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
 
 ### Others
 - (*)[Sort a Stack Using Recursion](https://takeuforward.org/data-structure/sort-a-stack)
