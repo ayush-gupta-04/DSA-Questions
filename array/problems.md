@@ -42,8 +42,8 @@ To solve Interval related problems :
 
 ## Matrix
 - (*)[Rotate Image](https://leetcode.com/problems/rotate-image)
-- (*)[Spiral Matrix I](https://leetcode.com/problems/spiral-matrix/description/)
-- [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)
+- (*)[Spiral Matrix I](https://leetcode.com/problems/spiral-matrix/description/)⭐
+- (*)[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)
 - [Rotating The Box](https://leetcode.com/problems/rotating-the-box/description/)
 
 
@@ -51,28 +51,25 @@ To solve Interval related problems :
 ##### 2 sum type
 - (*)[Two Sum](https://leetcode.com/problems/two-sum/description/)
 - (*)[Two Sum - II input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-- (*)[Three Sum](https://leetcode.com/problems/3sum/)
-- (*)[Four Sum](https://leetcode.com/problems/4sum/)
+- (*)[Three Sum](https://leetcode.com/problems/3sum/)⭐
+- (*)[Four Sum](https://leetcode.com/problems/4sum/)⭐
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
-- [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)
 
 ##### Merging
-- (*)[Merge Sorted Arrays (Merge A1 , A2 into A1) (Extra space & Constant Space) ](https://leetcode.com/problems/merge-sorted-array/description/)
+- (*)[Merge Sorted Arrays (Merge A1 , A2 into A1) (Extra space & Constant Space) ](https://leetcode.com/problems/merge-sorted-array/description/)⭐
 - (*)[Merge Sorted Arrays (Merge A1 , A2 into A1 , A2) (Constant Space) ](https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space)⭐
 
 ##### Meet in the Middle
-- (*)[Partition Array into 2 Arrays to minimize sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)⭐
+- (*)[Partition Array into 2 Arrays to minimize sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
 - [Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/)
 
 ##### Others
 - (*)[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)⭐
 - (*)[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
-- (*)[Next Permutation](https://leetcode.com/problems/next-permutation/description/)
-- (*)[Count Inversions](https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/)
+- (*)[Next Permutation](https://leetcode.com/problems/next-permutation/description/)⭐
+- (*)[Count Inversions](https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/)⭐
 - (*)[Celebrity Problem](https://www.geeksforgeeks.org/problems/the-celebrity-problem/1)
-- [Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)
-- [Shortest Subarray to be removed to make array sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/)
-- [longest Mountain in an Array](https://leetcode.com/problems/longest-mountain-in-array/description/)
+- (*)[Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)
 
 
 
