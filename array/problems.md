@@ -43,7 +43,7 @@ To solve Interval related problems :
 ## Matrix
 - (*)[Rotate Image](https://leetcode.com/problems/rotate-image)
 - (*)[Spiral Matrix I](https://leetcode.com/problems/spiral-matrix/description/)⭐
-- (*)[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)
+- (*)[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)⭐
 - [Rotating The Box](https://leetcode.com/problems/rotating-the-box/description/)
 
 
