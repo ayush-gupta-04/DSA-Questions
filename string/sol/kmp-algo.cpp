@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+// The Prefix Function
 vector<int> prefix_function(const string &s) {
     int n = (int)s.size();
     vector<int> pi(n);
@@ -24,13 +26,13 @@ vector<int> kmp_search(const string &s, const string &t) {
 
     for (int i = 0, j = 0; i < n; i++) {
         while (j > 0 && t[i] != s[j]) {
-            j = pi[j - 1];
+            j = pi[j - 1];   // jump to the prefix function of j-1.
         }
         if (t[i] == s[j]) {
             j++;
         }
         if (j == m) {
-            occurrences.push_back(i - m + 1);
+            occurrences.push_back(i - m + 1);   // 0-indexing
             j = pi[j - 1];  // continue searching
         }
     }
