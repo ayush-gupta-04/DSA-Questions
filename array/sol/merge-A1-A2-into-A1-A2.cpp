@@ -1,6 +1,6 @@
 // --------------------- Brute-Force Approach ---------------------------
-// TC = n + m + mlogm + nlogn.
-// SC = 1
+// TC = min(m + n) + O(mlogm) + O(nlogn).
+// SC = O(1)
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -38,7 +38,7 @@ int main(){
 
 // ------------------- Optimal-Approach------------------------------------
 // TC = (m + n)log(m + n)
-// SC = 1.
+// SC = O(1)
 
 
 #include<bits/stdc++.h>
