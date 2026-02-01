@@ -35,11 +35,11 @@
 
 
 ### DP on Strings
-- (*)[Longest Common Subsequence ( LCS )](http://leetcode.com/problems/longest-common-subsequence/description/)
-- (*)[Print LCS](https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26)
+- (*)[Longest Common Subsequence ( LCS )](http://leetcode.com/problems/longest-common-subsequence/description/)⭐
+- (*)[Print LCS](https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26)⭐
 - [Longest Common Sub-String](https://takeuforward.org/data-structure/longest-common-substring-dp-27)
 - (*)[Longest Palindromic Sub-Sequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
-- (*)[Longest Palindromic Sub-String](https://leetcode.com/problems/longest-palindromic-substring/description/)
+- (*)[Longest Palindromic Sub-String](https://leetcode.com/problems/longest-palindromic-substring/description/)⭐
 - [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)
 - [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)
@@ -51,8 +51,8 @@
 - (*)[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
 ### LIS DP
-- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
-- [Print LIS](https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/)
+- (*)[Longest Increasing Subsequence (DP , N^2 , Binary-Search)](https://leetcode.com/problems/longest-increasing-subsequence/description/)⭐
+- (*)[Print LIS](https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/)⭐
 - [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
 - [Longest String Chain](https://leetcode.com/problems/longest-string-chain/description/)
 - [Longest Bitonic Subsequence](https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/)
@@ -61,11 +61,11 @@
 - [Longest Subsequence With Given Diff](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)
 
 ## Partition DP
-- [Matrix Chain Multiplication](https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/)
-- [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/)
-- [Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)
-- [Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)
-- [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
+- (*)[Matrix Chain Multiplication](https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/)
+- (*)[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/)
+- (*)[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)
+- (*)[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)
+- (*)[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
 - [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
 - (*)[Word Break](https://leetcode.com/problems/word-break/description/)
 - [Concatenated Words](https://leetcode.com/problems/concatenated-words/)
