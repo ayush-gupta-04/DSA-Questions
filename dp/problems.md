@@ -76,6 +76,7 @@
 - [Count Numbers With Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
 
 ## DP on Squares
+- [Maximal Squares](https://leetcode.com/problems/maximal-square/description)
 - [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)
 
 ## Maths
