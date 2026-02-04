@@ -117,3 +117,46 @@ Think of it like **ink spreading on a chessboard**:
 * Each move spreads the ink to knight-reachable cells
 * Ink that flows off the board is lost
 * After `k` spreads, measure how much ink remains
+
+
+``` cpp
+class Solution {
+public:
+    bool valid(int n ,int r, int c){
+        return (r >= 0 && r < n && c >= 0 && c < n);
+    }
+    double knightProbability(int n, int k, int row, int column) {
+        vector<int> dr = {-2,-2, +2,+2, +1,-1, +1,-1};
+        vector<int> dc = {+1,-1, +1,-1, -2,-2, +2,+2};
+
+        vector dp(k + 1, vector (n, vector<double>(n, 0.0)));
+
+        dp[0][row][column] = 1;
+
+        for (int moves = 1; moves <= k; moves++) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    for (int l = 0 ;l < 8 ; l++) {
+                        int ni = i + dr[l];
+                        int nj = j + dc[l];
+                        if(!valid(n,ni,nj)) continue;
+                        dp[moves][i][j] += dp[moves - 1][ni][nj] / 8;
+                    }
+                }
+            }
+        }
+
+        double totalProbability = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                totalProbability += dp[k][i][j];
+            }
+        }
+
+        return totalProbability;
+    }
+};
+```
+
+
+
