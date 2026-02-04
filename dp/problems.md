@@ -16,6 +16,7 @@
 - [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
 - (*)[Cherry Pickup I](https://leetcode.com/problems/cherry-pickup/description/)
 - (*)[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)
+- (*)[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)
 
 
 
