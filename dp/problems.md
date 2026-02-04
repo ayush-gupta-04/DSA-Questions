@@ -68,8 +68,9 @@
 - (*)[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)
 - (*)[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)
 - (*)[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
-- [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
 - (*)[Word Break](https://leetcode.com/problems/word-break/description/)
+- [Decode Ways](https://leetcode.com/problems/decode-ways/?envType=study-plan-v2&envId=dynamic-programming)
+- [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
 - [Concatenated Words](https://leetcode.com/problems/concatenated-words/)
 
 
