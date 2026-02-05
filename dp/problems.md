@@ -16,7 +16,7 @@
 - [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
 - (*)[Cherry Pickup I](https://leetcode.com/problems/cherry-pickup/description/)
 - (*)[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)
-- (*)[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)
+- (*)[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)⭐
 
 
 
@@ -86,6 +86,7 @@
 
 ## Maths
 - [Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/)
+- [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/)
 
 ## Probability DP.
 - [Soup Servings](https://leetcode.com/problems/soup-servings/description)
