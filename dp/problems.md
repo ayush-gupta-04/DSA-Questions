@@ -82,7 +82,7 @@
 - [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)
 
 ## Game Theory
-- [Stone Game](https://leetcode.com/problems/stone-game)
+- (*)[Predict the Winner](https://leetcode.com/problems/predict-the-winner/description/)
 
 ## Maths
 - [Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/)
