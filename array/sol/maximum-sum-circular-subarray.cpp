@@ -1,3 +1,6 @@
+// TC - O(N).
+// SC - O(1).
+
 // Intuition. 
 // maximum of a circular subarray is either the max Subarray(not circular) ... or 
 // ( total - the min subarray )(it will be circular)
