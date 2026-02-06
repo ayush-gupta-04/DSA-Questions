@@ -16,9 +16,14 @@
 
 
 ### DS Implementation
-- [PreFix Postfix Infix]
-- [Queue Using Stack](https://www.geeksforgeeks.org/dsa/queue-using-stacks/)
-- [Stach Using Queue](https://www.geeksforgeeks.org/dsa/implement-stack-using-queue/)
-- [Stack Using Single Queue](https://www.geeksforgeeks.org/dsa/implement-a-stack-using-single-queue/)
-- [Sort a Stack Using a Temp Stack](https://www.geeksforgeeks.org/dsa/sort-stack-using-temporary-stack/)
-- [Sort a Stack Using Recursion](https://www.geeksforgeeks.org/dsa/sort-a-stack-using-recursion/)
+- (*)[Stack Using Arrays](https://takeuforward.org/data-structure/implement-stack-using-array)
+- (*)[Queue Using Arrays](https://takeuforward.org/data-structure/implement-queue-using-array)
+- (*)[Queue Using Stack](https://www.geeksforgeeks.org/dsa/queue-using-stacks/)
+- (*)[Stach Using Queue](https://www.geeksforgeeks.org/dsa/implement-stack-using-queue/)
+- (*)[Stack Using Linked List](https://takeuforward.org/data-structure/implement-stack-using-linked-list)
+- (*)[Queue Using Linked List](https://takeuforward.org/data-structure/implement-queue-using-linked-list)
+- (*)[Stack Using Single Queue](https://www.geeksforgeeks.org/dsa/implement-a-stack-using-single-queue/)
+- (*)[Sort a Stack Using a Temp Stack](https://www.geeksforgeeks.org/dsa/sort-stack-using-temporary-stack/)
+- (*)[Sort a Stack Using Recursion](https://www.geeksforgeeks.org/dsa/sort-a-stack-using-recursion/)
+- (*)[Implement Min Stack](https://leetcode.com/problems/min-stack/description/)
+- (*)[PreFix Postfix Infix]
