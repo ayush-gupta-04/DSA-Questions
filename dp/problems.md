@@ -14,7 +14,7 @@
 - [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)
 - [Triangle](https://leetcode.com/problems/triangle/description/)
 - [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
-- (*)[Cherry Pickup I](https://leetcode.com/problems/cherry-pickup/description/)
+- (*)[Cherry Pickup I](https://leetcode.com/problems/cherry-pickup/description/)⭐
 - (*)[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)
 - (*)[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)⭐
 
@@ -41,20 +41,19 @@
 - [Longest Common Sub-String](https://takeuforward.org/data-structure/longest-common-substring-dp-27)
 - (*)[Longest Palindromic Sub-Sequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
 - (*)[Longest Palindromic Sub-String](https://leetcode.com/problems/longest-palindromic-substring/description/)⭐
-- [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)
 - [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)
-- (*)[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)
+- (*)[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)⭐
 - [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)
-- (*)[Edit Distance](https://leetcode.com/problems/edit-distance/description/)
-- (*)[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)
+- (*)[Edit Distance](https://leetcode.com/problems/edit-distance/description/)⭐
+- (*)[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)⭐
 - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
 - (*)[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)
 
 ### LIS DP
 - (*)[Longest Increasing Subsequence (DP , N^2 , Binary-Search)](https://leetcode.com/problems/longest-increasing-subsequence/description/)⭐
 - (*)[Print LIS](https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/)⭐
-- (*)[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/)
+- (*)[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/)⭐
 - (*)[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - (*)[Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)
 - [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
@@ -64,14 +63,13 @@
 - [Longest Subsequence With Given Diff](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)
 
 ## Partition DP
-- (*)[Matrix Chain Multiplication](https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/)
+- (*)[Matrix Chain Multiplication](https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/)⭐
 - (*)[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/)
-- (*)[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)
-- (*)[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)
-- (*)[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
+- (*)[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)⭐
+- (*)[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)⭐
+- (*)[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)⭐
 - (*)[Word Break](https://leetcode.com/problems/word-break/description/)
 - [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
-- [Concatenated Words](https://leetcode.com/problems/concatenated-words/)
 
 
 ## Digit DP
