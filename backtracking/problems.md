@@ -32,8 +32,8 @@
 - (*)[Sort a Stack Using Recursion](https://takeuforward.org/data-structure/sort-a-stack)
 - (*)[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 - (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)⭐
+- (*)[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)⭐
 - [Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)
 - [Matchstick to Square](https://leetcode.com/problems/matchsticks-to-square/)
 - [24 Game](https://leetcode.com/problems/24-game/)
-- [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
 - [Longest Subsequence Repeated K-times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)
