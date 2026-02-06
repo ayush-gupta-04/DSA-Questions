@@ -11,7 +11,7 @@
 - (*)[Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/description/?envType=problem-list-v2&envId=nbefpor5)
 - (*)[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)⭐
 - (*)[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
-- (*)[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/)⭐
+- (*)[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/)
 - (*)[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)⭐
 - (*)[Remove k Digits](https://leetcode.com/problems/remove-k-digits/)
 - (*)[132 Pattern](https://leetcode.com/problems/132-pattern/description/)⭐
