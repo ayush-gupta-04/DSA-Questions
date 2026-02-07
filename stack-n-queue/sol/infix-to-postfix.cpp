@@ -8,9 +8,10 @@ int priority(char c){
     return -1;
 }
 
-bool isRightAssociative(char ch){
+bool isRightAssociative(char& ch){
     return ch == '^';
 }
+
 bool isOperand(char ch){
     return ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') || (ch >= '0' && ch <= '9'));
 }
@@ -26,13 +27,12 @@ string infixToPostfix(string& exp){
                 ans += st.top();
                 st.pop();
             }
-            st.pop();
+            if(!st.empty()) st.pop();
         }
         else{
-            while(!st.empty() && 
-            st.top() != '(' && 
-            (priority(st.top()) > priority(c)) || 
-            (priority(st.top()) == priority(c) && !isRightAssociative(c))){
+            while(!st.empty() && st.top() != '(' && (
+                priority(st.top()) > priority(c) || (priority(st.top()) == priority(c) && !isRightAssociative(c))
+            )){
                 ans += st.top();
                 st.pop();
             }
@@ -49,8 +49,10 @@ string infixToPostfix(string& exp){
     return ans;
 }
 
+
+
 int main() {
-    string exp = "a+b*c+d";
+    string exp = "f+d-c*(b+a)";
     cout << infixToPostfix(exp);
     return 0;
 }
