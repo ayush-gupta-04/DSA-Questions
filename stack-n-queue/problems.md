@@ -30,5 +30,5 @@
 - (*)[Stack Using Single Queue](https://www.geeksforgeeks.org/dsa/implement-a-stack-using-single-queue/)
 - (*)[Sort a Stack Using a Temp Stack](https://www.geeksforgeeks.org/dsa/sort-stack-using-temporary-stack/)
 - (*)[Sort a Stack Using Recursion](https://www.geeksforgeeks.org/dsa/sort-a-stack-using-recursion/)
-- (*)[Implement Min Stack](https://leetcode.com/problems/min-stack/description/)⭐
+- (*)[Implement Min Stack](https://leetcode.com/problems/min-stack/description/)
 - (*)[PreFix Postfix Infix]
