@@ -56,8 +56,12 @@
 - [Valid Arrangement Of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)
 - [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 
-## Extra
+## Bridges in Graph
 - (*)[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
+
+
+ ## Kosaraju Algo (Strongly Connected Components)
+- [Strongly Connected Components](https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1)
 
 
 ## Minimum Spanning Tree
