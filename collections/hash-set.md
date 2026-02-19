@@ -27,18 +27,9 @@ Worst case happens when too many elements fall in same bucket.
 ---
 
 ## 1️⃣ `boolean add(E e)`
-
-### ✔ Argument:
-
-Element to insert.
-
-### ✔ Return:
-
-* `true` → if element was added
-* `false` → if element already exists
-
-### ✔ Time Complexity:
-
+work: To add element into set.
+Argument: Element to insert.
+Return: True if element added , otherwise false.
 O(1) average
 
 ```java
@@ -48,58 +39,44 @@ set.add(10);
 ---
 
 ## 2️⃣ `boolean remove(Object o)`
-
-Removes element if present.
-
-Returns:
-
-* `true` if removed
-* `false` if not found
-
+- work: To remove element into set.
+- Argument: Element to Remove.
+- Returns: True if element added , otherwise false.
 O(1) average
+
+```java
+set.remove(10);
+```
 
 ---
 
 ## 3️⃣ `boolean contains(Object o)`
-
-Checks if element exists.
-
-Very important for problems like:
-
-* Find duplicates
-* Two Sum
-* Unique elements
+- work: To check if element exits.
+- Argument: Element to check existance of.
+- Returns: True if element exists , otherwise false.
+O(1) average
 
 ```java
-if(set.contains(x))
+boolean exist = set.contains(x)
 ```
-
-O(1) average.
 
 ---
 
 ## 4️⃣ `int size()`
-
 Returns number of elements.
-
 O(1)
 
 ---
 
 ## 5️⃣ `boolean isEmpty()`
-
 Returns true if set empty.
-
 ---
 
 ## 6️⃣ `void clear()`
-
 Removes all elements.
-
 ---
 
 ## 7️⃣ `Iterator<E> iterator()`
-
 Used to traverse.
 
 ```java
