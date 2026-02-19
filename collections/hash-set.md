@@ -27,9 +27,9 @@ Worst case happens when too many elements fall in same bucket.
 ---
 
 ## 1️⃣ `boolean add(E e)`
-work: To add element into set.
-Argument: Element to insert.
-Return: True if element added , otherwise false.
+- work: To add element into set.
+- Argument: Element to insert.
+- Return: True if element added , otherwise false.
 O(1) average
 
 ```java
