@@ -1,86 +1,96 @@
-class Node{ 
-public:
-    int key;
-    int val;
-    Node* prev;
-    Node* next;
-    Node(int k, int v){
-        this->key = k;
-        this->val = v;
-    }
-};
+import java.util.HashMap;
+import java.util.Map;
 
 class LRUCache {
-private:
-    int cap;
-    int size;
-    Node* head;
-    Node* tail;
-    map<int,Node*> mp;
 
-    void deleteNode(Node* node){
-        Node* nextNode = node->next;
-        Node* prevNode = node->prev;
-        prevNode->next = nextNode;
-        nextNode->prev = prevNode;
-        node->next = nullptr;
-        node->prev = nullptr;
+    // Doubly Linked List Node
+    class Node {
+        int key;
+        int val;
+        Node prev;
+        Node next;
+
+        Node(int k, int v) {
+            key = k;
+            val = v;
+        }
     }
-    void insertAfterHead(Node* node){
-        Node* headNode = this->head;
-        Node* nextNode = head->next;
-        headNode->next = node;
-        node->prev = headNode;
-        node->next = nextNode;
-        nextNode->prev = node;
+
+    private int cap;
+    private int size;
+    private Node head;
+    private Node tail;
+    private Map<Integer, Node> map;
+
+    public LRUCache(int capacity) {
+        cap = capacity;
+        size = 0;
+        map = new HashMap<>();
+
+        head = new Node(-1, -1);
+        tail = new Node(-1, -1);
+
+        head.next = tail;
+        tail.prev = head;
     }
-public:
-    LRUCache(int capacity) {
-        this->cap = capacity;
-        this->size = 0;
-        this->head = new Node(-1,-1);
-        this->tail = new Node(-1,-1);
-        head->next = tail;
-        tail->prev = head;
+
+    // remove node from list
+    private void deleteNode(Node node) {
+        Node prevNode = node.prev;
+        Node nextNode = node.next;
+
+        prevNode.next = nextNode;
+        nextNode.prev = prevNode;
+
+        node.prev = null;
+        node.next = null;
     }
-    
-    int get(int key) {
-        if(mp.find(key) == mp.end()) return -1;
-        Node* node = mp[key];
+
+    // insert right after head (most recently used)
+    private void insertAfterHead(Node node) {
+        Node nextNode = head.next;
+
+        head.next = node;
+        node.prev = head;
+
+        node.next = nextNode;
+        nextNode.prev = node;
+    }
+
+    public int get(int key) {
+        if (!map.containsKey(key)) return -1;
+
+        Node node = map.get(key);
         deleteNode(node);
         insertAfterHead(node);
-        return node->val;
+
+        return node.val;
     }
-    
-    void put(int key, int value) {
-        if(mp.find(key) != mp.end()){
-            //key exist.
-            Node* node = mp[key];
-            node->val = value;
+
+    public void put(int key, int value) {
+
+        // key exists → update + move to front
+        if (map.containsKey(key)) {
+            Node node = map.get(key);
+            node.val = value;
+
             deleteNode(node);
             insertAfterHead(node);
             return;
         }
 
-        // either the cap is full ..
-        // or we need to add more nodes.
-        if(size == cap){
-            Node* lastNode = this->tail->prev;
+        // capacity full → remove LRU (tail.prev)
+        if (size == cap) {
+            Node lastNode = tail.prev;
+
             deleteNode(lastNode);
-            mp.erase(lastNode->key);
+            map.remove(lastNode.key);
             size--;
         }
 
-        Node* newNode = new Node(key,value);
-        mp[key] = newNode;
+        Node newNode = new Node(key, value);
+        map.put(key, newNode);
         insertAfterHead(newNode);
         size++;
     }
-};
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache* obj = new LRUCache(capacity);
- * int param_1 = obj->get(key);
- * obj->put(key,value);
- */
+}
