@@ -33,26 +33,23 @@
 //    -> If 6 came and i am able to  pop some ele .. i am 100% sure that there is a 3 2 pattern.
 //       and my num2 would be 6 and num3 would be the last popped(because it will be the closest to 6).
 //    -> My stack would be [6,7,8,9 ...] and num3 = 5;
+
+
 class Solution {
-public:
-    bool find132pattern(vector<int>& nums) {
-        //num1, num2, num3
-        //num1 < num3 < num2
-        int n  = nums.size();
-        int num3 = INT_MIN;
-        stack<int> st;
+    public boolean find132pattern(int[] nums) {
+        int num2 = Integer.MIN_VALUE;
+        int n = nums.length;
+        Deque<Integer> st = new ArrayDeque<>();
         
-        for(int i = n-1; i >= 0; i--) {
-            if(nums[i] < num3)
-                return true;
-            
-            while(!st.empty() && nums[i] > st.top()) {
-                num3 = st.top();
-                st.pop();
+        for(int i = n-1 ; i >= 0;i--){
+            if(nums[i] < num2) return true;
+
+            while(!st.isEmpty() && nums[i] > st.peekLast()){
+                num2 = st.pollLast();
             }
-            st.push(nums[i]);
+            st.offerLast(nums[i]);
         }
 
         return false;
     }
-};
+}
