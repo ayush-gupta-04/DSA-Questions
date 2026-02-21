@@ -15,8 +15,8 @@
 
 ### Matrix Problem.
 - (*)[Word Search](https://leetcode.com/problems/word-search/description/)⭐
-- (*)[Sudoko Solver](https://leetcode.com/problems/sudoku-solver/description/)
-- (*)[N-Queens](https://leetcode.com/problems/n-queens/description/)
+- (*)[Sudoko Solver](https://leetcode.com/problems/sudoku-solver/description/)⭐
+- (*)[N-Queens](https://leetcode.com/problems/n-queens/description/)⭐
 - (*)[N-Knights](https://www.geeksforgeeks.org/dsa/place-k-knights-such-that-they-do-not-attack-each-other/)⭐
 - (*)[Knights Tour](https://www.geeksforgeeks.org/dsa/the-knights-tour-problem/)⭐
 - (*)[Word Search II](https://leetcode.com/problems/word-search-ii/description/)⭐
