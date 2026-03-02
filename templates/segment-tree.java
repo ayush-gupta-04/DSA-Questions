@@ -18,7 +18,7 @@ public class SegmentTree{
             seg[idx] = nums[low];
             return;
         }
-        int m = low + (high - low) / 2; // Overflow-safe midpoint
+        int m = low + (high - low) / 2; 
         build(2*idx + 1 , low , m , nums);
         build(2*idx + 2 , m + 1, high , nums);
         seg[idx] = seg[2*idx + 1] + seg[2*idx + 2];
@@ -33,7 +33,7 @@ public class SegmentTree{
             return;
         }
 
-        int m = low + (high - low) / 2; // Overflow-safe midpoint
+        int m = low + (high - low) / 2;
         if(i <= m){
             update(2*idx + 1 , low , m , i , val);
         }else{
