@@ -69,7 +69,7 @@ To solve Interval related problems :
 - (*)[Next Permutation](https://leetcode.com/problems/next-permutation/description/)⭐
 - (*)[Count Inversions](https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/)⭐
 - (*)[Celebrity Problem](https://www.geeksforgeeks.org/problems/the-celebrity-problem/1)
-- (*)[Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)
+- (*)[Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)⭐
 
 
 
