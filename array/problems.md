@@ -35,7 +35,8 @@ To solve Interval related problems :
 - (*)[Non-Overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)
 - (*)[Meeting Rooms II](https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1)
 - (*)[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
-- [Insert Intervals](https://leetcode.com/problems/insert-interval)
+- (*)[My Calendar I](https://leetcode.com/problems/my-calendar-i/)
+- (*)[Insert Intervals](https://leetcode.com/problems/insert-interval)
 - [My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
 - [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)
   
