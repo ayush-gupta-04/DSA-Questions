@@ -1,26 +1,26 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-
-int findLIS(vector<int>& vec){
-    vector<int> nums;
-   for(int i = 0;i < vec.size() ; i++){
-        // if i can put vec[i] at the back .. then put.
-        // otherwise find lower_bound of vec[i] in nums and replace it.
-        if(nums.empty() || vec[i] > nums.back()){
-            nums.push_back(vec[i]);
-        }else{
-            int lb  = lower_bound(nums.begin() , nums.end() , vec[i]) - nums.begin();
-            nums[lb] = vec[i];
+class Solution {
+    public int lengthOfLIS(int[] nums) {
+        List<Integer> list = new ArrayList<>();
+        for(int a : nums){
+            // if i can put a at the back .. then put.
+            // otherwise find lowerBound of a in list and replace it.
+            if(list.isEmpty() || a > list.getLast()){
+                list.add(a);
+            }else{
+                int idx = lowerBound(list , a);
+                list.set(idx,a);
+            }
         }
-   }
-   return nums.size();
+        return list.size();
+    }
+    private int lowerBound(List<Integer> nums , int k){
+        int s = 0;
+        int e = nums.size() - 1;
+        while(s <= e){
+            int m = s + (e-s)/2;
+            if(k > nums.get(m)) s = m + 1;
+            else e = m - 1;
+        }
+        return s;
+    }
 }
-
-int main(){
-   vector<int> vec = {1,7,8,4,5,6,-1,9};
-    int lis = findLIS(vec);
-    cout << lis;
-}
-
-
