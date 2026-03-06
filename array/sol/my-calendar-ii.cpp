@@ -62,47 +62,45 @@ public:
 
 
 // ------------------------------------------------ LINE SWEEP ALGORITHM ---------------------------------------------------------------------
+// TC -> N
+// SC -> N
 
-
-// The Line Sweep algorithm works by marking when bookings start and end.
-// For each booking (start, end), we mark the start point by increasing its count by 1 
-//     (indicating a booking begins), and we mark the end point by decreasing its count by 1 
-//     (indicating a booking ends).
-// These marks are stored in a map, which keeps track of the number of bookings starting or ending at each point.
-// Once all bookings are processed, we compute the prefix sum over the map
-// The prefix sum at any point tells us how many active bookings overlap at that moment. 
-// If the sum at any point exceeds 2, it means we have a triple booking. 
-
+// We will use line-sweep.
+// Algo : 
+//   - First make the booking.
+//   - Check if number of overlapping > 2.
+//   - If yes .. remove bookings , return false;
+//   - If no .. return true;
+// Data Structure : 
+// - TreeMap because it will be easier to remove.
 class MyCalendarTwo {
-public:
-    // Store the number of bookings at each point.
-    map<int, int> bookingCount;
-
-    MyCalendarTwo() { }
-
-    bool book(int start, int end) {
-        // Increase and decrease the booking count at the start and end
-        // respectively.
-        bookingCount[start]++;
-        bookingCount[end]--;
-
-        int overlappedBooking = 0;
-        // Find the prefix sum.
-        for (pair<int, int> bookings : bookingCount) {
-            overlappedBooking += bookings.second;
-
-            // If the number of bookings is more than 2, return false.
-            // Also roll back the counts for this booking as we won't add it.
-            if (overlappedBooking > 2) {
-                bookingCount[start]--;
-                bookingCount[end]++;
-
-                // Remove the entries from the map to avoid unnecessary
-                // iteration.
+    TreeMap<Integer,Integer> bookings;
+    public MyCalendarTwo() {
+        this.bookings = new TreeMap<>();
+    }
+    
+    public boolean book(int s, int e) {
+        bookings.put(s,bookings.getOrDefault(s,0) + 1);
+        bookings.put(e,bookings.getOrDefault(e,0) - 1);
+        int cnt = 0;
+        for(Map.Entry<Integer,Integer> entry : bookings.entrySet()){
+            int val = entry.getValue();
+            cnt += val;
+            if(cnt > 2){
+                bookings.put(s , bookings.get(s) - 1);
+                bookings.put(e , bookings.get(e) + 1);
+                if(bookings.get(s) == 0){
+                    bookings.remove(s);
+                }
+                if(bookings.get(e) == 0){
+                    bookings.remove(e);
+                }
                 return false;
             }
         }
-
         return true;
+    }
+}
+
     }
 };
