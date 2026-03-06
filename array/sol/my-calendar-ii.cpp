@@ -1,4 +1,6 @@
 // ------------------------------------------------ BRUTE FORCE ---------------------------------------------------------------------
+// TC -> N
+// SC -> N
 // Calendar - I
 // -> for an event {s,e} .... 
 //    if this event intersects with any of the other interval .. then we cannot add this event.
@@ -19,46 +21,48 @@
 //      and add those intervals to the doubleBooking set.
 
 
-class MyCalendarTwo {
-private:
-    set<pair<int,int>> db;
-    set<pair<int,int>> cal;
-public:
-    MyCalendarTwo() {
-        
-    }
-    bool book(int s, int e) {
-        pair<int,int> event = {s,e};
 
-        // if it overlapps with any doubleBooking intervals .. return false;
-        if(isOverLapping(event)){
+class MyCalendarTwo {
+    List<Event> singleBooking;
+    List<Event> doubleBooking;
+    static class Event{
+        int start;
+        int end;
+        public Event(int s, int e){
+            this.start = s;
+            this.end = e;
+        }
+    }
+    public MyCalendarTwo() {
+        singleBooking = new ArrayList<>();
+        doubleBooking = new ArrayList<>();
+    }
+    
+    public boolean book(int s, int e) {
+        Event newEve = new Event(s,e);
+        if(doubleBooking(newEve)){
             return false;
         }
-
-        // find the overlapping interval.
-        // add those interval to the double booking set.
-        for(auto& it : cal){
-            int a = max(s , it.first);
-            int b = min(e , it.second);
+        for(Event eve : singleBooking){
+            int a = Math.max(eve.start , newEve.start);
+            int b = Math.min(eve.end , newEve.end);
             if(b > a){
-                db.insert({a,b});
+                doubleBooking.add(new Event(a,b));
             }
         }
-        cal.insert({s,e});
+        singleBooking.add(newEve);
         return true;
-
     }
-
-    bool isOverLapping(pair<int,int>& event){
-        for(auto& it : db){
-            if(!(event.second <= it.first || it.second <= event.first)){
+    private boolean doubleBooking(Event event){
+        for(Event e : doubleBooking){
+            if(!(event.end <= e.start || event.start >= e.end)){
                 return true;
             }
         }
         return false;
     }
+}
 
-};
 
 
 // ------------------------------------------------ LINE SWEEP ALGORITHM ---------------------------------------------------------------------
