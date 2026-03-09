@@ -1,6 +1,3 @@
-// Segment Tree Template for Range Sum Query.
-package pack;
-
 public class SegmentTree{
     int[] seg;
     int n;
@@ -49,7 +46,7 @@ public class SegmentTree{
     private int query(int idx, int low, int high, int l, int r) {
         // No overlap: [low, high] is completely outside [l, r]
         if (r < low || l > high) {
-            return 0; // Return 0 for sum query (identity element)
+            return 0;
         }
         
         // Total overlap: [low, high] is completely inside [l, r]
@@ -58,7 +55,7 @@ public class SegmentTree{
         }
 
         // Partial overlap
-        int m = low + (high - low) / 2; // Overflow-safe midpoint
+        int m = low + (high - low) / 2;
         int leftQuery = query(2 * idx + 1, low, m, l, r);
         int rightQuery = query(2 * idx + 2, m + 1, high, l, r);
         return leftQuery + rightQuery;
