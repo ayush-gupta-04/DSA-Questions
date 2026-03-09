@@ -1,6 +1,6 @@
 // 1. we will do coordinate compression.
 //    -> sort uniques.
-//    -> give them rank and put them into map.
+//    -> give them rank from 0 by putting them into map.
 // 2. move from left -> right.
 //    - we can also move from right -> left.
 //    - but since we have +ve and -ve. we can have issues in finding the boundaries.
@@ -12,6 +12,12 @@
 //    - query in segment tree for range [r + 1 , N].
 //    - where N = all compressed coordinates = size of the map.
 
+
+// Important to note : 
+// 1. Coordinate Compression : 
+//    -> store a.
+//    -> store 2*a (since we will query (rankOf(2*a) + 1 , N));
+// 2. Size of Tree = number of ranks ...or... size of map ... number of unique values of map.
 
 
 
