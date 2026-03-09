@@ -1,94 +1,100 @@
 // Thought process :
 // 1. If i know the max of the whole buckets be x...
-// 2. and x < fruit .. i am damm sure that i won;t have any buckets.
-// 3. if x >= fruit ... i can have a basket.
-//    ans i have to process from the left -> right .. 
+// 2. and nodeVal < fruit .. i am damm sure that i won;t have any buckets.
+// 3. if nodeVal >= fruit ... i can have a basket.
+//    and i have to process from the left -> right .. 
 //    so i will look to the left half first then the right half..
 //    ans this structure is built by segment trees.
-// 4. when a basket is choosen then it will update the max .. point update.
+// 4. when a basket is choosen then it will update the idx(which was choosen) .. point update.
 
 
 
 
 
 
-class SegmentTree{
-
-private :
-    vector<int> seg;
-
-public: 
-    SegmentTree(int N){
-        this->seg.resize(4*N);
+public class SegmentTree{
+    int[] seg;
+    int n;
+    
+    public SegmentTree (int n){
+        this.seg = new int[4*n];
+        this.n = n;
     }
-
-    void build(int idx ,int low ,int high ,vector<int>& nums){
+    //build function.
+    public void build(int[] nums){
+        build(0 , 0 , n - 1, nums);
+        System.out.println(Arrays.toString(seg));
+    }
+    private void build(int idx , int low , int high , int[] nums){
         if(low == high){
             seg[idx] = nums[low];
             return;
         }
-        int m = low + (high - low)/2;
+        int m = low + (high - low) / 2; 
         build(2*idx + 1 , low , m , nums);
-        build(2*idx + 2 , m+1 , high , nums);
-        seg[idx] = max(seg[2*idx + 1] , seg[2*idx + 2]);
+        build(2*idx + 2 , m + 1, high , nums);
+        seg[idx] = Math.max(seg[2*idx + 1] , seg[2*idx + 2]);
+    }
+    //point update.
+    public void update(int i){
+        update(0 , 0, n - 1, i);
+        System.out.println(Arrays.toString(seg));
+    }
+    private void update(int idx , int low , int high , int i){
+        if(low == high){
+            seg[idx] = Integer.MIN_VALUE;
+            return;
+        }
+
+        int m = low + (high - low) / 2;
+        if(i <= m){
+            update(2*idx + 1 , low , m , i);
+        }else{
+            update(2*idx + 2 , m + 1 , high , i);
+        }
+        seg[idx] = Math.max(seg[2*idx + 1] , seg[2*idx + 2]);
+    }
+    //range query.
+    public int query(int x){
+        return query(0 , 0, n - 1,x);
     }
 
-    bool update(int idx , int low , int high , int val){
-        // we don;t have any basket.
-        if(val > seg[idx]){
-            return false;
-        }
+    private int query(int idx, int low, int high, int x) {
+        if(x > seg[idx]) return -1;
 
-
-        // this basket will be acquired.
         if(low == high){
-            seg[idx]  = -1;
-            return true;
+            return low;
         }
-
 
         
         int m = low + (high - low)/2;
-        bool placed = false;
-
-        // i will process from left to right.
-        if(seg[idx*2 + 1] >= val){
-            placed = update(2*idx + 1 , low , m , val);  // going left.
-        }else{
-            placed = update(2*idx + 2 , m + 1 ,high , val);   // goint right.
+        if(seg[2*idx + 1] >= x){
+            return query(2*idx + 1 ,low, m,x);
         }
-
-        // process this node as child nodes might have been changed.
-        seg[idx] = max(seg[2*idx + 1] , seg[2*idx + 2]);
-        return placed;
+        return query(2*idx + 2 ,m + 1 , high,x);
     }
-
-    ~SegmentTree(){};
-};
-
-
-
-
-
+}
 
 
 
 class Solution {
-public:
-    int numOfUnplacedFruits(vector<int>& fruits, vector<int>& baskets) {
+    public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
         int cnt = 0;
-        int n = fruits.size();
-        SegmentTree* seg = new SegmentTree(n);
-        seg->build(0,0,n-1,baskets);
-
-        for(auto& f : fruits){
-            if(!seg->update(0,0,n-1,f)){
+        int n = fruits.length;
+        SegmentTree sgt = new SegmentTree(n);
+        sgt.build(baskets);
+        for(int f : fruits){
+            int idx = sgt.query(f);
+            if(idx == -1){
                 cnt++;
+                continue;
             }
+            System.out.println(idx);
+            sgt.update(idx);
         }
         return cnt;
     }
-};
+}
 
 
 
