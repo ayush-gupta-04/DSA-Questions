@@ -10,3 +10,6 @@
 
 #### 2-D Segment Trees
 - (*)[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)⭐
+
+#### Dynamic Segment Tree
+- (*)[Range module](https://leetcode.com/problems/range-module/)
