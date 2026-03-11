@@ -14,6 +14,6 @@
 - (*)[Single Number 1](https://leetcode.com/problems/single-number/description/)
 - (*)[Single Number 2](https://leetcode.com/problems/single-number-ii/description/)⭐
 - (*)[Single Number 3](https://leetcode.com/problems/single-number-iii/description/)⭐
-- (*)[Subsets](https://leetcode.com/problems/subsets/description/)⭐
-- (*)[Find XOR of numbers from L to R](https://takeuforward.org/data-structure/find-xor-of-numbers-from-l-to-r)⭐
+- (*)[Subsets](https://leetcode.com/problems/subsets/description/)
+- (*)[Find XOR of numbers from L to R](https://takeuforward.org/data-structure/find-xor-of-numbers-from-l-to-r)
 - (*)[Divide two integers without using multiplication, division and mod operator](https://takeuforward.org/data-structure/divide-two-integers-without-using-multiplication-division-and-mod-operator)⭐
