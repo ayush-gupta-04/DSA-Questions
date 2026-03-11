@@ -2,30 +2,29 @@
 // TC = O(N^2)
 // SC = O(1).
 class Solution {
-public:
-    bool rotateString(string s, string goal) {
-        if (s.size() != goal.size()) return false;
-        int n = s.size();
+    public boolean rotateString(String s, String goal) {
+        if(s.length() != goal.length()) return false;
 
-        for (int start = 0; start < n; start++) {
+        int n = s.length();
+        for(int i = 0;i < n; i++){
             int k = 0;
-            while (k < n && s[(start + k) % n] == goal[k])
+            while(k < n && s.charAt((i+k)%n) == goal.charAt(k)){
                 k++;
-            if (k == n) return true;
+            }
+            if(k == n) return true;
         }
         return false;
     }
-};
+}
 
 // ----------------------- OPTIMAL --------------------------------
 
 // TC = O(N)
 // SC = O(N).
 class Solution {
-public:
-    bool rotateString(string s, string goal) {
-        if (s.length() != goal.length()) return false;
-        string doubledS = s + s;
-        return doubledS.find(goal) != string::npos;
+    public boolean rotateString(String s, String goal) {
+        if(s.length() != goal.length()) return false;
+        String d = s + s;
+        return d.indexOf(goal) != -1;
     }
-};
+}
