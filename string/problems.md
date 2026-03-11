@@ -14,5 +14,5 @@
 - [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)⭐
 - [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)⭐
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)⭐
-- [Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)⭐
+- [Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)
 - [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
