@@ -7,7 +7,7 @@
 - [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)
 - [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 - [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
-- [Check Rotation](https://leetcode.com/problems/rotate-string/description/)⭐
+- [Check Rotation](https://leetcode.com/problems/rotate-string/description/)
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)⭐
 - [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
