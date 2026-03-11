@@ -16,7 +16,7 @@
 ##### sec - 3
 - (*)[Count Subarrays with given XOR](https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k)
 - (*)[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)
-- (*)[Count Wonderful Substring](https://leetcode.com/problems/number-of-wonderful-substrings/)
+- (*)[Count Wonderful Substring](https://leetcode.com/problems/number-of-wonderful-substrings/)⭐
 
 ##### prefix + Binary Search.
 - [Total Score of Dungeon Runs](https://leetcode.com/problems/total-score-of-dungeon-runs/description/)
@@ -86,12 +86,12 @@ To solve Interval related problems :
 - (*)[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 - (*)[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
 - (*)[Majority Elements II n/3](https://leetcode.com/problems/majority-element-ii/description/)⭐
-- (*)[Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)
+- (*)[Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)⭐
 - (*)[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - (*)[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
 - (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
 - (*)[Missing Number](https://leetcode.com/problems/missing-number/description/)
-- (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+- (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)⭐
 - (*)[Find The Repeating and Missing number](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers)⭐
 - (*)[Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)
