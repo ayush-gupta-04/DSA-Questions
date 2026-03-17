@@ -55,6 +55,7 @@ To solve Interval related problems :
 - (*)[Three Sum](https://leetcode.com/problems/3sum/)⭐
 - (*)[Four Sum](https://leetcode.com/problems/4sum/)⭐
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
+- [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 
 ##### Merging
 - (*)[Merge Sorted Arrays (Merge A1 , A2 into A1) (Extra space & Constant Space) ](https://leetcode.com/problems/merge-sorted-array/description/)⭐
