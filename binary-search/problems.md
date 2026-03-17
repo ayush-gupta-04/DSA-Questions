@@ -5,6 +5,7 @@
 - (*)[Search in Rotated Sorted Array 1](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - (*)[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 - (*)[Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)
 
 
 ### BS on Answers
