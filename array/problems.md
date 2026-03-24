@@ -96,3 +96,4 @@ To solve Interval related problems :
 - (*)[Find The Repeating and Missing number](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers)⭐
 - (*)[Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)
+- [2906. Construct Product Matrix](https://leetcode.com/problems/construct-product-matrix/)
