@@ -4,7 +4,6 @@
 ##### sec - 1
 - (*)[Longest Subarray With Sum k](https://www.geeksforgeeks.org/dsa/longest-sub-array-sum-k/)
 - (*)[Count Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
-- [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
 - [Stable Subarray With Equal Boundary and Interior Sum](https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/description/)
 - [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
 
