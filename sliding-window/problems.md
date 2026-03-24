@@ -16,7 +16,7 @@
 - [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
 
 ### Variable Length
-- (*)[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)⭐
+- (*)[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 - (*)[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - (*)[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)⭐
 - (*)[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
