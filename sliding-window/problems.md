@@ -22,7 +22,7 @@
 - (*)[930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
 - (*)[1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
 - (*)[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)⭐
-- ()[Longest Substring with at most K distinct characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)
+- (*)[Longest Substring with at most K distinct characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)
 - (*)[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)⭐
 - (*)[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)⭐
 - (*)[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/description/)⭐
