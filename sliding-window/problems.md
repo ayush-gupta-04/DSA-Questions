@@ -19,6 +19,7 @@
 - (*)[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 - (*)[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - (*)[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)⭐
+- (*)[930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)⭐
 - (*)[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
 - (*)[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)⭐
 - (*)[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)⭐
