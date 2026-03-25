@@ -16,16 +16,16 @@
 - [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
 
 ### Variable Length
-- (*)[**Longest Substring Without Repeating Characters**](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
-- [**Max Consecutive Ones III**](https://leetcode.com/problems/max-consecutive-ones-iii/)
-- (*)[**Longest Repeating Character Replacement**](https://leetcode.com/problems/longest-repeating-character-replacement/)⭐
-- [**Binary Subarrays With Sum**](https://leetcode.com/problems/binary-subarrays-with-sum/)
-- [**Count Number of Nice Subarrays**](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
-- (*)[**Number of Substrings Containing All Three Characters**](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)⭐
-- [**Longest Substring with at most K distinct characters**](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)
-- (*)[**Subarrays with K Different Integers**](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)⭐
-- (*)[**Minimum Window Substring**](https://leetcode.com/problems/minimum-window-substring/description/)⭐
-- (*)[**Minimum Window Subsequence**](https://leetcode.com/problems/minimum-window-subsequence/description/)⭐
-- [Minimum Size SubArray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)⭐
-- [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)
+- (*)[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+- (*)[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)⭐
+- (*)[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)⭐
+- (*)[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/)⭐
+- (*)[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)⭐
+- (*)[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/description/)⭐
+- (*)[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)⭐
+- [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+- [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
+- [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
+- [Longest Substring with at most K distinct characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)
+- [Minimum Size SubArray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)
