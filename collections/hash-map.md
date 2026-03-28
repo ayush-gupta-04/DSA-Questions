@@ -73,15 +73,24 @@ map.put(1, "Ayush");
 ---
 
 
-
 ## `V putIfAbsent(K key, V value)`
 * work: Inserts only if key not present.
-* Returns: Existing value if key present, otherwise null.
+* If 1 is present -> it simply returns the value.
+* If 1 is not present -> put new value and returns null
 * Time: O(1)
 
 ```java
 map.putIfAbsent(1, "Java");
 ```
+
+## `V computeIfAbsent(K key , M mapping)`
+```java
+map.computeIfAbsent(5, k -> new HashSet<>()).add(2);
+```
+Why this works
+- If 5 is not present → it creates a new HashSet and puts it and returns newly created set.
+- If 5 exists → it simply returns the existing set
+- Then .add(2) runs in both cases
 
 
 ---
