@@ -151,6 +151,13 @@ set.floor(25);
 * Time: O(log n)
 
 ---
+### `E pollFirst()`
+- polls the first entry and returns it , null if empty.
+---
+
+### `E pollLast()`
+- polls the last entry and returns it , null if empty.
+---
 
 # 🔁 Ways to Iterate TreeSet
 
