@@ -187,6 +187,17 @@ map.replace(1, "C++");
 
 ---
 
+## `K pollFirstEntry()`
+* work: polls the first entry and returns it. returns null if no element.
+* Time: O(log n)
+
+---
+## `K pollLastEntry()`
+* work: polls the first entry and returns it. returns null if no element.
+* Time: O(log n)
+
+---
+
 # Iterating TreeMap
 ## Using entrySet() (Best Method)
 
