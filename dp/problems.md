@@ -7,6 +7,7 @@
 - [Delete & Earn](https://leetcode.com/problems/delete-and-earn/)
 - [Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)
 - [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/)
+- (*)[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)⭐
 
 ### Grid DP
 - [Unique Paths](https://leetcode.com/problems/unique-paths/description/)
