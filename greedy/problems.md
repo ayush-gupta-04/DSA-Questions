@@ -8,5 +8,6 @@
 - (*)[Minimum Number of Platforms Required](https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/)
 - (*)[Job Sequencing Problem](https://takeuforward.org/data-structure/job-sequencing-problem/)
 - (*)[Candy](https://leetcode.com/problems/candy/description/)
+- [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
 - [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
 - [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)
