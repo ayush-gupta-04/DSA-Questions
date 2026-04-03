@@ -7,7 +7,7 @@
 - (*)[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 - (*)[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 - [Permutation I](https://leetcode.com/problems/permutations/)
-- (*)[Permutation II](https://leetcode.com/problems/permutations-ii/)
+- (*)[Permutation II](https://leetcode.com/problems/permutations-ii/)⭐
 - (*)[Letter Combination Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)⭐
 - [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)
 - [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
@@ -33,7 +33,7 @@
 - (*)[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 - (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)⭐
 - (*)[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)⭐
-- [Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)
+- (*)[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)⭐
 - [Matchstick to Square](https://leetcode.com/problems/matchsticks-to-square/)
 - [24 Game](https://leetcode.com/problems/24-game/)
 - [Longest Subsequence Repeated K-times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)
