@@ -10,4 +10,5 @@
 - (*)[Candy](https://leetcode.com/problems/candy/description/)
 - [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
 - [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
+- [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)
 - [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)
