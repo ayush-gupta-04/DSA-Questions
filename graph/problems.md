@@ -10,6 +10,7 @@
 - [Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
 - [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv)
 - [Open The Lock](https://leetcode.com/problems/open-the-lock/)
+- [Bus Routes](https://leetcode.com/problems/bus-routes/description/)
 
 ## DFS
 - (*)[Number of Islands](https://leetcode.com/problems/number-of-islands/)
