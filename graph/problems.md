@@ -3,14 +3,17 @@
 - (*)[Rotten Oranges](https://leetcode.com/problems/rotting-oranges/description/)
 - (*)[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - (*)[Word Ladder](https://leetcode.com/problems/word-ladder/description/)
+- (*)[Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
+- (*)[Open The Lock](https://leetcode.com/problems/open-the-lock/)
 - [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)
 - [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 - [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [Find The Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)
-- [Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
 - [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv)
-- [Open The Lock](https://leetcode.com/problems/open-the-lock/)
-- [Bus Routes](https://leetcode.com/problems/bus-routes/description/)
+
+**Harder**
+- (*)[Bus Routes](https://leetcode.com/problems/bus-routes/description/)
+
 
 ## DFS
 - (*)[Number of Islands](https://leetcode.com/problems/number-of-islands/)
@@ -21,41 +24,47 @@
 
 ## Bipatite Graph
 - (*)[Is Graph Biparte](https://leetcode.com/problems/is-graph-bipartite/)
-- (*)[Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/)
 - [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
+
+**harder**
+- (*)[Maximum Partition Factor](https://leetcode.com/problems/maximum-partition-factor/)
 
 ## TOPO SORT
 - (*)[Find Eventual Safe State](https://leetcode.com/problems/find-eventual-safe-states/)
 - (*)[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)
+- (*)[Longest Increasing Path in a Grid](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 - [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
-- [Longest Increasing Path in a Grid](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)
 
 
 ## Shortest Path
 - (*)[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 - (*)[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)
 - (*)[Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)
+- (*)[Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 - [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
 - [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
-- [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 - [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
-- [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
 - [Minimum Cost to make at least one valid path in a grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid)
 - [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i)
+
+**Harder**
+- (*)[Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
+- (*)[Race Car](https://leetcode.com/problems/race-car/)
  
 
 ## DSU
 - (*)[Account Merge](http://leetcode.com/problems/accounts-merge/)
 - (*)[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+- (*)[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
+- (*)[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)
 - [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
-- [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
-- [Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)
+
 
 ## Eulerian Circuit
-- [Valid Arrangement Of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)
-- [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+- (*)[Valid Arrangement Of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)
+- (*)[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 
 ## Bridges in Graph
 - (*)[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)⭐
@@ -66,8 +75,8 @@
 
 
 ## Minimum Spanning Tree
-- [Minimum cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
-- [Optimize Water Distribution in A Village](https://www.geeksforgeeks.org/dsa/minimum-cost-to-provide-water/)
+- (*)[Minimum cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
+- (*)[Optimize Water Distribution in A Village](https://www.geeksforgeeks.org/dsa/minimum-cost-to-provide-water/)
 
 ## Other Problems.
 - (*)[Clone Graph](https://leetcode.com/problems/clone-graph/)
