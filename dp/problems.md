@@ -90,3 +90,6 @@
 
 ## Probability DP.
 - [Soup Servings](https://leetcode.com/problems/soup-servings/description)
+
+## DP + Binary Search
+- (*)[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)
