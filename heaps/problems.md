@@ -6,6 +6,7 @@
 - (*)[Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)
 - (*)[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
 - [Minimum Cost of ropes](https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1)
+- [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)
 
 ## Hard
 - (*)[Design Twitter](https://leetcode.com/problems/design-twitter/)⭐
