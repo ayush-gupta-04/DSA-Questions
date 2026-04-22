@@ -2,7 +2,7 @@
 
 ## Medium
 - (*)[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
-- (*)[Merge K-Sorted List](https://leetcode.com/problems/merge-k-sorted-lists/)⭐
+- (*)[Merge K-Sorted List](https://leetcode.com/problems/merge-k-sorted-lists/)
 - (*)[Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)⭐
 - (*)[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)⭐
 - [Minimum Cost of ropes](https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1)
