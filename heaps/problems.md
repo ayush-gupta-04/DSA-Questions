@@ -3,13 +3,14 @@
 ## Medium
 - (*)[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 - (*)[Merge K-Sorted List](https://leetcode.com/problems/merge-k-sorted-lists/)⭐
-- (*)[Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)
-- (*)[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
+- (*)[Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)⭐
+- (*)[Hand of Straights](https://leetcode.com/problems/hand-of-straights/)⭐
 - [Minimum Cost of ropes](https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1)
 - [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)
 
 ## Hard
 - (*)[Design Twitter](https://leetcode.com/problems/design-twitter/)⭐
 - (*)[Median from Data Streams](https://leetcode.com/problems/find-median-from-data-stream/)⭐
-- (*)[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description)
+- (*)[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description)⭐
+- (*)[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)⭐
 
