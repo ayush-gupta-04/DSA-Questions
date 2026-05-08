@@ -18,7 +18,7 @@ import java.util.ArrayDeque;
 # 🏗️ How to Create ArrayDeque
 
 ```java
-ArrayDeque<Integer> dq = new ArrayDeque<>();
+Deque<Integer> dq = new ArrayDeque<>();
 ```
 
 ---
