@@ -3,29 +3,26 @@
 // If the indexs are known then we can easily cacl the number of element in between.
 // We will store {num , index} in the stack.
 
-class StockSpanner {
-private:
-    stack<pair<int,int>> st;
-    int i;
-public:
-    StockSpanner() {
-        this->i = 0;
-    }
-    
-    int next(int price) {
-        while(!st.empty() && st.top().first <= price){
-            // erase out of the map also.
-            st.pop();
-        }
-        int ans = (st.empty() ? i+1 : i - st.top().second);
-        st.push({price , i});
-        i++;
-        return ans;
-    }
-};
 
-/**
- * Your StockSpanner object will be instantiated and called as such:
- * StockSpanner* obj = new StockSpanner();
- * int param_1 = obj->next(price);
- */
+class StockSpanner {
+    private Deque<int[]> stack;
+    private int index;
+
+    public StockSpanner() {
+        stack = new ArrayDeque<>();
+        index = 0;
+    }
+
+    public int next(int price) {
+        while (!stack.isEmpty() && stack.peekLast()[0] <= price) {
+            stack.pollLast();
+        }
+
+        int span = stack.isEmpty() ? index + 1 : index - stack.peekLast()[1];
+
+        stack.offerLast(new int[]{price, index});
+        index++;
+
+        return span;
+    }
+}
