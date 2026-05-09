@@ -1,34 +1,36 @@
-// use string as a the stack.
-
-
 class Solution {
-public:
-    string removeKdigits(string num, int k) {
-        string st; // use this as a stack
+    public String removeKdigits(String num, int k) {
+        Deque<Character> stack = new ArrayDeque<>();
 
-        for (char c : num) {
-            while (!st.empty() && k > 0 && st.back() > c) {
-                st.pop_back();
+        for (char c : num.toCharArray()) {
+            while (!stack.isEmpty() && k > 0 && stack.peekLast() > c) {
+                stack.pollLast();
                 k--;
             }
-            st.push_back(c);
+            stack.offerLast(c);
         }
 
         // If k is still > 0, remove from the end
-        while (k > 0 && !st.empty()) {
-            st.pop_back();
+        while (k > 0 && !stack.isEmpty()) {
+            stack.pollLast();
             k--;
+        }
+
+        // Build result string
+        StringBuilder sb = new StringBuilder();
+        while (!stack.isEmpty()) {
+            sb.append(stack.pollFirst());
         }
 
         // Remove leading zeros
         int i = 0;
-        int n = st.size();
-        while (i < n && st[i] == '0') i++;
+        while (i < sb.length() && sb.charAt(i) == '0') {
+            i++;
+        }
 
-        // If all digits removed or are zeros
-        if (i == n) return "0";
+        // If all digits removed or all are zeros
+        if (i == sb.length()) return "0";
 
-        // Return the substring from the first non-zero
-        return st.substr(i);
+        return sb.substring(i);
     }
-};
+}
