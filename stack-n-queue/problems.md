@@ -16,7 +16,7 @@
 - (*)[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)⭐
 - (*)[LRU Cache](https://leetcode.com/problems/lru-cache/)⭐
 - (*)[Decode String](https://leetcode.com/problems/decode-string/description)⭐
-- [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
+- (*)[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
 - [Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/description/?envType=problem-list-v2&envId=nbefpor5)
 - [Next Greater Element](https://leetcode.com/problems/next-greater-element-i/description/)
 - [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
