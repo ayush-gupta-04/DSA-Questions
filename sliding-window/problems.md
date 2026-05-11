@@ -34,6 +34,7 @@
 - (*)[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)⭐
 - (*)[Longest Substring with at most K distinct characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)⭐
 - (*)[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)⭐
+- (*)[Fruit Into Baskets](https://takeuforward.org/data-structure/fruit-into-baskets)
 - [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
 - [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
