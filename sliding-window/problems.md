@@ -1,4 +1,4 @@
-## Questions
+
 ##### fixed-length
 * We have 2 options :
     * We can run a fixed length window , but only when the TC to check the validity of the window is not very large.
@@ -8,6 +8,16 @@
     * On increasing the window size the window becomes invalid and we need to shrink it.
     * On increasing the window size the window becomes more valid but we need the min window , hence we shrink it while it's valid and calc the min.
  
+Question : 
+Count Subarray with a property P.
+- We can use PrefixSum + HashMap.
+- We can use Sliding Window (Subarrays with K Different Integers)
+  - Use this only when The Subarray is Monotonic. So that i am 100% sure that to have a max len .. we move r , and if became invalid .. move l to make it valid again.
+  - Use this when we don't have any confusion on moving the r and l.
+
+
+
+## Questions
 
 ### Fixed Length
 - (*)[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
