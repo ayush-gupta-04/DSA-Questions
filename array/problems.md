@@ -74,12 +74,6 @@ To solve Interval related problems :
 - (*)[Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)⭐
 
 
-
-## Cycle Sort Problems
-- (*)[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)⭐
-- [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-- [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
-
 ## Other Problems
 - (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
 - (*)[Move Zeroes To End](https://leetcode.com/problems/move-zeroes/description/)
