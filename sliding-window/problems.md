@@ -8,8 +8,7 @@
     * On increasing the window size the window becomes invalid and we need to shrink it.
     * On increasing the window size the window becomes more valid but we need the min window , hence we shrink it while it's valid and calc the min.
  
-Question : 
-Count Subarray with a property P.
+**Question - Count Subarray with a property P**
 - We can use PrefixSum + HashMap.
 - We can use Sliding Window (Subarrays with K Different Integers)
   - Use this only when The Subarray is Monotonic. So that i am 100% sure that to have a max len .. we move r , and if became invalid .. move l to make it valid again.
