@@ -94,3 +94,58 @@ class Solution {
         }
     }
 }
+
+
+
+
+// ------------------ Approach 3 : Binary Search + Backtracking ------------------
+// Let's See the range first.
+// nums = [1 ,2 ,4, 7, 8].
+// - the minimum time possible would be 8 .. if we have N workers.
+// - the maximum time possible would be 22 (sum of all) .. if we give all the job to 1 worker.
+// Let's ask: "Hey, is it possible to distribute the jobs such that NO worker works more than H hours?"
+// If the answer is YES, we might be able to do even better! We lower H.
+// If the answer is NO, our H is too strict. We must increase H.
+
+import java.util.Arrays;
+
+class Solution {
+    public int minimumTimeRequired(int[] jobs, int k) {
+        int left = 0;
+        int right = 0;
+        
+        for (int job : jobs) {
+            left = Math.max(left, job);
+            right += job;
+        }
+        Arrays.sort(jobs); // Sorting helps with our greedy backwards iteration
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            int[] workers = new int[k];   
+            // Check if 'mid' is a feasible max limit
+            if (canFinish(jobs, workers, jobs.length - 1, mid)) {
+                right = mid; // Try to find a tighter, smaller max time
+            } else {
+                left = mid + 1; // Limit was too strict, increase it
+            }
+        }
+        return left;
+    }
+    
+    private boolean canFinish(int[] jobs, int[] workers, int jobIndex, int limit) {
+        if (jobIndex < 0) return true; // All jobs safely assigned!
+        for (int i = 0; i < workers.length; i++) {
+            if (workers[i] + jobs[jobIndex] <= limit) {
+                workers[i] += jobs[jobIndex];
+                if (canFinish(jobs, workers, jobIndex - 1, limit)) {
+                    return true;
+                }
+                workers[i] -= jobs[jobIndex]; // backtrack
+            }
+            // Symmetry breaking (same logic as Approach 2)
+            if (workers[i] == 0) break; 
+        }
+        
+        return false;
+    }
+}
