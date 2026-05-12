@@ -28,6 +28,7 @@
 - (*)[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 - (*)[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - (*)[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)⭐
+- (*)[Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
 - (*)[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
 - (*)[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)⭐
 - (*)[Longest Substring with at most K distinct characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)⭐
@@ -36,7 +37,6 @@
 - (*)[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/description/)⭐
 - (*)[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)⭐
 - [Fruit Into Baskets](https://takeuforward.org/data-structure/fruit-into-baskets)
-- [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)
 - [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
 - [Minimum Size SubArray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)
