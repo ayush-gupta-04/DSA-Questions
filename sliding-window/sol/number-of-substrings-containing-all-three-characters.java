@@ -1,3 +1,5 @@
+// TC - N -> Single pass
+// SC - 1
 class Solution {
     public int numberOfSubstrings(String s) {
         int a = -1;
