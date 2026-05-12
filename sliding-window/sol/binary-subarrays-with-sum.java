@@ -1,7 +1,9 @@
-// ------------ BETTER Approach - using prefix sum --------------------------
-// TC -> N
-// SC -> N.
+// ------------ BETTER Approach - (using prefix sum and hashMap)--------------------------
 // It's a very straight forward prefix sum technique.
+
+// TC -> N -> single pass
+// SC -> N -> hashmap
+
 
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
@@ -22,8 +24,8 @@ class Solution {
 
 
 // -------------- OPTIMAL Approch - Sliding Window -----------------------
-// TC -> N
-// SC -> 1
+// TC -> (2*N) -> 2 times sliding window.
+// SC -> 1 
 
 // when i am at r and sum == goal.
 // there are many sub-arrays jo count hona chut jaa rhe hai.
