@@ -6,6 +6,10 @@
 // -> if freq of this word sub is greater than we want .. shrink the window from left until its valid again.
 // -> after this .. just check if the l and r covers the required length or not... if yes then push l to res.
 
+// ANALOGY : 
+// -> if we are given character[] rather than string[] as words.
+// ->    question would be we just have to find a substring having all the characters.
+
 
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
