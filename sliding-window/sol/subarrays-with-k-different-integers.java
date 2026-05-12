@@ -1,6 +1,8 @@
 // here we need to count the subarray with a property P.
 // here is how we solve for exactly P case.
 class Solution {
+
+    // finds number of subarrays with different integers <= K.
     int fun(int[] nums , int k){
         int r = 0;
         int l = 0;
