@@ -8,7 +8,8 @@
 
 // ANALOGY : 
 // -> if we are given character[] rather than string[] as words.
-// ->    question would be we just have to find a substring having all the characters.
+// ->    question would be we just have to find a substring having all the characters in character[] only.
+// ->     in this question we are just given the words not characters .. so we have to take substring and we have to skip k all the time.
 
 
 class Solution {
