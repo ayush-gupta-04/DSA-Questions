@@ -21,7 +21,8 @@
 - (*)[Knights Tour](https://www.geeksforgeeks.org/dsa/the-knights-tour-problem/)⭐
 - (*)[Word Search II](https://leetcode.com/problems/word-search-ii/description/)⭐
 - (*)[Path With Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)⭐
-- [Unique Path III](https://leetcode.com/problems/unique-paths-iii/description/)
+- (*)[Rat In A Maze](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
+- (*)[Unique Path III](https://leetcode.com/problems/unique-paths-iii/description/)
 
 
 ### Partitioning Problems.
@@ -35,6 +36,7 @@
 - (*)[Sort a Stack Using Recursion](https://takeuforward.org/data-structure/sort-a-stack)
 - (*)[Reverse a stack using recursion](https://takeuforward.org/data-structure/reverse-a-stack-using-recursion)
 - (*)[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+- (*)[M-Coloring Problem](https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1)⭐
 - (*)[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)⭐
 - (*)[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)⭐
 - (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)⭐
