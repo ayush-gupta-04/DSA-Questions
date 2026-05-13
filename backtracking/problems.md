@@ -32,7 +32,6 @@
 ### Others
 - (*)[Recursive Implementation of atoi()](https://leetcode.com/problems/string-to-integer-atoi/)
 - (*)[Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
-- (*)[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/description/)
 - (*)[Sort a Stack Using Recursion](https://takeuforward.org/data-structure/sort-a-stack)
 - (*)[Reverse a stack using recursion](https://takeuforward.org/data-structure/reverse-a-stack-using-recursion)
 - (*)[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
