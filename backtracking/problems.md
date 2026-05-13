@@ -28,7 +28,7 @@
 ### Partitioning Problems.
 - (*)[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
 - (*)[Word Break](https://leetcode.com/problems/word-break/)
-- [Decode Ways](https://leetcode.com/problems/decode-ways/)
+- (*)[Decode Ways](https://leetcode.com/problems/decode-ways/)
 
 ### Others
 - (*)[Recursive Implementation of atoi()](https://leetcode.com/problems/string-to-integer-atoi/)
