@@ -9,6 +9,7 @@
 - (*)[Job Sequencing Problem](https://takeuforward.org/data-structure/job-sequencing-problem/)
 - (*)[Candy](https://leetcode.com/problems/candy/description/)
 - (*)[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)
+- (*)[Gas Station](https://leetcode.com/problems/gas-station/)
 - [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
 - [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
 - [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)
