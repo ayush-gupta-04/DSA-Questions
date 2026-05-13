@@ -1,31 +1,26 @@
+// Time Complexity: O(4^N * N), where n is the length of the input digits. This is because each digit can map to up to 4 letters, and there are n digits.
+// Space Complexity: O(N), where n is the length of the input digits. This is due to the recursion stack depth.
 
-class Solution {
-    List<String> fun(String digits , int i , Map<Character , String> map , StringBuilder p){
-        List<String> ans = new ArrayList<>();
+class Solution {    
+    List<String> ans = new ArrayList<>();
+
+    void fun(String digits , int i , String[] map , StringBuilder p){
         if(i == digits.length()){
             ans.add(p.toString());
-            return ans;
+            return;
         }   
 
-        String mapping = map.get(digits.charAt(i));
+        String mapping = map[digits.charAt(i)-'0'];
         for(char m : mapping.toCharArray()){
             p.append(m);
-            ans.addAll(fun(digits , i + 1 , map , p));
+            fun(digits , i + 1 , map , p);
             p.deleteCharAt(p.length()-1);
         }
-        return ans;
+        return;
     }
     public List<String> letterCombinations(String digits) {
-        Map<Character , String> map = Map.of(
-            '2' , "abc",
-            '3' , "def",
-            '4' , "ghi",
-            '5' , "jkl",
-            '6' , "mno",
-            '7' , "pqrs",
-            '8' , "tuv",
-            '9' , "wxyz"
-        );
-        return fun(digits, 0,map,new StringBuilder());
+        String[] map = new String[]{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        fun(digits, 0,map,new StringBuilder());
+        return ans;
     }
 }
