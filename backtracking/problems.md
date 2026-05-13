@@ -2,12 +2,12 @@
 
 ### Permutations & Combinations.
 - (*)[Power Set](https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string)
-- [Subsets](https://leetcode.com/problems/subsets/description/)
-- [Subsets-II](https://leetcode.com/problems/subsets-ii/)
-- [Combination Sum I](https://leetcode.com/problems/combination-sum/)
+- (*)[Subsets](https://leetcode.com/problems/subsets/description/)
+- (*)[Subsets-II](https://leetcode.com/problems/subsets-ii/)
+- (*)[Combination Sum I](https://leetcode.com/problems/combination-sum/)
 - (*)[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 - (*)[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
-- [Permutation I](https://leetcode.com/problems/permutations/)
+- (*)[Permutation I](https://leetcode.com/problems/permutations/)
 - (*)[Permutation II](https://leetcode.com/problems/permutations-ii/)⭐
 - (*)[Letter Combination Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)⭐
 - [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)
