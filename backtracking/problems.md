@@ -2,7 +2,6 @@
 
 ### Permutations & Combinations.
 - (*)[Power Set](https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string)
-- (*)[Subsets](https://leetcode.com/problems/subsets/description/)
 - (*)[Subsets-II](https://leetcode.com/problems/subsets-ii/)
 - (*)[Combination Sum I](https://leetcode.com/problems/combination-sum/)
 - (*)[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
