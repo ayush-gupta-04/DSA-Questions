@@ -15,14 +15,14 @@
 
 ### Matrix Problem.
 - (*)[Word Search](https://leetcode.com/problems/word-search/description/)⭐
-- (*)[Sudoko Solver](https://leetcode.com/problems/sudoku-solver/description/)⭐
 - (*)[N-Queens](https://leetcode.com/problems/n-queens/description/)⭐
+- (*)[Sudoko Solver](https://leetcode.com/problems/sudoku-solver/description/)⭐
+- (*)[Rat In A Maze](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)⭐
 - (*)[N-Knights](https://www.geeksforgeeks.org/dsa/place-k-knights-such-that-they-do-not-attack-each-other/)⭐
 - (*)[Knights Tour](https://www.geeksforgeeks.org/dsa/the-knights-tour-problem/)⭐
 - (*)[Word Search II](https://leetcode.com/problems/word-search-ii/description/)⭐
 - (*)[Path With Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)⭐
-- (*)[Rat In A Maze](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
-- (*)[Unique Path III](https://leetcode.com/problems/unique-paths-iii/description/)
+- (*)[Unique Path III](https://leetcode.com/problems/unique-paths-iii/description/)⭐
 
 
 ### Partitioning Problems.
