@@ -22,7 +22,6 @@
 - (*)[Knights Tour](https://www.geeksforgeeks.org/dsa/the-knights-tour-problem/)⭐
 - (*)[Word Search II](https://leetcode.com/problems/word-search-ii/description/)⭐
 - (*)[Path With Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)⭐
-- (*)[Unique Path III](https://leetcode.com/problems/unique-paths-iii/description/)⭐
 
 
 ### Partitioning Problems.
