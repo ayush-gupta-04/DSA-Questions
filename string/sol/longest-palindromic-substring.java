@@ -154,7 +154,8 @@ public:
 
 
         for(int L = 1; L <= n ; L++){
-            for(int i=0,j=L-1; j < n;j++,i++){
+            for(int i=0, i + L -1 < n;i++){
+                int j = i + L -1;
                 if(L == 1){
                     // Base case of Length 1.
                     dp[i][i] = true;
