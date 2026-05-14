@@ -15,3 +15,6 @@
 - (*)[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description)⭐
 - (*)[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)⭐
 
+## Ad-Hoc
+- [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)
+
