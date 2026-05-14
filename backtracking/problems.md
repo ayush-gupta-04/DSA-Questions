@@ -8,7 +8,7 @@
 - (*)[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 - (*)[Permutation I](https://leetcode.com/problems/permutations/)
 - (*)[Permutation II](https://leetcode.com/problems/permutations-ii/)⭐
-- (*)[Letter Combination Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)⭐
+- (*)[Letter Combination Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
 - [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)
 - [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
 
@@ -17,7 +17,7 @@
 - (*)[Word Search](https://leetcode.com/problems/word-search/description/)⭐
 - (*)[N-Queens](https://leetcode.com/problems/n-queens/description/)⭐
 - (*)[Sudoko Solver](https://leetcode.com/problems/sudoku-solver/description/)⭐
-- (*)[Rat In A Maze](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)⭐
+- (*)[Rat In A Maze](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
 - (*)[N-Knights](https://www.geeksforgeeks.org/dsa/place-k-knights-such-that-they-do-not-attack-each-other/)⭐
 - (*)[Knights Tour](https://www.geeksforgeeks.org/dsa/the-knights-tour-problem/)⭐
 - (*)[Word Search II](https://leetcode.com/problems/word-search-ii/description/)⭐
@@ -25,8 +25,8 @@
 
 
 ### Partitioning Problems.
-- (*)[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
-- (*)[Word Break](https://leetcode.com/problems/word-break/)
+- (*)[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)⭐
+- (*)[Word Break](https://leetcode.com/problems/word-break/)⭐⭐
 - (*)[Decode Ways](https://leetcode.com/problems/decode-ways/)
 
 ### Others
@@ -36,7 +36,7 @@
 - (*)[Reverse a stack using recursion](https://takeuforward.org/data-structure/reverse-a-stack-using-recursion)
 - (*)[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 - (*)[M-Coloring Problem](https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1)⭐
-- (*)[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)⭐
+- (*)[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)⭐⭐
 - (*)[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)⭐
 - (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)⭐
 - (*)[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)⭐
