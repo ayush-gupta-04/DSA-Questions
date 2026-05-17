@@ -13,7 +13,62 @@
 // hash = (hash*p + newChar)%MOD;     // add the new char.
   
 
+import java.util.*;
 
+public class Main {
+    static List<Integer> rabinKarp(String txt , String pattern){
+        List<Integer> ans = new ArrayList<>();
+        long MOD = 1_000_000_009L;
+        long p = 31;
+
+        int k = pattern.length();
+        int n = txt.length();
+
+        long patternHash = 0L;
+        long textHash = 0L;
+
+        long POW = 1L;
+        for(int i = 0;i < k-1;i++){
+            POW = (POW * p)%MOD;
+        }
+
+        for(int i = 0;i < k ;i++){
+            patternHash = (patternHash*p + pattern.charAt(i)-'a' + 1)%MOD;
+            textHash = (textHash*p + txt.charAt(i)-'a' + 1)%MOD;
+        }
+
+        for(int i = 0;i <= n-k; i++){
+            if(patternHash == textHash){
+                boolean match = true;
+                for(int j = 0;j < k ;j++){
+                    if(txt.charAt(i+j) != pattern.charAt(j)){
+                        match = false;
+                        break;
+                    }
+                }
+                if(match){
+                    ans.add(i);
+                    System.out.println("Pattern found at " + (i));
+                }
+            }
+
+            if(i+k==n) continue;
+
+            int oldCh = txt.charAt(i)-'a' + 1;
+            int newCh = txt.charAt(i+k) - 'a' + 1;
+            textHash = (textHash - (oldCh*POW)%MOD + MOD)%MOD;
+            textHash = (textHash*p + newCh)%MOD;
+        }
+
+        return ans;
+    }
+    public static void main(String[] args) {
+        
+        String t = "ayushayush";
+        String s = "ayu";
+        System.out.println(rabinKarp(t, s));
+    }
+}
 
     
 
