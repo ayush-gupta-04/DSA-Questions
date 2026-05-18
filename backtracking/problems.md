@@ -42,4 +42,3 @@
 - (*)[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)⭐
 - [Matchstick to Square](https://leetcode.com/problems/matchsticks-to-square/)
 - [24 Game](https://leetcode.com/problems/24-game/)
-- [Longest Subsequence Repeated K-times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)
