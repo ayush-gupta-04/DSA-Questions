@@ -14,6 +14,7 @@
 **Harder**
 - (*)[Bus Routes](https://leetcode.com/problems/bus-routes/description/)
 - (*)[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)
+- (*)[Longest Subsequence Repeated K-times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/)
 
 
 ## DFS
