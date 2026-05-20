@@ -15,6 +15,8 @@
 - (*)[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 - (*)[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 
+### DLL Problems
+- (*)[Delete all occurrences in a doubly linked list](https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1)
 
 ### Good Problems
 - (*)[Rotate Linked List](https://leetcode.com/problems/rotate-list/description/)
