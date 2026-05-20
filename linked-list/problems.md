@@ -17,6 +17,7 @@
 
 ### DLL Problems
 - (*)[Delete all occurrences in a doubly linked list](https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1)
+- (*)[Pair Sum in Doubly Linked List](https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1)
 
 ### Good Problems
 - (*)[Rotate Linked List](https://leetcode.com/problems/rotate-list/description/)
