@@ -2,6 +2,7 @@
 - KMP Algorithm (Knuth-Morris-Pratt)⭐
 - Rabin-Karp Algorithm⭐
 - Manacher's Algorithm⭐
+- Z-Function Algorithm⭐
 
 ## Questions
 - [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)
