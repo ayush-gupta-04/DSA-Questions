@@ -1,0 +1,6 @@
+1. State-Space BFS
+- What matters is (where you are) + (what you have accomplished so far).
+- We cannot visit a node twice with the same accomplishment.
+- The State will not be just the node. It will be (where you are) + (what you have accomplished so far).
+- You need to find a shortest path that involves collecting, visiting, or activating multiple things.
+- And these things that we are collecting, visiting or activating will be really small ... so we can bitmask them.
