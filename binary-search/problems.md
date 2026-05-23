@@ -1,10 +1,11 @@
 # Questions.
-- (*)[First Occurance]()
-- (*)[Last Occurance]()
-- (*)[Upper Bound & Lower Bound]()
 - (*)[Search in Rotated Sorted Array 1](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- (*)[Search in Rotated Sorted Array 2](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
 - (*)[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 - (*)[Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- [First Occurance](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
+- [Upper Bound & Lower Bound]()
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 - [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)
 
 
