@@ -19,6 +19,7 @@
 - (*)[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)
 - (*)[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)⭐
 - (*)[Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/)
+- [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)
 
 
 
