@@ -20,6 +20,7 @@
 - (*)[Median of 2 Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)⭐
 - (*)[K-th Element of two sorted arrays](https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays)
 - [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/)
+- [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
 ### BS on 2-D Arrays
 - (*)[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
