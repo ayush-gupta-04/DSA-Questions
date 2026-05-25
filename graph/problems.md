@@ -52,9 +52,9 @@
 - [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i)
 
 **Harder**
-- (*)[Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
 - (*)[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
 - (*)[Race Car](https://leetcode.com/problems/race-car/)
+- [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
  
 
 ## DSU
