@@ -14,13 +14,13 @@
 - (*)[Kth Missing Positive](https://leetcode.com/problems/kth-missing-positive-number/)
 - (*)[Aggresive Cows](https://www.geeksforgeeks.org/problems/aggressive-cows/0)
 - (*)[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)
-- (*)[Painter's Partition](https://takeuforward.org/arrays/painters-partition-problem)
 - (*)[Minimize The Max Distance Between Gas Stations](https://www.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/0)⭐
 - (*)[Median of 2 Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)⭐
 - (*)[K-th Element of two sorted arrays](https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays)
 - [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/)
 - [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - [Bool Allocation](https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)
+- [Painter's Partition](https://takeuforward.org/arrays/painters-partition-problem)
 
 ### BS on 2-D Arrays
 - (*)[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
