@@ -61,7 +61,7 @@ class Solution {
         if(n1 > n2) return findMedianSortedArrays(A2,A1);
         int s = 0;
         int e = n1;
-        int left = (n1 + n2)/2;
+        int left = (n1 + n2)/2;     // for odd .. we will take r1 and r2 then.
         while(s <= e){
             int mid1 = s + (e - s)/2;
             int mid2 = left - mid1;
