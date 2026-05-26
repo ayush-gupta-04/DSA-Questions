@@ -55,7 +55,7 @@
 - (*)[Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)⭐
 
 ## Basic 
-- (*)[Remove Duplicates from Sorted Array](remove-duplicates-from-sorted-array)
+- (*)[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 ## Other Problems
 - (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
