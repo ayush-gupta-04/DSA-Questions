@@ -3,34 +3,44 @@
 // SC = O(1)
 // a simple partition algorithm
 class Solution {
-public:
-    void moveZeroes(vector<int>& nums) {
-        int i = -1;
-        for (int j = 0; j < nums.size(); j++) {
-            if (nums[j] != 0) {
-                i++;
-                swap(nums[i], nums[j]);
+    void swap(int[] nums , int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+    public void moveZeroes(int[] nums) {
+        int n = nums.length;
+
+        int j = -1;
+        for(int i = 0; i < n; i++){
+            if(nums[i] != 0){
+                j++;
+                swap(nums,i,j);
             }
         }
     }
-};
+}
 
 
 // ------------- METHOD - 2 : Optimal ---------------------
 // TC -> N
 // SC -> 1
 // start with
-// j -> At first zero.
+// j -> just before the first zero.
 // i -> j + 1.
 class Solution {
-public:
-    // Function to move zeroes to the end
-    void moveZeroes(vector<int>& nums) {
+    void swap(int[] nums , int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+    public void moveZeroes(int[] nums) {
+        int n = nums.length;
         // Pointer to the first zero
         int j = -1;
 
         // Find the first zero
-        for (int i = 0; i < nums.size(); i++) {
+        for (int i = 0; i < n; i++) {
             if (nums[i] == 0) {
                 j = i;
                 break;
@@ -40,12 +50,14 @@ public:
         // If no zero found, return
         if (j == -1) return;
 
-        // Start from the next index of first zero
-        for (int i = j + 1; i < nums.size(); i++) {
+        j--;  // keep the pointer just before the first zero.
+
+        // Start from the next index of first zero.
+        for (int i = j+1; i < n; i++) {
             if (nums[i] != 0) {
-                swap(nums[i], nums[j]);
                 j++;
+                swap(nums ,i,j);
             }
         }
     }
-};
+}
