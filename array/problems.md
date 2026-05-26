@@ -58,9 +58,10 @@
 - (*)[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - (*)[Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 - (*)[Move Zeroes To End](https://leetcode.com/problems/move-zeroes/description/)
-- (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
+- (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
 
 ## Other Problems
+- (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
 - (*)[Majority Elements n/2](https://leetcode.com/problems/majority-element/description/)
 - (*)[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 - (*)[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
@@ -68,7 +69,6 @@
 - (*)[Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)⭐
 - (*)[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - (*)[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
-- (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
 - (*)[Missing Number](https://leetcode.com/problems/missing-number/description/)
 - (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)⭐
 - (*)[Find The Repeating and Missing number](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers)⭐
