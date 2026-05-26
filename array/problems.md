@@ -56,6 +56,7 @@
 
 ## Basic 
 - (*)[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- (*)[Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 
 ## Other Problems
 - (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
