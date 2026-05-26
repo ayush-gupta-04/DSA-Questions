@@ -1,45 +1,71 @@
+//------------------------- Approach 1 : Brute Force --------------------------------
 // time : N + logM
 // space : 1
-// first we will find the row in which the target could possible exits.
-// binary search on that row.
+// if it exist in the row .. bs in the row.
+class Solution {
+    boolean bs(int[] nums , int k){
+        int s = 0;
+        int e = nums.length;
+        while(s <= e){
+            int m = s + (e - s)/2;
+            if(nums[m] == k) return true;
+            else if(k > nums[m]) s = m + 1;
+            else e = m - 1;
+        }
+        return false;
+    }
+    public boolean searchMatrix(int[][] nums, int target) {
+        int n = nums.length;
+        int m = nums[0].length;
+
+        for(int i= 0;i < n;i++){
+            if(target >= nums[i][0] && target <= nums[i][m-1]){
+                if(bs(nums[i] , target)) return true;
+                return false;
+            }
+        }
+        return false;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// -------------------------- Approach : 2 Optimal -------------------
+// time : log(N * M)
+// space : 1
+
+// treat it like a flatten 1D array.
+// for mid .. row = mid/m
+//            col = mid%m
 
 class Solution {
-    public boolean searchMatrix(int[][] nums, int target){
-        // no of rows
-        int m = nums.length;
-        // no of col
-        int n = nums[0].length;
-        int start = 0;
-        int end = m-1;
-        int col = -1;
-        while(start<=end){
-            int mid = start + (end-start)/2;
-            if(nums[mid][0] <= target && nums[mid][n-1] >= target){
-                col = mid;
-                break;
-            }else if(nums[mid][0] > target){
-                end = mid-1;
-            }else{
-                start = mid + 1;
-            }
+
+    public boolean searchMatrix(int[][] nums, int target) {
+        int n = nums.length;
+        int m = nums[0].length;
+
+        int s = 0;
+        int e = n*m - 1;
+
+        while(s <= e){
+            int mid = s + (e-s)/2;
+            int row = mid/m;
+            int col = mid%m;
+
+            if(nums[row][col] == target) return true;
+            else if(target > nums[row][col]) s = mid + 1;
+            else e = mid - 1;
         }
-        if(col == -1){
-            return false;
-        }else{
-            //search in subarray at mid
-            int s = 0;
-            int e = n-1;
-            while(s<=e){
-                int mid1 = s + (e-s)/2;
-                if(target == nums[col][mid1]){
-                    return true;
-                }else if(target > nums[col][mid1]){
-                    s = mid1 + 1;
-                }else{
-                    e = mid1-1;
-                }
-            }
-        }
+
         return false;
     }
 }
