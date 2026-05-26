@@ -13,3 +13,7 @@
 - [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
 - [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
 - [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)
+
+
+## Ad-Hoc
+- [Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/)
