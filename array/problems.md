@@ -54,6 +54,8 @@
 - (*)[Celebrity Problem](https://www.geeksforgeeks.org/problems/the-celebrity-problem/1)
 - (*)[Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)⭐
 
+## Basic 
+- (*)[Remove Duplicates from Sorted Array](remove-duplicates-from-sorted-array)
 
 ## Other Problems
 - (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
