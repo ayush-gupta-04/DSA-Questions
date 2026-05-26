@@ -39,6 +39,7 @@
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 
 ##### Merging
+- (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
 - (*)[Merge Sorted Arrays (Merge A1 , A2 into A1) (Extra space & Constant Space) ](https://leetcode.com/problems/merge-sorted-array/description/)⭐
 - (*)[Merge Sorted Arrays (Merge A1 , A2 into A1 , A2) (Constant Space) ](https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space)⭐
 
@@ -58,7 +59,6 @@
 - (*)[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - (*)[Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 - (*)[Move Zeroes To End](https://leetcode.com/problems/move-zeroes/description/)
-- (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
 
 ## Other Problems
 - (*)[Sort Colors](https://leetcode.com/problems/sort-colors/description/)
