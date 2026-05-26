@@ -15,5 +15,23 @@
 - [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)
 
 
+## Interval Problems || Line Sweep
+```
+To solve Interval related problems :
+1. Sort by StartTime and analyse if we can solve.
+2. Sort by EndTime and analyse if we can solve.
+3. If nothing works -> then think of line Sweep.
+```
+
+- (*)[Merge Intervals](https://leetcode.com/problems/merge-intervals)
+- (*)[Non-Overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)⭐
+- (*)[Meeting Rooms II](https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1)⭐
+- (*)[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+- (*)[My Calendar I](https://leetcode.com/problems/my-calendar-i/)
+- (*)[Insert Intervals](https://leetcode.com/problems/insert-interval)⭐
+- [My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
+- [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)
+  
+
 ## Ad-Hoc
 - [Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/)
