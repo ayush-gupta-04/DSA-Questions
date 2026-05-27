@@ -1,3 +1,9 @@
+// time : N
+// space : N
+
+// since it contains -ve .. so we have to avoid sliding window.
+// sliding window won't work here.
+
 import java.util.*;
 
 public class Main {
