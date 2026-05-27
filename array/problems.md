@@ -2,8 +2,8 @@
 
 ## Prefix-Sum
 ##### sec - 1
-- (*)[Longest Subarray With Sum k](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
-- (*)[Count Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
+- (*)[Longest Subarray With Sum k (Only Positives | Positives + Zeros | Every Integer)](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
+- (*)[Count Subarray Sum Equals K (Only Positives | Positives + Zeros | Every Integer)](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 - [Stable Subarray With Equal Boundary and Interior Sum](https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/description/)
 - [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
 
