@@ -67,7 +67,7 @@
 - (*)[Majority Elements n/2](https://leetcode.com/problems/majority-element/description/)
 - (*)[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 - (*)[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
-- (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)⭐
+- (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 - (*)[Majority Elements II n/3](https://leetcode.com/problems/majority-element-ii/description/)⭐
 - (*)[Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)⭐
 - (*)[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
