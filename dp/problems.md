@@ -73,6 +73,7 @@
 - (*)[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)⭐
 - (*)[Word Break](https://leetcode.com/problems/word-break/description/)
 - [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
+- [Scramble String](https://leetcode.com/problems/scramble-string/)
 
 
 ## Digit DP
