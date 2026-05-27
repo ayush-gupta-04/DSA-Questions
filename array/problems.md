@@ -67,10 +67,10 @@
 - (*)[Majority Elements n/2](https://leetcode.com/problems/majority-element/description/)
 - (*)[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 - (*)[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+- (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)⭐
 - (*)[Majority Elements II n/3](https://leetcode.com/problems/majority-element-ii/description/)⭐
 - (*)[Max Product SubArray](https://leetcode.com/problems/maximum-product-subarray/description/)⭐
 - (*)[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-- (*)[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)⭐
 - (*)[Find The Repeating and Missing number](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers)⭐
 - (*)[Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)
