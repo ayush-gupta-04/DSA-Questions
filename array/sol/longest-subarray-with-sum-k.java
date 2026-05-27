@@ -1,3 +1,79 @@
+// ------------------ Brute Force : 2 loops : Every Integer --------------
+// time : N*N
+// space : 1
+public class Main {
+    public static int maxSubarray(int[] nums ,int k){
+        int n = nums.length;
+        int max = 0;
+        for(int i = 0;i < n;i++){
+            int sum = 0;
+            for(int j = i;j < n;j++){
+                sum += nums[j];
+                if(sum == k) max = Math.max(max , (j - i + 1));
+            }
+        }
+        return max;
+    }
+}
+
+
+
+// ----------------- Optimal Approach : sliding window : Positives + Zeros | Positives ----------------------
+// time : 2*N .. because i am visiting an element twice.
+// space : 1
+public class Main {
+    public static int maxSubarray(int[] nums ,int k){
+        int n = nums.length;
+        int max = 0;
+        int r =0;
+        int l = 0;
+        int sum = 0;
+        while(r < n){
+            sum += nums[r];
+            while(l <= r && sum > k){
+                sum -= nums[l];
+                l++;
+            }
+
+            if(sum == k) max = Math.max(max , (r-l+1));
+            r++;
+        }
+        return max;
+    }
+}
+
+
+
+
+// ----------------- Optimal Approach : Optimal Sliding Window : Positives + Zeros | Positives ----------------------
+// time : 2*N .. because i am visiting an element twice.
+// space : 1
+
+// replace internal while loop with if.
+public class Main {
+    public static int maxSubarray(int[] nums ,int k){
+        int n = nums.length;
+        int max = 0;
+        int r =0;
+        int l = 0;
+        int sum = 0;
+        while(r < n){
+            sum += nums[r];
+            if(l <= r && sum > k){
+                sum -= nums[l];
+                l++;
+            }
+
+            if(sum == k) max = Math.max(max , (r-l+1));
+            r++;
+        }
+        return max;
+    }
+}
+
+
+
+// --------------------- Optimal Approach : Every Integer -------------------------
 // time : N
 // space : N
 
