@@ -1,3 +1,6 @@
+// time : N*M
+// space : 1
+
 // take transpose.
 // then reverse every row;
 class Solution {
@@ -7,6 +10,8 @@ class Solution {
         nums[j][i] = temp;
     }
     public void rotate(int[][] nums) {
+
+        // transpose
         int n = nums.length;
         int m = nums[0].length;
         for(int i = 0 ;i < n ; i++){
@@ -15,6 +20,7 @@ class Solution {
             }
         }
 
+        // reversing every row.
         for(int i = 0 ; i < n ; i++){
             int s = 0 ; 
             int e = m - 1;
