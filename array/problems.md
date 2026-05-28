@@ -40,7 +40,7 @@
 
 ##### Merging
 - (*)[Union of 2 Sorted Arrays](https://takeuforward.org/data-structure/union-of-two-sorted-arrays)
-- (*)[Merge Sorted Arrays (Merge A1 , A2 into A1) (Extra space & Constant Space) ](https://leetcode.com/problems/merge-sorted-array/description/)⭐
+- (*)[Merge Sorted Arrays (Merge A1 , A2 into A1) (Extra space & Constant Space) ](https://leetcode.com/problems/merge-sorted-array/description/)
 - (*)[Merge Sorted Arrays (Merge A1 , A2 into A1 , A2) (Constant Space) ](https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space)⭐
 
 ##### Meet in the Middle
