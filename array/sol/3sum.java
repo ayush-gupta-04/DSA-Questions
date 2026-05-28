@@ -1,3 +1,13 @@
+// ---------------------- Brute Force ---------------------
+// time : NlogN + N
+// space : N*(N/2) .. we can have N/2 pairs N times in the hash map.
+
+// - use the optimal approach .. but do not skip duplicates.
+// - use hashmap to see if we have already addded the triplet or not.
+
+
+
+
 // --------------------------- Optimal Approach -------------------
 // time : NlogN + N
 // space : 3*K (K is the size of ans array)
