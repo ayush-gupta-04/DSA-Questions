@@ -4,7 +4,37 @@
 
 // - use the optimal approach .. but do not skip duplicates.
 // - use hashmap to see if we have already addded the triplet or not.
-
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        int i = 0;
+        int n = nums.length;
+        HashSet<String> set = new HashSet<>();
+        List<List<Integer>> list = new ArrayList<>();
+        while(i <= n-3){
+            int s = i + 1;
+            int e = n-1;
+            while(s < e){
+                int sum = nums[i] + nums[s] + nums[e];
+                if(sum == 0){
+                    String key = nums[i] + ":" + nums[s] + ":" + nums[e];
+                    if(!set.contains(key)){
+                        list.add(Arrays.asList(nums[i],nums[s],nums[e]));
+                        set.add(key);
+                    } 
+                    s++;
+                    e--;
+                }else if(sum < 0){
+                    s++;
+                }else{
+                    e--;
+                }
+            }
+            i++;
+        }
+        return list;
+    }
+}
 
 
 
