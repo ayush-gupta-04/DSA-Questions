@@ -34,7 +34,7 @@
 - (*)[Two Sum](https://leetcode.com/problems/two-sum/description/)
 - (*)[Two Sum - II input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - (*)[Three Sum](https://leetcode.com/problems/3sum/)⭐
-- (*)[Four Sum](https://leetcode.com/problems/4sum/)⭐
+- (*)[Four Sum](https://leetcode.com/problems/4sum/)
 - [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/description/)
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 
