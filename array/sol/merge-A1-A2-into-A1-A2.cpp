@@ -1,40 +1,33 @@
 // --------------------- Brute-Force Approach ---------------------------
 // TC = min(m + n) + O(mlogm) + O(nlogn).
 // SC = O(1)
-#include<bits/stdc++.h>
-using namespace std;
+import java.util.*;
 
+public class Main {
 
-int main(){
-    vector<int> A1 = {1,2,5,7,9};
-    vector<int> A2 = {3,4,5,10};
-
-    int n = A1.size();
-    int m = A2.size();
-    int i = n-1;
-    int j = 0;
-    while(i >= 0 && j < m){
-        if(A1[i] > A2[j]){
-            A1[i] = A1[i] ^ A2[j];
-            A2[j] = A1[i] ^ A2[j];
-            A1[i] = A1[i] ^ A2[j];
-            i--;
-            j++;
-        }else{
-            break;
+    public static void main(String[] args) {
+        int[] A1 = {1, 2, 5, 7, 9};
+        int[] A2 = {3, 4, 5, 10};
+        int n = A1.length;
+        int m = A2.length;
+        int i = n - 1;     // start from last in A1
+        int j = 0;        // start from first in A2
+        while (i >= 0 && j < m) {
+            if (A1[i] > A2[j]) {
+                // XOR swap
+                A1[i] = A1[i] ^ A2[j];
+                A2[j] = A1[i] ^ A2[j];
+                A1[i] = A1[i] ^ A2[j];
+                i--;
+                j++;
+            } else {
+                break;
+            }
         }
-    }
-
-    sort(A1.begin() , A1.end());
-    sort(A2.begin() , A2.end());
-    for(auto it : A1){
-        cout << it <<' ';
-    }
-    for(auto it : A2){
-        cout << it <<' ';
+        Arrays.sort(A1);
+        Arrays.sort(A2);
     }
 }
-
 
 // ------------------- Optimal-Approach------------------------------------
 // TC = (m + n)log(m + n)
