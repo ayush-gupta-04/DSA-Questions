@@ -53,6 +53,7 @@
 - (*)[Count Inversions](https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/)⭐
 - (*)[Celebrity Problem](https://www.geeksforgeeks.org/problems/the-celebrity-problem/1)
 - (*)[Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)⭐
+- (*)[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)⭐
 
 ## Basic 
 - (*)[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
