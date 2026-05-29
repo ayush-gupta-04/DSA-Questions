@@ -1,3 +1,25 @@
+# Sorting Algos
+### The Fundamentals (Comparison-Based, O(N²))
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+
+### Divide and Conquer (Comparison-Based, O(N log N))
+- Merge Sort
+- Quick Sort
+- Heap Sort
+
+
+### Non-Comparison Based (Linear Time, O(N + K))
+- Counting Sort
+- Radix Sort
+- Bucket Sort
+
+### Extras 
+- Cycle Sort
+- Shell Sort
+
+
 # Questions
 
 ## Counting Sort Problems
