@@ -62,6 +62,7 @@
 - (*)[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 - (*)[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
 - (*)[Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)
+- (*)[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/description/)
 - [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 
 
