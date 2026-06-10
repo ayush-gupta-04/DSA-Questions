@@ -14,8 +14,8 @@
 - (*)[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 - (*)[Same Tree](https://leetcode.com/problems/same-tree/description/)
 - (*)[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
-- (*)[Tree Boundary Traversal](https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1)
-- (*)[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)
+- (*)[Tree Boundary Traversal](https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1)⭐
+- (*)[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)⭐
 - (*)[Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
 - (*)[Bottom View of Binary Tree](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
 - (*)[Left View of Binary Tree](https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
