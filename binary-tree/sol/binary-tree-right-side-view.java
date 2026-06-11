@@ -1,3 +1,4 @@
+// ------------------ Method 1 : BFS ----------------
 // time : N
 // space : N
 
@@ -38,6 +39,37 @@ class Solution {
             }
         }
 
+        return list;
+    }
+}
+
+
+
+// ---------------- Method 2 : DFS --------------
+
+
+// time : N
+// space : logN
+
+// traversal : node -> right -> left.
+// we are greedily adding nodes from the right.
+// if we travel to the left .. we already have added the rightmost from that level..so won't be added.
+class Solution {
+    public void rightView(TreeNode node , int level , List<Integer> list){
+        if(node == null){
+            return;
+        }
+
+        if(level == list.size()){
+            list.add(node.val);
+        }
+
+        rightView(node.right,level + 1,list);
+        rightView(node.left,level + 1,list);
+    }
+    public List<Integer> rightSideView(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        rightView(root,0,list);
         return list;
     }
 }
