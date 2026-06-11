@@ -30,9 +30,9 @@
 - (*)[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
 - (*)[Children Sum in a Binary Tree](https://www.geeksforgeeks.org/problems/children-sum-parent/1)
 - (*)[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)
-- (*)[Burning Tree](https://www.geeksforgeeks.org/problems/burning-tree/1)
 - (*)[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)
 - (*)[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)⭐
 - (*)[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)⭐
 - (*)[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)⭐
 - (*)[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)⭐
+- [Burning Tree](https://www.geeksforgeeks.org/problems/burning-tree/1)
