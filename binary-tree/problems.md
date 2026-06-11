@@ -8,7 +8,8 @@
 # Questions
 ### medium
 - (*)[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- (*)[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
+- (*)[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)⭐
+- (*)[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
 - (*)[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
 - (*)[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)⭐
 - (*)[Same Tree](https://leetcode.com/problems/same-tree/description/)
@@ -27,6 +28,7 @@
 
 ### hard
 - (*)[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)⭐
+- (*)[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)
 - (*)[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
 - (*)[Children Sum in a Binary Tree](https://www.geeksforgeeks.org/problems/children-sum-parent/1)
 - (*)[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)
@@ -35,4 +37,5 @@
 - (*)[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)⭐
 - (*)[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)⭐
 - (*)[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)⭐
+- (*)[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)
 - [Burning Tree](https://www.geeksforgeeks.org/problems/burning-tree/1)
