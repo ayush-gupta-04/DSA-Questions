@@ -3,6 +3,7 @@
 
 // we will have a treemap of col -> node.
 // we want top nodes .. therefore we processed nodes from top to bottom..level wise.
+// if i have mapped col -> node1 .. i will not map col to any other node ... because they will be at the bottom 100% sure.
 
 class Data{
     Node node;
