@@ -17,6 +17,7 @@
 - (*)[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)⭐
 - (*)[Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
 - (*)[Right View of Binary Tree](https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1)
+- (*)[Path Sum](https://leetcode.com/problems/path-sum/)
 - [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
 - [Bottom View of Binary Tree](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
 - [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75)
