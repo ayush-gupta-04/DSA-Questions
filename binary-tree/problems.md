@@ -1,6 +1,6 @@
 # Traversal
-- (*)[Pre-Order (Recursive | Iterative)](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
-- (*)[In-Order (Recursive | Iterative)](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
+- (*)[Pre-Order (Recursive | Iterative | Morris Traversal)](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
+- (*)[In-Order (Recursive | Iterative | Morris Traversal)](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
 - (*)[Post-Order (Recursive | Iterative)](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
 - (*)[In-Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
 - (*)[Preorder, Inorder, and Postorder Traversal in one Traversal](https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal)
