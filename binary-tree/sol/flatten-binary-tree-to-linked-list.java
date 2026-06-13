@@ -44,3 +44,40 @@ class Solution {
         prev = root;
     }
 }
+
+
+
+// -------------------- Approach : Using Morris Traversal ---------------------
+
+// time : N
+// space : 1
+
+//         1
+//       /   \
+//      2     5
+//     / \     \
+//    3   4     6
+
+// Using the morris traversal.
+// if i am at 1,
+// - i will connect leftSubtree's 4 to the 5.
+// - then 1's right will become leftSubtree.
+// - will move to right.
+
+class Solution {
+    public void flatten(TreeNode root) {
+        TreeNode curr = root;
+        while(curr != null){
+            if(curr.left != null){
+                TreeNode prev = curr.left;
+                while(prev.right != null){
+                    prev = prev.right;
+                }
+                prev.right = curr.right;
+                curr.right = curr.left;
+                curr.left = null;
+            }
+            curr = curr.right;
+        }
+    }
+}
