@@ -1,6 +1,5 @@
 ## Questions
 - (*)[Ceil in BST](https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1)
-- (*)[Floor in BST](https://www.geeksforgeeks.org/problems/closest-neighbor-in-bst/1)
 - (*)[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)
 - (*)[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)
 - (*)[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
@@ -15,3 +14,4 @@
 - (*)[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)
 - (*)[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)
 - (*)[Largest BST in BT](https://www.geeksforgeeks.org/problems/largest-bst/1)
+- [Floor in BST](https://www.geeksforgeeks.org/problems/closest-neighbor-in-bst/1)
