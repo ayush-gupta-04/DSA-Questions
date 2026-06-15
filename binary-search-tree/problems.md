@@ -11,6 +11,6 @@
 - (*)[Merge two BST 's](https://www.geeksforgeeks.org/problems/merge-two-bst-s/1)
 - (*)[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)⭐
 - (*)[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)
-- (*)[Largest BST in BT](https://www.geeksforgeeks.org/problems/largest-bst/1)
+- (*)[Largest BST in BT](https://www.geeksforgeeks.org/problems/largest-bst/1)⭐
 - [Floor in BST](https://www.geeksforgeeks.org/problems/closest-neighbor-in-bst/1)
 - [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)
