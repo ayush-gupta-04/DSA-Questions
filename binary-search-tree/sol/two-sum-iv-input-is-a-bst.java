@@ -1,3 +1,22 @@
+// ------------------ Brute-force -----------------
+// time : 
+// - N : inorder traversal.
+// - N*logN : sorting the inorder array.
+// - N : 2 pointer method.
+
+// space : 
+// - N : inorder array.
+
+// - do a inorder traversal.
+// - sort the array.
+// - apply 2 sum.
+
+
+
+
+
+// --------------------- Optimal Appraoch -------------------------
+
 // time : N
 // space : 2*H
 // - H for stack size...which will store a max of height.
