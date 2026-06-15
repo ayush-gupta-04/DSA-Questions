@@ -1,9 +1,9 @@
 ## Questions
 - (*)[Ceil in BST](https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1)
 - (*)[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)⭐
-- (*)[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)
+- (*)[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)⭐
 - (*)[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
-- (*)[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
+- (*)[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)⭐
 - (*)[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
 - (*)[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)
 - (*)[Inorder Successor in BST](https://www.geeksforgeeks.org/problems/inorder-successor-in-bst/1)
