@@ -1,6 +1,6 @@
 ## Questions
 - (*)[Ceil in BST](https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1)
-- (*)[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)
+- (*)[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)⭐
 - (*)[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)
 - (*)[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
 - (*)[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
