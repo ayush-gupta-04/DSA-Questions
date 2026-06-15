@@ -7,7 +7,7 @@
 - (*)[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)⭐
 - (*)[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)⭐
 - (*)[Inorder Successor in BST](https://www.geeksforgeeks.org/problems/inorder-successor-in-bst/1)
-- (*)[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)
+- (*)[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)⭐
 - (*)[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)
 - (*)[Merge two BST 's](https://www.geeksforgeeks.org/problems/merge-two-bst-s/1)
 - (*)[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)
