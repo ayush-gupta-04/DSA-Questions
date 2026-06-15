@@ -4,7 +4,7 @@
 - (*)[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)⭐
 - (*)[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
 - (*)[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)⭐
-- (*)[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
+- (*)[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)⭐
 - (*)[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)
 - (*)[Inorder Successor in BST](https://www.geeksforgeeks.org/problems/inorder-successor-in-bst/1)
 - (*)[Inorder Predecessor and Successor in BST](https://www.geeksforgeeks.org/problems/predecessor-and-successor/1)
