@@ -5,6 +5,7 @@
 - (*)[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
 - (*)[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)⭐
 - (*)[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)⭐
+- (*)[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 - (*)[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)⭐
 - (*)[Inorder Successor in BST](https://www.geeksforgeeks.org/problems/inorder-successor-in-bst/1)
 - (*)[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)⭐
