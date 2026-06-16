@@ -40,3 +40,17 @@
 - Space : 2*V
   - V for visited array.
   - V for recursive stack in the worst case.
+
+
+### Topological Sort
+##### (Kahn's Algorithm -- BFS)
+- Time : V + E
+  - same as BFS
+- Space : 2*V
+  - same as BFS
+
+##### (DFS)
+- Time : V + E
+  - same as DFS
+- Space : 2*V
+  - same as DFS
