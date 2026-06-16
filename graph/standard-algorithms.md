@@ -3,5 +3,5 @@
   - using BFS
   - using DFS
 - Cycle Detection in Directed Graph
-  - using BFS
+  - using BFS : Khan's Algorithm
   - using DFS
