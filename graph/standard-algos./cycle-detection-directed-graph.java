@@ -1,6 +1,6 @@
 // --------------------------- BFS : Topo Sort --------------------------
-// time : 
-// space : 
+// time : V + E
+// space : 2*V
 
 // Intuition : 
 // - If i apply topo sort in DAG, i will visit every node.
@@ -11,10 +11,9 @@
 // Step 3: Process vertices from the queue
 //     // Reduce the in-degree of all adjacent neighbors
 //     // If in-degree becomes 0, add it to the queue
-//  // Step 4: If visited count doesn't equal total vertices, there's a cycle!
+//  // Step 4: If visited count doesn't equal total vertices, there's a cycle.
 
 public class Main{
-
     // it will take care of the dis-connected components.
     public boolean hasCycle(List<List<Integer>> adj , int V) {
         int[] inDegree = new int[V];
