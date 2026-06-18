@@ -21,8 +21,8 @@
 ## DFS
 - (*)[Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - (*)[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)
-- [Flood Fill](https://leetcode.com/problems/flood-fill/description/)
-- [Surrounded Region](https://leetcode.com/problems/surrounded-regions/description/)
+- (*)[Flood Fill](https://leetcode.com/problems/flood-fill/description/)
+- (*)[Surrounded Region](https://leetcode.com/problems/surrounded-regions/description/)
 - [Most Profitable Path In A Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree)
 
 
