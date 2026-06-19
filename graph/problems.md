@@ -5,9 +5,9 @@
 - (*)[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)⭐
 - (*)[Word Ladder](https://leetcode.com/problems/word-ladder/description/)⭐
 - (*)[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)⭐
-- (*)[Open The Lock](https://leetcode.com/problems/open-the-lock/)⭐
 - (*)[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 - [Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
+- [Open The Lock](https://leetcode.com/problems/open-the-lock/)
 - [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [Find The Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)
 - [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv)
