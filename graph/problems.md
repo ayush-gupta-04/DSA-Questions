@@ -4,7 +4,7 @@
 - (*)[01 Matrix](https://leetcode.com/problems/01-matrix/)
 - (*)[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)⭐
 - (*)[Word Ladder](https://leetcode.com/problems/word-ladder/description/)⭐
-- (*)[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)
+- (*)[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)⭐
 - (*)[Open The Lock](https://leetcode.com/problems/open-the-lock/)⭐
 - (*)[Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 - [Snake And Ladder](https://leetcode.com/problems/snakes-and-ladders)
