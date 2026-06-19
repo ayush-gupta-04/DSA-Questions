@@ -1,7 +1,25 @@
 ### Standard Algorithms
+- BFS
+- DFS
 - Cycle Detection in Undirected Graph
   - using BFS
   - using DFS
 - Cycle Detection in Directed Graph
   - using BFS : Khan's Algorithm
   - using DFS
+- Topo Sort
+  - Using DFS
+  - Using Khan's Algorithm
+- Shortest Path
+  - Un-Directed Graph Unit-Weight
+  - DAG
+  - Dijkistra's Algorithm
+  - Bellman Ford Algorithm
+  - Floyd Warshall Algorithm
+- Minimum Spanning Tree
+  - Prim's Algorithm
+  - Krushkal Algorithm
+- Bridges in Graph
+- Articulation Point in Graph
+- Strongly Connected Components (Kosaraju's Algorithm)
+- Eulerian Circuit
