@@ -35,7 +35,7 @@
 
 ## TOPO SORT
 - (*)[Course Schedule](https://leetcode.com/problems/course-schedule/)
-- (*)[Alien Dictionary](https://www.geeksforgeeks.org/problems/alien-dictionary/1)
+- (*)[Alien Dictionary](https://www.geeksforgeeks.org/problems/alien-dictionary/1)⭐
 - (*)[Find Eventual Safe State](https://leetcode.com/problems/find-eventual-safe-states/)⭐
 - (*)[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)⭐
 - (*)[Longest Increasing Path in a Grid](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)⭐
