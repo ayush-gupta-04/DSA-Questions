@@ -31,6 +31,10 @@
 //     - If graph has -ve weights .. There will always be a shorter path for a node.
 //     - Dijkistra will run forever.
 
+// IMP points : 
+// - we can also use Queue here .. but PQ ensures that we take the min of the distances.
+// - PQ let us choose greedily .. avoiding the useless relaxations if used Queue.
+
 
 public class StandardDijkstra {
     static class Pair {
