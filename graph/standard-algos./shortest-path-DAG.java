@@ -6,6 +6,12 @@
 // - V : queue.
 // - V : dist
 
+// Intution : 
+// - 0 -> 2
+// - 1 -> 2
+// - To find the shortest dist of 2 .. it would be best if we know the shotest dist of 0 and 1 first.
+// - If we process nodes in TOPO order .. it would be best.
+
 
 // Algo : 
 // find topo order.
