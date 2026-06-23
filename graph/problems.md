@@ -68,22 +68,22 @@
 - (*)[Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/description/)⭐
 - [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 
+## Minimum Spanning Tree
+- (*)[Prim's Algorithm]⭐
+- (*)[Krushkal's Algorithm]⭐
+- (*)[Minimum cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
+- (*)[Optimize Water Distribution in A Village](https://www.geeksforgeeks.org/dsa/minimum-cost-to-provide-water/)
+
+## Bridges in Graph
+- (*)[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)⭐
+## Articulation Point in Graph
+- (*)[Articulation Point in Graph]⭐
+ ## Kosaraju Algo (Strongly Connected Components)
+- (*)[Strongly Connected Components](https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1)⭐
 
 ## Eulerian Circuit
 - (*)[Valid Arrangement Of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)⭐
 - (*)[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)⭐
-
-## Bridges in Graph
-- (*)[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)⭐
-
-
- ## Kosaraju Algo (Strongly Connected Components)
-- (*)[Strongly Connected Components](https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1)⭐
-
-
-## Minimum Spanning Tree
-- (*)[Minimum cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
-- (*)[Optimize Water Distribution in A Village](https://www.geeksforgeeks.org/dsa/minimum-cost-to-provide-water/)
 
 ## Other Problems.
 - (*)[Clone Graph](https://leetcode.com/problems/clone-graph/)⭐
