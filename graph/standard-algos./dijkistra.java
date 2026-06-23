@@ -1,9 +1,11 @@
 // ------------- best case ----------------
-// The graph is sparse.
+// - The graph is sparse. E ~ V
+// - heap operation : log(heap-size) = log(E) = log(V)
 
-// time : (V + E)*logV 
-// - Extracting the minimum element from the PQ takes logV , done V times ... so V*logV
-// - Inserting a relaxed path state into the PQ takes logV , done E times ... so E*logV
+// Standard time : (vertex + edges)*log(heap-size)
+// time : (V + E)*logV
+// - Extracting the minimum element from the PQ takes log(heap-size) , done V times ... so V*log(heap-size)  .. so V*log(V)
+// - Inserting a relaxed path state into the PQ takes log(heap-size) , done E times ... so E*log(heap-size)  .. so E*log(V)
 // space : V + E
 // - V : distance[], vis[].
 // - E : size of PQ .. worst case it will have all the edges.
@@ -11,11 +13,13 @@
 
 
 // ---------- worst case --------------
-// The graph is dense, E = V²
+// - The graph is dense, E = V²
+// - heap operation : log(heap-size) = log(E) = log(V²) = 2*log(V) = O(log(V))
 
-// time : (V²)*logV 
-// - Extracting the minimum element from the PQ takes logV , done V times ... so V*logV
-// - Inserting a relaxed path state into the PQ takes logV , done E times ... so (V²)*logV
+// Standard time : (vertex + edges)*log(heap-size)
+// time : (E)*log(V)   ... where E = V²
+// - Extracting the minimum element from the PQ takes log(heap-size) , done V times ... so V*log(heap-size)  .. so V*log(V)
+// - Inserting a relaxed path state into the PQ takes log(heap-size) , done E times ... so (E)*log(heap-size)  .. so E*log(V)
 // space : V + V²
 // - V : distance[], vis[].
 // - V² : size of PQ .. worst case it will have all the edges.
@@ -44,7 +48,6 @@ public class StandardDijkstra {
         int INF = 1_000_000_00;
         int[] distance = new int[V];
         Arrays.fill(distance, INF);
-        boolean[] vis = new boolean[V];
         PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.distance, b.distance));
 
         distance[source] = 0;
@@ -55,9 +58,6 @@ public class StandardDijkstra {
             int node = curr.node;
             int dist = curr.distance;
 
-            // If we have already finalized the shortest path for this node .. skip it.
-            if (vis[node]) continue;
-            vis[node] = true;
 
             for (Pair neigh : graph.get(node)) {
                 int v = neigh.node;
