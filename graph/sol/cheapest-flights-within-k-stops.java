@@ -3,10 +3,18 @@
 
 // If we apply dijkistras using PQ : 
 //   - we would end up choosing the smallest path to dest but will voilate the K stops criteria.
+//      
+// src ----A------> inter    .. cost 10 , stops 2
+// src ----B------> inter    .. cost 6 , stops 5
+// 
+// - Dijkistra would conisder path B first .. and it may violate the K stops criteria. It won't allow path A to be explored then.
+// - If we would have conidered path A first, then K stops criteria would be satisfied.
+
 
 // - We first satisfy the K stops criteria.
 // - We must use a modified version of Dijkistra.
-// - we will use queue instead of a PQ .. it will make sure we only go upto K stops.
+// - we will use queue instead of a PQ .. will explore level by level .. it will make sure we only go upto K stops.
+// - we don't use a vis[] because we can explore same node twice with smaller distances.
 
 
 class Solution {
