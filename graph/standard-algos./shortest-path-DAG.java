@@ -1,4 +1,6 @@
-// time : standard BFS + edge relaxation.
+// time : 2*(V + E)  standard BFS + edge relaxation.
+// - one for topo sort.
+// - one for finding dist of neigh.
 // space : 3V
 // - V : inDegree.
 // - V : queue.
