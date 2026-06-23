@@ -69,8 +69,8 @@
 - [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 
 ## Minimum Spanning Tree
-- (*)[Prim's Algorithm]⭐
-- (*)[Krushkal's Algorithm]⭐
+- (*)[Minimum Spanning Tree | Prim's Algorithm](https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1)⭐
+- (*)[Minimum Spanning Tree | Krushkal's Algorithm](https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1)⭐
 - (*)[Minimum cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
 - (*)[Optimize Water Distribution in A Village](https://www.geeksforgeeks.org/dsa/minimum-cost-to-provide-water/)
 
