@@ -47,9 +47,9 @@
 - (*)[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)⭐
 - (*)[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/)⭐
 - (*)[Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)⭐
-- (*)[Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 - (*)[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
 - (*)[Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+- [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 - [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
 - [Minimum Cost to make at least one valid path in a grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid)
 - [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i)
