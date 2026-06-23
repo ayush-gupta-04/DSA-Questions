@@ -7,10 +7,15 @@
 // - V : dist
 
 
-
+// Algo : 
 // find topo order.
 // take out nodes in topo order.
 // relax their neigh.
+
+// Pitfalls : 
+// - This algorithm only works if the graph is a DAG.
+// - A node could be unreachable from source dist will be Integer.MAX_VALUE. 
+// - Always verify that distance[curr] != Integer.MAX_VALUE before relaxing its neighbors to avoid integer overflow.
 public class ShortestPathDAG {
     static class Edge {
         int target;
