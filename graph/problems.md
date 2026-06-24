@@ -74,12 +74,10 @@
 - (*)[Minimum cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
 - (*)[Optimize Water Distribution in A Village](https://www.geeksforgeeks.org/dsa/minimum-cost-to-provide-water/)
 
-## Bridges in Graph
-- (*)[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)⭐
-## Articulation Point in Graph
+## Other-Algorithms
+- (*)[Bridges in Graph || Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)⭐
 - (*)[Articulation Point in Graph](https://www.geeksforgeeks.org/problems/articulation-point-1/1)⭐
- ## Kosaraju Algo (Strongly Connected Components)
-- (*)[Strongly Connected Components](https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1)⭐
+- (*)[Kosaraju Algorithm || Strongly Connected Components](https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1)⭐
 
 ## Eulerian Circuit
 - (*)[Valid Arrangement Of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs)⭐
