@@ -63,18 +63,19 @@ public class ShortestPathDAG {
         }
 
         // Step 3: Initialize distances array with Infinity
+        int INF = 1_000_000_000;
         int[] distance = new int[V];
-        Arrays.fill(distance, Integer.MAX_VALUE);
+        Arrays.fill(distance, INF);
         distance[source] = 0; // Distance to self is 0
 
         // Step 4: Process nodes in Topological Order
         for (int curr : topoOrder) {
             // Process neighbors only if the current node is reachable from the source
-            if (distance[curr] != Integer.MAX_VALUE) {
-                for (Edge edge : graph.get(curr)) {
-                    if (distance[curr] + edge.weight < distance[edge.target]) {
-                        distance[edge.target] = distance[curr] + edge.weight;
-                    }
+            if(distance[curr] == INF) continue;
+            
+            for (Edge edge : graph.get(curr)) {
+                if (distance[curr] + edge.weight < distance[edge.target]) {
+                    distance[edge.target] = distance[curr] + edge.weight;
                 }
             }
         }
