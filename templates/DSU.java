@@ -1,7 +1,8 @@
-class DS{
-        int[] size;
-        int[] parent;
-        public DS(int n){
+class DSU{
+        private int[] size;
+        private int[] parent;
+        
+        public DSU(int n){
             this.size = new int[n+1];
             this.parent = new int[n+1];
             for(int i = 0;i <= n;i++){
@@ -14,11 +15,14 @@ class DS{
             if(u == this.parent[u]){
                 return u;
             }
-            return this.parent[u] = findParent(parent[u]);
+            return this.parent[u] = this.findParent(parent[u]);
         }
 
         public int parent(int u){
             return this.parent[u];
+        }
+        public int size(int u){
+            return this.size[u];
         }
 
         public void union(int u , int v){
