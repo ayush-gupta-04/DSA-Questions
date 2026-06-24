@@ -20,9 +20,10 @@
 // time : (E)*log(V)   ... where E = V²
 // - Extracting the minimum element from the PQ takes log(heap-size) , done V times ... so V*log(heap-size)  .. so V*log(V)
 // - Inserting a relaxed path state into the PQ takes log(heap-size) , done E times ... so (E)*log(heap-size)  .. so E*log(V)
-// space : V + V²
+// - (E + V)log(V) = (E)log(V) .. since E will dominate here.
+// space : V + E
 // - V : distance[], vis[].
-// - V² : size of PQ .. worst case it will have all the edges.
+// - E : size of PQ .. worst case it will have all the edges.
 
 
 // Common Pitfalls & Exceptions
