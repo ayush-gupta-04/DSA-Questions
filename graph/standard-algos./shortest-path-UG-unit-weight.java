@@ -17,12 +17,12 @@ public class ShortestPathBFS {
         queue.offerLast(source);
         
         while (!queue.isEmpty()) {
-            int currNode = queue.pollFirst();
+            int node = queue.pollFirst();
             
-            for (int neighbor : graph.get(currNode)) {
-                if (distance[neighbor] == -1) {  // If distance is -1, it means this node is UNVISITED
-                    distance[neighbor] = distance[currNode] + 1;
-                    queue.offerLast(neighbor);
+            for (int neigh : graph.get(node)) {
+                if (distance[neigh] == -1) {  // If distance is -1, it means this node is UNVISITED
+                    distance[neigh] = distance[node] + 1;
+                    queue.offerLast(neigh);
                 }
             }
         }
