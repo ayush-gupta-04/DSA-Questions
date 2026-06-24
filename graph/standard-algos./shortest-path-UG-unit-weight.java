@@ -1,7 +1,8 @@
-// time : BFS standard
-// space : BFS standard
+// time : (V + E)  BFS standard
+// space : (V) BFS standard
 
 // The first time we visit a node .. it's with the shortest path.
+// we don't need a vis[], we will use dist[] to also check if vis or !vis
 import java.util.*;
 
 public class ShortestPathBFS {
