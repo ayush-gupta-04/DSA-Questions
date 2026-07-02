@@ -15,13 +15,13 @@
 - (*)[Ninja Training](https://www.geeksforgeeks.org/problems/geeks-training/1)
 - (*)[Unique Paths](https://leetcode.com/problems/unique-paths/description/)
 - (*)[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
-- (*)[Cherry Pickup I](https://leetcode.com/problems/cherry-pickup/description/)
 - (*)[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)
 - (*)[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)
 - (*)[Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/)
 - [Triangle](https://leetcode.com/problems/triangle/description/)
 - [Unique Paths 2](https://leetcode.com/problems/unique-paths-ii/description/)
 - [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)
+- [Cherry Pickup I](https://leetcode.com/problems/cherry-pickup/description/)
 - [Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)
 
 
