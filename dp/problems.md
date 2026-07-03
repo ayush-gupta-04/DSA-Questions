@@ -27,7 +27,7 @@
 
 
 ### Knapsack DP
-- [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
+- (*)[Subset Sum Equals K](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1)
 - (*)[Partition Sub-Set With Minimal Absolute Diff](https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16)
 - [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
 - (*)[Count Sub-Set Sum Equals K](https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17)
@@ -37,6 +37,7 @@
 - (*)[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
 - [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
 - (*)[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/description/)
+- [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
 - [Painting The Walls](https://leetcode.com/problems/painting-the-walls/)
 - [Filling BookCase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/description/)
 
