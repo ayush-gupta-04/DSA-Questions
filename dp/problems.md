@@ -37,10 +37,10 @@
 - (*)[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/description/)
 - [Count Partition With Given Difference D](https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18)
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
-- [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
 - [Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
 - [Painting The Walls](https://leetcode.com/problems/painting-the-walls/)
 - [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
+- [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
 - [Filling BookCase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/description/)
 
 
