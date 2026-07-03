@@ -28,7 +28,7 @@
 
 ### Knapsack DP
 - (*)[Subset Sum Equals K](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1)
-- (*)[Partition Sub-Set With Minimal Absolute Diff](https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16)
+- (*)[Partition Sub-Set With Minimal Absolute Diff](https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1)
 - (*)[Count Sub-Set Sum Equals K](https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17)
 - [Count Partition With Given Difference D](https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18)
 - (*)[Target Sum](https://leetcode.com/problems/target-sum/description/)
