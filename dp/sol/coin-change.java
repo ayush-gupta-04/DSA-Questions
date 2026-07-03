@@ -6,17 +6,17 @@
 
 class Solution {
     int INF = 1_000_000_000;
-    int fun(int i , int amt , int[] nums){
-        if(amt == 0) return 0;
+    int fun(int i , int a , int[] nums){
+        if(a == 0) return 0;
         if(i == 0){
-            if(amt % nums[0] == 0) return amt / nums[0];
+            if(a % nums[0] == 0) return a / nums[0];
             else return INF;
         }
 
-        int nt = fun(i - 1 , amt , nums);
+        int nt = fun(i - 1 , a , nums);
         int t = INF;
-        if(amt >= nums[i]){
-            t = 1 + fun(i , amt - nums[i],nums);  // take it and stay here.
+        if(a >= nums[i]){
+            t = 1 + fun(i , a - nums[i],nums);  // take it and stay here.
         }
         return Math.min(t , nt);
     }
@@ -37,24 +37,24 @@ import java.util.Arrays;
 class Solution {
     int INF = 1_000_000_000;
     
-    int fun(int i, int amt, int[] nums, int[][] dp) {
-        if (amt == 0) return 0;
+    int fun(int i, int a, int[] nums, int[][] dp) {
+        if (a == 0) return 0;
         if (i == 0) {
-            if (amt % nums[0] == 0) return amt / nums[0];
+            if (a % nums[0] == 0) return a / nums[0];
             return INF;
         }
 
         // 1. Check if already calculated
-        if (dp[i][amt] != -1) return dp[i][amt];
+        if (dp[i][a] != -1) return dp[i][a];
 
-        int nt = fun(i - 1, amt, nums, dp);
+        int nt = fun(i - 1, a, nums, dp);
         int t = INF;
-        if (amt >= nums[i]) {
-            t = 1 + fun(i, amt - nums[i], nums, dp);  // take it and stay here.
+        if (a >= nums[i]) {
+            t = 1 + fun(i, a - nums[i], nums, dp);  // take it and stay here.
         }
         
         // 2. Store and return the result
-        return dp[i][amt] = Math.min(t, nt);
+        return dp[i][a] = Math.min(t, nt);
     }
     
     public int coinChange(int[] nums, int amt) {
@@ -72,6 +72,14 @@ class Solution {
 
 
 // -------------------------- tab -----------------------
+
+// main loop :
+// i : n-1 -> 0    ... 0 -> n-1
+// a : amt -> 0    ... 0 -> amt
+
+// inner for loop : 
+// i : 1 -> n-1
+// a : 1 -> amt
 
 class Solution {
     int INF = 1_000_000_000;
