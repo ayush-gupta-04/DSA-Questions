@@ -32,6 +32,8 @@
 - (*)[Count Sub-Set Sum Equals K](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1)
 - (*)[Target Sum](https://leetcode.com/problems/target-sum/description/)
 - (*)[Coin Change](https://leetcode.com/problems/coin-change/description/)
+- (*)[Knapsack with Duplicate Items](https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1)
+- (*)[Rod Cutting Problem](https://www.geeksforgeeks.org/problems/rod-cutting0840/1)
 - (*)[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/description/)
 - [Count Partition With Given Difference D](https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18)
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
