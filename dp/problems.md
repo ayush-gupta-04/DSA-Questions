@@ -31,14 +31,14 @@
 - (*)[Partition Sub-Set With Minimal Absolute Diff](https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1)
 - (*)[Count Sub-Set Sum Equals K](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1)
 - (*)[Target Sum](https://leetcode.com/problems/target-sum/description/)
-- [Coin Change](https://leetcode.com/problems/coin-change/description/)
+- (*)[Coin Change](https://leetcode.com/problems/coin-change/description/)
 - (*)[Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
-- [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
 - (*)[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/description/)
 - [Count Partition With Given Difference D](https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18)
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
 - [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
 - [Painting The Walls](https://leetcode.com/problems/painting-the-walls/)
+- [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
 - [Filling BookCase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/description/)
 
 
