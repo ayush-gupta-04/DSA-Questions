@@ -47,6 +47,49 @@ class Solution {
 }
 
 
+
+// ----------------- print LCS --------------------
+class Solution {
+    static int lcs(String s1, String s2) {
+        int n = s1.length();
+        int m = s2.length();
+        
+        int[][] dp = new int[n + 1][m + 1];
+        
+        for(int i1 = 1 ; i1 <= n ; i1++){
+            for(int i2 = 1 ;i2 <= m; i2++){
+                if(s1.charAt(i1-1) == s2.charAt(i2-1)){
+                    dp[i1][i2] = 1 + dp[i1-1][i2-1];
+                    continue;
+                }
+                int left = dp[i1][i2-1];
+                int up = dp[i1-1][i2];
+                dp[i1][i2] = Math.max(left , up);
+            }
+        }
+        
+        //printing the LCS.
+       int i1 = n;
+       int i2 = m;
+       List<Character> ans = new ArrayList<>();
+       while(i1 > 0 && i2 > 0){
+           if(s1.charAt(i1 - 1) == s2.charAt(i2 - 1)){
+              ans.add(s1.charAt(i1 - 1));
+              i1--;
+              i2--;
+           }else{ 
+               if(dp[i1 - 1][i2] > dp[i1][i2 - 1]){
+                   i1--;
+               }else{
+                   i2--;
+               }
+           }
+       }
+
+        Collections.reverse(ans);
+    }
+}
+
 // ------------------------ sp opti ------------------
 // time : N x M
 // space : M
