@@ -56,6 +56,7 @@
 
 **Harder**
 - (*)[Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)⭐
+- (*)[Minimum Time to Reach Target With Limited Power](https://leetcode.com/problems/minimum-time-to-reach-target-with-limited-power/description/)
 - (*)[Race Car](https://leetcode.com/problems/race-car/)
 - [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/)
  
