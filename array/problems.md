@@ -50,7 +50,7 @@
 ##### Others
 - (*)[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)⭐
 - (*)[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
-- (*)[Count Inversions](https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/)⭐
+- (*)[Count Inversions](https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1)⭐
 - (*)[Celebrity Problem](https://www.geeksforgeeks.org/problems/the-celebrity-problem/1)
 - (*)[Reverse pairs](https://leetcode.com/problems/reverse-pairs/description/)⭐
 - (*)[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)⭐
