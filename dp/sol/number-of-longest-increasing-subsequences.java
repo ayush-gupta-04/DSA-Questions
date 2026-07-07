@@ -1,7 +1,7 @@
 // ------------------------------------ BOTTOM-UP DP ------------------------------------------------------
 // TC -> O(N^2)
 // SC -> O(N)
-// Normally, we solve the Number of LIS using a $O(N^2)$ DP approach. 
+// Normally, we solve the Number of LIS using a O(N^2) DP approach. 
 // We maintain two arrays for an input array nums:
 // dp[i]: The length of the LIS ending at index i.
 // count[i]: The number of LIS ending at index i.
