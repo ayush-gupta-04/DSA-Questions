@@ -58,8 +58,7 @@
 - [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)
 
 ### LIS DP
-- (*)[Longest Increasing Subsequence (DP , N^2 , Binary-Search)](https://leetcode.com/problems/longest-increasing-subsequence/description/)⭐
-- (*)[Print LIS](https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/)⭐
+- (*)[Longest Increasing Subsequence (DP , N^2 , Binary-Search) | Print LIS](https://leetcode.com/problems/longest-increasing-subsequence/description/)⭐
 - (*)[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/)⭐
 - (*)[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 - (*)[Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)
