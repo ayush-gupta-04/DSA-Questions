@@ -35,6 +35,7 @@
 - (*)[Unbounded Knapsack](https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1)
 - (*)[Rod Cutting Problem](https://www.geeksforgeeks.org/problems/rod-cutting0840/1)
 - (*)[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/description/)
+- (*)[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/description/)
 - [Count Partition With Given Difference D](https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18)
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
 - [Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
