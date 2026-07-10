@@ -15,6 +15,7 @@
 - (*)[Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)
 - (*)[LFU Cache](https://leetcode.com/problems/lfu-cache/description/)⭐
 - (*)[LRU Cache](https://leetcode.com/problems/lru-cache/)⭐
+- (*)[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
 - (*)[Decode String](https://leetcode.com/problems/decode-string/description)⭐
 - (*)[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
 - [Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/description/?envType=problem-list-v2&envId=nbefpor5)
