@@ -1,6 +1,15 @@
 // time : logN
 // space : 1
 
+
+// a = 30;
+// b = 4;
+// 30 = 4*q + r
+// 30 = 4*7 + 2
+// 30 = 4*(2^2) + 4*(2^1) + 4*(2^0) + 2;
+//    = 4*4 + 4*2 + 4*1 + 2
+//    = 16  + 8   + 4   + 2
+
 class Solution {
     public int divide(int A, int B) {
         if(A == B) return 1;
