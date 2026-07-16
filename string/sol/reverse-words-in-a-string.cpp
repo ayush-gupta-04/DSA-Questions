@@ -1,31 +1,32 @@
 // TC = O(N)
 // extra SC = O(1)
 class Solution {
-public:
-    string reverseWords(string s) {
-        string ans;
-        int n = s.size();
-        int i = n-1;
+    public String reverseWords(String s) {
+        StringBuilder ans = new StringBuilder();
+        int n = s.length();
+        int i = n - 1;
         int end = -1;
-        while(i >= 0){
-            // if end of word .. mark it ... or just skip it.
-            if(s[i] != ' ' && end == -1){
-                end = i;
-            }  
+        
+        while (i >= 0) {
+            char ch = s.charAt(i);
 
-            // if end of word exist after this... i need to add that word to the ans.
-            else if(s[i] == ' ' && end != -1){
-                ans += s.substr(i + 1 , end - i);
-                ans += " ";
+            if (ch != ' ' && end == -1) {
+                end = i;
+            }
+            else if (ch == ' ' && end != -1) {
+                ans.append(s.substring(i + 1, end + 1)).append(" ");
                 end = -1;
             }
             i--;
         }
-        if(end != -1){
-            ans += s.substr(0 , end + 1);
-            ans += " ";
+        
+        if (end != -1) {
+            ans.append(s.substring(0, end + 1)).append(" ");
         }
-        ans.pop_back();
-        return ans;
+        
+        if (ans.length() > 0) {
+            ans.deleteCharAt(ans.length()-1);
+        }
+        return ans.toString();
     }
-};
+}
