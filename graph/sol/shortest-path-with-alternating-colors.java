@@ -49,7 +49,7 @@ class Solution {
                         distance[v] = dist + 1;
                     }
                     vis[v][nextCol] = true;
-                    q.offer(new int[]{v, nextCol, dist + 1});
+                    q.offerLast(new int[]{v, nextCol, dist + 1});
                 }
             }
         }
