@@ -1,6 +1,7 @@
 # Greedy
 
 - (*)[Assign Cookies](https://leetcode.com/problems/assign-cookies/)
+- (*)[Fractional Knapsack](https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1)
 - (*)[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)
 - (*)[N Meetings in 1-Room](https://takeuforward.org/data-structure/n-meetings-in-one-room/)
 - (*)[Jump Game](https://leetcode.com/problems/jump-game/description/)
