@@ -7,7 +7,7 @@
 - (*)[Maximum Meetings in 1-Room](https://takeuforward.org/data-structure/n-meetings-in-one-room/)
 - (*)[Jump Game](https://leetcode.com/problems/jump-game/description/)
 - (*)[Jump Game 2](https://leetcode.com/problems/jump-game-ii/description/)
-- (*)[Minimum Number of Platforms Required](https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/)
+- (*)[Minimum Number of Platforms Required](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1)
 - (*)[Job Sequencing Problem](https://takeuforward.org/data-structure/job-sequencing-problem/)
 - (*)[Candy](https://leetcode.com/problems/candy/description/)
 - (*)[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)
