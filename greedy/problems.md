@@ -4,7 +4,7 @@
 - (*)[Fractional Knapsack](https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1)
 - (*)[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)
 - (*)[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)
-- (*)[N Meetings in 1-Room](https://takeuforward.org/data-structure/n-meetings-in-one-room/)
+- (*)[Maximum Meetings in 1-Room](https://takeuforward.org/data-structure/n-meetings-in-one-room/)
 - (*)[Jump Game](https://leetcode.com/problems/jump-game/description/)
 - (*)[Jump Game 2](https://leetcode.com/problems/jump-game-ii/description/)
 - (*)[Minimum Number of Platforms Required](https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/)
