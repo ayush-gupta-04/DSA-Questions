@@ -60,6 +60,9 @@ class DoublyLinkedList{
         node.next = null;
         size--;
     }
+    public boolean isEmpty(){
+        return this.size == 0;
+    }
 }
 
 
@@ -78,7 +81,7 @@ class LFUCache {
         keyToNode = new HashMap<>();
     }
 
-    private void updateFreqListMap(Node node){
+    private void putNodeToNextLevel(Node node){
         // AIM :
         // - to delete the node from it's current freq list.
         // - to insert this node into next freq list at the front;
@@ -86,38 +89,40 @@ class LFUCache {
         // ALGO : 
         // - delete the node from it's current freq list.
         // - if node was in minFreqList and now it is empty .. then do minFreq++;
-        // - increment the node's freq.
-        // - take the nextFreqList and insert the node after the head. 
+        // - update the node's freq.
+        // - take the nextDLL and insert the node after the head. 
 
-        freqToDLL.get(node.freq).deleteNode(node);
-        if(node.freq == minFreq && freqToDLL.get(node.freq).size == 0){
+        int currFreq = node.freq;
+        freqToDLL.get(currFreq).deleteNode(node);
+        if(currFreq == minFreq && freqToDLL.get(currFreq).isEmpty()){
             minFreq++;
         }
-        DoublyLinkedList nextFreqList = new DoublyLinkedList();
-        if(freqToDLL.containsKey(node.freq + 1)){
-            nextFreqList = freqToDLL.get(node.freq + 1);
+
+        int nextFreq = currFreq+1;
+        if(!freqToDLL.containsKey(nextFreq)){
+            freqToDLL.put(nextFreq, new DoublyLinkedList());
         }
-        node.freq++;
-        nextFreqList.insertAfterHead(node);
-        freqToDLL.put(node.freq , nextFreqList);
+        DoublyLinkedList nextDLL = freqToDLL.get(nextFreq);
+        node.freq = nextFreq;
+        nextDLL.insertAfterHead(node);
     }
     
     public int get(int key) {
-        // - if key exits .. then updateFreqListMap of this node.
+        // - if key exits .. then putNodeToNextLevel of this node.
         if(keyToNode.containsKey(key)){
             Node node = keyToNode.get(key);
-            updateFreqListMap(node);
+            putNodeToNextLevel(node);
             return node.val;
         }
         return -1;
     }
     
     public void put(int key, int value) {
-        // - if key exits .. then updateFreqListMap of this node.
+        // - if key exits .. then putNodeToNextLevel of this node.
         if(keyToNode.containsKey(key)){
             Node node = keyToNode.get(key);
             node.val = value;
-            updateFreqListMap(node);
+            putNodeToNextLevel(node);
             return;
         }
 
@@ -131,6 +136,7 @@ class LFUCache {
             Node lruNode = list.tail.prev;
             keyToNode.remove(lruNode.key);
             list.deleteNode(lruNode);
+            if(list.isEmpty()) minFreq++;
             size--;
         }
 
@@ -142,14 +148,14 @@ class LFUCache {
         // size++;
 
         minFreq = 1;
-        DoublyLinkedList newDLL = new DoublyLinkedList();
-        if(freqToDLL.containsKey(minFreq)){
-            newDLL = freqToDLL.get(minFreq);
+        if(!freqToDLL.containsKey(minFreq)){
+            freqToDLL.put(minFreq, new DoublyLinkedList());
         }
+        DoublyLinkedList newDLL = freqToDLL.get(minFreq);
+
         Node newNode = new Node(key , value);
         newDLL.insertAfterHead(newNode);
         keyToNode.put(key , newNode);
-        freqToDLL.put(minFreq,newDLL);
         size++;
     }
 }
