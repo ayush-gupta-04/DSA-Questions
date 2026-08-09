@@ -24,11 +24,11 @@
 // - Always verify that distance[curr] != Integer.MAX_VALUE before relaxing its neighbors to avoid integer overflow.
 public class ShortestPathDAG {
     static class Edge {
-        int target;
-        int weight;
-        Edge(int target, int weight) {
-            this.target = target;
-            this.weight = weight;
+        int node;
+        int wt;
+        Edge(int node, int wt) {
+            this.node = node;
+            this.wt = wt;
         }
     }
 
@@ -37,12 +37,12 @@ public class ShortestPathDAG {
         int[] inDegree = new int[V];
         for (int u = 0; u < V; u++) {
             for (Edge edge : graph.get(u)) {
-                inDegree[edge.target]++;
+                inDegree[edge.node]++;
             }
         }
 
         // Step 2: Kahn's Algorithm (BFS) to find Topological Order
-        ArrayDeque<Integer> queue = new ArrayDeque<>();
+        Deque<Integer> queue = new ArrayDeque<>();
         for (int i = 0; i < V; i++) {
             if (inDegree[i] == 0) {
                 queue.offerLast(i);
@@ -55,9 +55,9 @@ public class ShortestPathDAG {
             topoOrder.add(curr);
 
             for (Edge edge : graph.get(curr)) {
-                inDegree[edge.target]--;
-                if (inDegree[edge.target] == 0) {
-                    queue.offerLast(edge.target);
+                inDegree[edge.node]--;
+                if (inDegree[edge.node] == 0) {
+                    queue.offerLast(edge.node);
                 }
             }
         }
@@ -74,8 +74,8 @@ public class ShortestPathDAG {
             if(distance[curr] == INF) continue;
             
             for (Edge edge : graph.get(curr)) {
-                if (distance[curr] + edge.weight < distance[edge.target]) {
-                    distance[edge.target] = distance[curr] + edge.weight;
+                if (distance[curr] + edge.wt < distance[edge.node]) {
+                    distance[edge.node] = distance[curr] + edge.wt;
                 }
             }
         }
