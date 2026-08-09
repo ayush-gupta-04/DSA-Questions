@@ -1,4 +1,8 @@
-import java.util.*;
+// time : E*logE
+// - because we are sorting all the edges.
+// space : V
+// - since we are using DSU
+
 
 class DSU{
     private int[] size;
