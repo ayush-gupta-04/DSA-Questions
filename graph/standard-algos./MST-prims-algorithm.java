@@ -1,6 +1,6 @@
 // time : E*log(E) + E*log(E)
 // - first E*log(E)
-//    - The maximum size of the priority queue can be E.
+//    - The maximum size of the priority queue can be E. (the number of edges)
 //    - Inside the loop, there is a pop operation that will take logE time.
 // - second E*log(E)
 //    - For every neigh node, we need to traverse all its adjacent nodes where the number of nodes can be at most E
