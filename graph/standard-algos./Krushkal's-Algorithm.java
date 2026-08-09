@@ -53,7 +53,7 @@ public class Main {
         int totalWeight = 0;
         DSU ds = new DSU(N);
 
-        Collections.sort(edges , (x,y) -> Integer.compare(x[2], y[2]));
+        Collections.sort(edges , (x,y) -> Integer.compare(x[2], y[2]));  // sort the edges according to the weight.
 
         for(int[] e : edges){
             if(mst.size() == N-1) break;
