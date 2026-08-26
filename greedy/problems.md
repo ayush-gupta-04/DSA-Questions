@@ -7,7 +7,7 @@
 - (*)[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)
 - (*)[Jump Game](https://leetcode.com/problems/jump-game/description/)
 - (*)[Jump Game 2](https://leetcode.com/problems/jump-game-ii/description/)
-- (*)[Job Sequencing Problem](https://takeuforward.org/data-structure/job-sequencing-problem/)
+- (*)[Job Sequencing Problem](https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1)
 - (*)[Candy](https://leetcode.com/problems/candy/description/)
 - (*)[Shortest Job first](https://www.geeksforgeeks.org/problems/shortest-job-first/1)
 - (*)[Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)
