@@ -17,7 +17,7 @@
 - [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/)
 
 ### Interval Problems
-- (*)[Maximum Meetings in 1-Room](https://takeuforward.org/data-structure/n-meetings-in-one-room/)
+- (*)[Maximum Meetings in 1-Room](https://www.geeksforgeeks.org/problems/maximum-meetings-in-one-room/1)
 - (*)[Minimum Number of Platforms Required](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1)
 - (*)[Insert Intervals](https://leetcode.com/problems/insert-interval)⭐
 - (*)[Merge Intervals](https://leetcode.com/problems/merge-intervals)
