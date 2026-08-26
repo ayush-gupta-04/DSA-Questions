@@ -1,5 +1,37 @@
-// If the downhill slope becomes longer than the uphill peak (down > peak), the peak child at the very top needs $1$ extra candy to stay larger than their right neighbor! 
-// 
+// ------------ 2 pass solution -----------
+
+class Solution {
+    public int candy(int[] ratings) {
+        int n = ratings.length;
+        int[] candy = new int[n];
+
+        Arrays.fill(candy, 1);
+
+        for(int i = 1; i < n; i++){
+            if(ratings[i] > ratings[i-1]) candy[i] = candy[i-1]+1;
+        }
+
+        for(int i = n-2 ; i >= 0 ;i--){
+            if(ratings[i] > ratings[i+1] && candy[i] <= candy[i+1]) candy[i] = candy[i+1]+1;
+        }
+
+        int sum = 0;
+
+        for(int a : candy) sum += a;
+
+        return sum;
+    }
+}
+
+
+
+
+
+
+// ----------- 1 Pass Solution -----------------
+
+// If the downhill slope becomes longer than the uphill peak (down > peak), 
+// the peak child at the very top needs $1$ extra candy to stay larger than their right neighbor! 
 
 
 class Solution {
