@@ -29,4 +29,5 @@
   
 
 ### Ad-Hoc
+- (*)[Largest Number](https://leetcode.com/problems/largest-number/)
 - [Minimum Bitwise OR From Grid](https://leetcode.com/problems/minimum-bitwise-or-from-grid/)
