@@ -5,6 +5,7 @@
 - (*)[Frog Jump](https://www.geeksforgeeks.org/problems/geek-jump/1)
 - (*)[House Robber](https://leetcode.com/problems/house-robber/) ⭐
 - (*)[House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- (*)[Painting the Fence](https://www.geeksforgeeks.org/problems/painting-the-fence3727/1)
 - (*)[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)
 - [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/description/)
 - [Delete & Earn](https://leetcode.com/problems/delete-and-earn/)
