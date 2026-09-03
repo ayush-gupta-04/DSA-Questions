@@ -49,7 +49,8 @@
 ### DP on Strings
 - (*)[Longest Common Subsequence ( LCS ) | Print LCS](http://leetcode.com/problems/longest-common-subsequence/description/)⭐
 - (*)[Longest Common Sub-String](https://takeuforward.org/data-structure/longest-common-substring-dp-27)
-- (*)[Longest Palindromic Sub-Sequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
+- (*)[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
+- (*)[Count Palindromic Subsequences](https://www.geeksforgeeks.org/problems/count-palindromic-subsequences/1)
 - (*)[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)⭐
 - (*)[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)
 - (*)[Edit Distance](https://leetcode.com/problems/edit-distance/description/)⭐
