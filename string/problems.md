@@ -21,3 +21,4 @@
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 - [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
