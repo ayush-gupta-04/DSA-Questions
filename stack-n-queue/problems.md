@@ -10,6 +10,7 @@
 - (*)[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)⭐
 - (*)[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/)⭐
 - (*)[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)⭐
+- (*)[First Negative in Windows of Size K](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1)
 - (*)[Remove k Digits](https://leetcode.com/problems/remove-k-digits/)
 - (*)[132 Pattern](https://leetcode.com/problems/132-pattern/description/)
 - (*)[Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)
