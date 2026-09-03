@@ -33,4 +33,5 @@
 - [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
 - [Longest Substring with at most K distinct characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)
 - [Minimum Size SubArray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- [Smallest distinct window](https://www.geeksforgeeks.org/problems/smallest-distant-window3132/1)
 - [Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)
