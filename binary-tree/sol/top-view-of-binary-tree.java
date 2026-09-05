@@ -1,49 +1,60 @@
-// time : NlogN
+// time : N
 // space : N
 
-// we will have a treemap of col -> node.
+// we will have a HashMap of col -> node.
 // we want top nodes .. therefore we processed nodes from top to bottom..level wise.
-// if i have mapped col -> node1 .. i will not map col to any other node ... because they will be at the bottom 100% sure.
 
-class Data{
-    Node node;
-    int row;
-    int col;
-    public Data(Node node , int r, int c){
-        this.node = node;
-        this.row = r;
-        this.col = c;
-    }
-}
 class Solution {
+    // Helper pair without redundant row tracking
+    static class QueueNode {
+        Node node;
+        int col;
+
+        QueueNode(Node node, int col) {
+            this.node = node;
+            this.col = col;
+        }
+    }
+
     public ArrayList<Integer> topView(Node root) {
-        TreeMap<Integer,Integer> colToNode = new TreeMap<>();
-        Deque<Data> q = new ArrayDeque<>();
-        
-        q.offerLast(new Data(root,0,0));
-        
-        while(!q.isEmpty()){
-            Data data = q.pollFirst();
-            Node node = data.node;
-            int row = data.row;
-            int col = data.col;
-            
-            // only map col -> node if mapping is not there.
-            if(!colToNode.containsKey(col)) colToNode.put(col , node.data);
-            
-            if(node.left != null){
-                q.offerLast(new Data(node.left , row + 1 , col-1));
+        ArrayList<Integer> result = new ArrayList<>();
+        if (root == null) return result;
+
+        Map<Integer, Integer> colToNode = new HashMap<>();
+        Deque<QueueNode> queue = new ArrayDeque<>();
+
+        queue.offer(new QueueNode(root, 0));
+
+        int minCol = 0;
+        int maxCol = 0;
+
+        while (!queue.isEmpty()) {
+            QueueNode curr = queue.poll();
+            Node node = curr.node;
+            int col = curr.col;
+
+            // First node to reach a column in BFS is guaranteed to be the top-most
+            if (!colToNode.containsKey(col)) {
+                colToNode.put(col, node.data);
+                minCol = Math.min(minCol, col);
+                maxCol = Math.max(maxCol, col);
             }
-            if(node.right != null){
-                q.offerLast(new Data(node.right , row + 1, col+1));
+
+            if (node.left != null) {
+                queue.offer(new QueueNode(node.left, col - 1));
+            }
+            if (node.right != null) {
+                queue.offer(new QueueNode(node.right, col + 1));
             }
         }
-        
-        ArrayList<Integer> list = new ArrayList<>();
-        for(Map.Entry<Integer,Integer> e : colToNode.entrySet()){
-            list.add(e.getValue());
+
+        // Linear retrieval from leftmost to rightmost column
+        for (int c = minCol; c <= maxCol; c++) {
+            if (colToNode.containsKey(c)) {
+                result.add(colToNode.get(c));
+            }
         }
-        
-        return list;
+
+        return result;
     }
 }
