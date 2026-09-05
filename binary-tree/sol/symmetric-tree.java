@@ -16,6 +16,6 @@ class Solution {
         return symm(p.left , q.right) && symm(p.right , q.left);
     }
     public boolean isSymmetric(TreeNode root) {
-        return symm(root,root);   // call both from the root.
+        return symm(root.left, root.right); 
     }
 }
