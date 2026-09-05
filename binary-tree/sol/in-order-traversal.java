@@ -24,26 +24,28 @@ class Solution {
 
 // simulate recursion using stack.
 
-class Solution {
+public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        Deque<TreeNode> st = new ArrayDeque<>();
-        TreeNode node = root;
+        List<Integer> result = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode curr = root;
 
-        while(true){
-            if(node != null){
-                st.offerLast(node);
-                node = node.left;
-            }else{
-                if(st.isEmpty()) break;
-
-                node = st.pollLast();
-                list.add(node.val);
-                node = node.right;
+        while (curr != null || !stack.isEmpty()) {
+            // Traverse down the left spine, pushing nodes to defer their visit
+            while (curr != null) {
+                stack.push(curr);
+                curr = curr.left;
             }
+
+            // Node has no unvisited left children; process it
+            curr = stack.pop();
+            result.add(curr.val);
+
+            // Shift focus to the right subtree
+            curr = curr.right;
         }
 
-        return list;
+        return result;
     }
 }
 
