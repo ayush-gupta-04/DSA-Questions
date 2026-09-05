@@ -42,3 +42,45 @@ class Solution {
         return merge(list1,list2);
     } 
 }
+
+
+
+
+// ----------- Optimal -----------
+
+public class Solution {
+    public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
+        List<Integer> result = new ArrayList<>();
+        Deque<TreeNode> stack1 = new ArrayDeque<>();
+        Deque<TreeNode> stack2 = new ArrayDeque<>();
+
+        TreeNode curr1 = root1;
+        TreeNode curr2 = root2;
+
+        while (curr1 != null || curr2 != null || !stack1.isEmpty() || !stack2.isEmpty()) {
+            // Push left spine of tree 1
+            while (curr1 != null) {
+                stack1.push(curr1);
+                curr1 = curr1.left;
+            }
+            // Push left spine of tree 2
+            while (curr2 != null) {
+                stack2.push(curr2);
+                curr2 = curr2.left;
+            }
+
+            // Pick the smaller element among the two stack tops
+            if (stack2.isEmpty() || (!stack1.isEmpty() && stack1.peek().val <= stack2.peek().val)) {
+                curr1 = stack1.pop();
+                result.add(curr1.val);
+                curr1 = curr1.right;
+            } else {
+                curr2 = stack2.pop();
+                result.add(curr2.val);
+                curr2 = curr2.right;
+            }
+        }
+
+        return result;
+    }
+}
