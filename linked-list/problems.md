@@ -21,6 +21,7 @@
 
 ### Good Problems
 - (*)[Rotate Linked List](https://leetcode.com/problems/rotate-list/description/)
+- (*)[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
 - (*)[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 - (*)[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 - (*)[Flatten a Linked List](https://takeuforward.org/data-structure/flattening-a-linked-list)
