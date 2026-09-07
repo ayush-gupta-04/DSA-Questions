@@ -59,6 +59,7 @@
 - (*)[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - (*)[Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 - (*)[Move Zeroes To End](https://leetcode.com/problems/move-zeroes/description/)
+- (*)[Set Matrix Zero](https://leetcode.com/problems/set-matrix-zeroes/)
 - (*)[Missing Number](https://leetcode.com/problems/missing-number/description/)
 - (*)[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
 - (*)[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
