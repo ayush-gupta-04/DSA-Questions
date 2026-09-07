@@ -81,7 +81,7 @@
 - [Longest Subsequence With Given Diff](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/)
 
 ## Partition DP
-- (*)[Matrix Chain Multiplication](https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/)⭐
+- (*)[Matrix Chain Multiplication](https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1)⭐
 - (*)[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/)
 - (*)[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)⭐
 - (*)[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)⭐
