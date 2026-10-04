@@ -8,6 +8,8 @@
 // tin[] -> Stores the time of intersion during DFS.
 // low[] -> Minimum low with "ALL" neigh nodes (except parent)
 
+// IF low[neigh] <= tin[node]  .....   I can reach (node or before node) from neigh using any other edge .... not a bridge.
+
 class Solution {
     void findBridgesDFS(int node,int parent, List<List<Integer>> adj, int[] tin, int[] low, int time, List<List<Integer>> ans){
         tin[node] = time;
