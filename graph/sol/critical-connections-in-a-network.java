@@ -4,6 +4,10 @@
 // update low of curr node with "ALL" neigh.
 
 
+// IMP definition
+// tin[] -> Stores the time of intersion during DFS.
+// low[] -> Minimum low with "ALL" neigh nodes (except parent)
+
 class Solution {
     void findBridgesDFS(int node,int parent, List<List<Integer>> adj, int[] tin, int[] low, int time, List<List<Integer>> ans){
         tin[node] = time;
