@@ -107,45 +107,55 @@ class Solution {
 // If the answer is YES, we might be able to do even better! We lower H.
 // If the answer is NO, our H is too strict. We must increase H.
 
-import java.util.Arrays;
-
 class Solution {
-    public int minimumTimeRequired(int[] jobs, int k) {
-        int left = 0;
-        int right = 0;
-        
-        for (int job : jobs) {
-            left = Math.max(left, job);
-            right += job;
+    boolean solve(int i, int[] jobs, int[] workers, int limit){
+        if(i == jobs.length){  // All jobs safely assigned!
+            return true;
         }
-        Arrays.sort(jobs); // Sorting helps with our greedy backwards iteration
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            int[] workers = new int[k];   
-            // Check if 'mid' is a feasible max limit
-            if (canFinish(jobs, workers, jobs.length - 1, mid)) {
-                right = mid; // Try to find a tighter, smaller max time
-            } else {
-                left = mid + 1; // Limit was too strict, increase it
-            }
+
+        for(int k = 0; k < workers.length; k++){
+            if(workers[k] + jobs[i] > limit) continue;
+
+            workers[k] += jobs[i];
+            if(solve(i+1, jobs, workers, limit)) return true;
+            workers[k] -= jobs[i];
+
+            if(workers[k]==0) break;   // symmetric breaking .. if i cannot assign this job to this worker.
+                                       // then no worker ahead can jo this job.
         }
-        return left;
-    }
-    
-    private boolean canFinish(int[] jobs, int[] workers, int jobIndex, int limit) {
-        if (jobIndex < 0) return true; // All jobs safely assigned!
-        for (int i = 0; i < workers.length; i++) {
-            if (workers[i] + jobs[jobIndex] <= limit) {
-                workers[i] += jobs[jobIndex];
-                if (canFinish(jobs, workers, jobIndex - 1, limit)) {
-                    return true;
-                }
-                workers[i] -= jobs[jobIndex]; // backtrack
-            }
-            // Symmetry breaking (same logic as Approach 2)
-            if (workers[i] == 0) break; 
-        }
-        
         return false;
+    }
+    public int minimumTimeRequired(int[] jobs, int k) {
+        int s = -1_000_000_000;
+        int e = 0;
+        for(int a : jobs){
+            e += a;
+            s = Math.max(s, a);
+        }
+
+        Arrays.sort(jobs);
+        rev(jobs);
+        while(s <= e){
+            int m = s + (e-s)/2;
+
+            int[] list = new int[k];
+            if(solve(0, jobs, list, m)){
+                e = m-1;
+            }else{
+                s = m + 1;
+            }
+        }
+        return s;
+    }
+    void rev(int[] nums){
+        int i = 0;
+        int j = nums.length-1;
+        while(i < j){
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+            i++;
+            j--;
+        }
     }
 }
