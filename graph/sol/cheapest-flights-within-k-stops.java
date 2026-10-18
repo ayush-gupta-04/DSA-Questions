@@ -63,3 +63,61 @@ class Solution {
         return costs[dest] == INF ? -1 : costs[dest];
     }
 }
+
+
+
+
+
+
+// ------------------ Optimal Solution -----------------
+// The core intuition behind using Bellman-Ford for this problem comes down to one defining property of the algorithm: 
+// each outer loop iteration calculates the shortest path using exactly one additional edge.
+
+// Here is how that perfectly maps to the "Cheapest Flights" problem:
+
+// 1. Edges Equal Flights
+//     In graph terms, a direct flight between two cities is 1 edge. A journey with 1 stop uses 2 flights (2 edges). 
+//     A journey with k stops uses exactly k + 1 flights. Because the problem restricts us to a maximum of k stops, we only care about paths that are at most k + 1 edges long.
+
+// 2. The Step-by-Step Expansion
+//     Instead of blindly searching the whole graph, Bellman-Ford expands outwards in controlled waves:
+//         Iteration 1: It finds the cheapest price to all cities reachable by 1 direct flight (0 stops).
+//         Iteration 2: It takes the prices from Iteration 1 and checks if it can reach new cities by adding 1 more flight (1 stop).
+//         Iteration k + 1: It finds the cheapest prices using at most k + 1 flights (k stops).
+//     Once the loop runs k + 1 times, you automatically have your answer without needing to keep track of the stop count in a queue.
+
+// 3. Why the temp Array is the Secret Sauce
+//     If you update the main costs array immediately during the loop, you might accidentally chain flights together too quickly. 
+//     For example, if the loop processes A -> B and then immediately processes B -> C, you just traveled 2 edges in a single iteration. This breaks the stop limit.
+//     By calculating the new costs based on the previous iteration's array (costs) and saving them to a new array (temp), 
+//     you ensure that every city only takes exactly one step forward per loop.
+
+
+
+class Solution {
+    public int findCheapestPrice(int n, int[][] flights, int src, int dest, int k) {
+        int[] costs = new int[n];
+        Arrays.fill(costs, 1_000_000_000);
+        costs[src] = 0;
+
+        // Run exactly k + 1 iterations
+        for (int i = 0; i <= k; i++) {
+            // Use a temporary array to prevent using updated costs from the same step
+            int[] temp = Arrays.copyOf(costs, n);
+            
+            for (int[] flight : flights) {
+                int u = flight[0];
+                int v = flight[1];
+                int price = flight[2];
+                
+                // If the source node has been reached, check if we can find a cheaper path
+                if (costs[u] != 1_000_000_000 && costs[u] + price < temp[v]) {
+                    temp[v] = costs[u] + price;
+                }
+            }
+            costs = temp;
+        }
+
+        return costs[dest] == 1_000_000_000 ? -1 : costs[dest];
+    }
+}
