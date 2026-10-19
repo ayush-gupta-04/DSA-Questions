@@ -26,56 +26,58 @@
 
 
 
+import java.util.*;
+
 class Solution {
-public:
-    vector<int> result;
-    void dfs(int node , unordered_map<int,queue<int>>& adj){
-        queue<int>& neigh = adj[node];
-        // pop the neigh and visit the neigh.
-        while(!neigh.empty()){
-            int v = neigh.front();
-            neigh.pop();
-            dfs(v , adj);
+    private List<Integer> result = new ArrayList<>();
+
+    private void dfs(int node, Map<Integer, Deque<Integer>> adj) {
+        Deque<Integer> neigh = adj.get(node);
+        while (neigh != null && !neigh.isEmpty()) {
+            int nextNode = neigh.pollFirst();
+            dfs(nextNode, adj);
         }
-        // postOrder
-        result.push_back(node);
+        result.add(node);
     }
-    vector<vector<int>> validArrangement(vector<vector<int>>& pairs) {
-        unordered_map<int,int> indegree , outdegree;
-        unordered_map<int,queue<int>> adj;
 
-        // Just Deciding the start node.
-        int start = -1;
-        for(auto &it : pairs){
-            int u = it[0];
-            int v = it[1];
-            adj[u].push(v);
-            outdegree[u]++;
-            indegree[v]++;
-            indegree[u] = indegree[u] + 0;     // to have every node in indegree and outdegree.
-            outdegree[v] = outdegree[v] + 0;
+    public int[][] validArrangement(int[][] pairs) {
+        Map<Integer, Deque<Integer>> adj = new HashMap<>();
+        Map<Integer, Integer> inDegree = new HashMap<>();
+        Map<Integer, Integer> outDegree = new HashMap<>();
+
+        // Build adjacency list and track in/out degrees
+        for (int[] pair : pairs) {
+            int u = pair[0];
+            int v = pair[1];
+
+            adj.computeIfAbsent(u, k -> new ArrayDeque<>()).add(v);
+            outDegree.put(u, outDegree.getOrDefault(u, 0) + 1);
+            inDegree.put(v, inDegree.getOrDefault(v, 0) + 1);
         }
 
-        for(auto it : indegree){
-            int node = it.first;
-            if(outdegree[node] == indegree[node] + 1){
-                start = node;
+        // Find starting node: outDegree - inDegree == 1
+        int startNode = pairs[0][0];
+        for (int node : outDegree.keySet()) {
+            if (outDegree.get(node) - inDegree.getOrDefault(node, 0) == 1) {
+                startNode = node;
                 break;
             }
         }
 
-        if(start == -1) {
-            start = pairs[0][0];
+        // Hierholzer's DFS traversal
+        dfs(startNode, adj);
+
+        // Reverse the post-order sequence
+        Collections.reverse(result);
+
+        // Construct edge pairs
+        int n = pairs.length;
+        int[][] ans = new int[n][2];
+        for (int i = 0; i < n; i++) {
+            ans[i][0] = result.get(i);
+            ans[i][1] = result.get(i + 1);
         }
 
-        // ------------------------------------------------
-
-        dfs(start , adj);
-        vector<vector<int>> ans;
-        reverse(result.begin() , result.end());
-        for(int i = 1;i < result.size() ; i++){
-            ans.push_back({result[i-1] , result[i]});
-        }
         return ans;
     }
-};
+}
