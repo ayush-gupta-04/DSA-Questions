@@ -51,7 +51,6 @@
 - (*)[Longest Common Subsequence ( LCS ) | Print LCS](http://leetcode.com/problems/longest-common-subsequence/description/)⭐
 - (*)[Longest Common Sub-String](https://takeuforward.org/data-structure/longest-common-substring-dp-27)
 - (*)[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
-- (*)[Count Palindromic Subsequences](https://www.geeksforgeeks.org/problems/count-palindromic-subsequences/1)
 - (*)[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/description/)⭐
 - (*)[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)
 - (*)[Edit Distance](https://leetcode.com/problems/edit-distance/description/)⭐
@@ -61,6 +60,8 @@
 - [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)
 - [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)
 
+**Harder**
+- (*)[Count Palindromic Subsequences](https://www.geeksforgeeks.org/problems/count-palindromic-subsequences/1)
 
 ### DP on Stocks
 - (*)[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
