@@ -6,6 +6,7 @@
 - (*)[Longest Valid Parenthesis.](https://leetcode.com/problems/longest-valid-parentheses/)
 
 ### Other
+- (*)[Min Stack](https://leetcode.com/problems/min-stack/description/)
 - (*)[Next Greater Element 2](https://leetcode.com/problems/next-greater-element-ii/description/)
 - (*)[Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)⭐
 - (*)[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/)⭐
