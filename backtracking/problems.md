@@ -37,7 +37,6 @@
 - (*)[M-Coloring Problem](https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1)⭐
 - (*)[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)⭐⭐
 - (*)[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/)⭐
-- (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)⭐
 - (*)[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)⭐
 - [Matchstick to Square](https://leetcode.com/problems/matchsticks-to-square/)
 - [24 Game](https://leetcode.com/problems/24-game/)
