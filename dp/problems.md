@@ -98,6 +98,9 @@
 ## Digit DP
 - [Count Numbers With Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
 
+## Bitmask DP
+- (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+
 ## DP on Squares
 - [Maximal Squares](https://leetcode.com/problems/maximal-square/description)
 - [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)
