@@ -17,7 +17,6 @@ class Solution {
                     int nc = j + dc[k];
                     if(!valid(nr,nc,n,m)) continue;
                     if(nums[nr][nc] > nums[i][j]){
-                        // {i,j} -> {nr,nc};
                         indegree[nr][nc]++;
                     }
                 }
@@ -26,39 +25,43 @@ class Solution {
 
 
         Deque<int[]> q = new ArrayDeque<>();
-        
+        int[][] dist = new int[n][m];
         for(int i = 0;i < n;i++){
             for(int j = 0; j< m;j++){
                 if(indegree[i][j] == 0){
-                    // starting point.
-                    q.offerLast(new int[]{i,j,1});
+                    q.offerLast(new int[]{i,j});
+                    dist[i][j] = 1;
                 }
             }
         }
 
-        int maxLen = 0;
         while(!q.isEmpty()){
             int r = q.peekFirst()[0];
             int c = q.peekFirst()[1];
-            int step = q.peekFirst()[2];
             q.pollFirst();
 
-            // System.out.println(r + "-" + c + "-" + step);
-
-            maxLen = Math.max(maxLen , step);
             for(int i = 0;i < 4;i++){
                 int nr = r + dr[i];
                 int nc = c + dc[i];
+
                 if(!valid(nr,nc,n,m)) continue;
+
                 if(nums[nr][nc] > nums[r][c]){
+                    dist[nr][nc] = Math.max(dist[nr][nc], 1 + dist[r][c]);
                     indegree[nr][nc]--;
                     if(indegree[nr][nc]==0){
-                        q.offerLast(new int[]{nr,nc,step+1});
+                        q.offerLast(new int[]{nr,nc});
                     }
                 }
             }
         }
+        int maxLen = 0;
 
+        for(int i = 0;i < n; i++){
+            for(int j=0 ; j< m; j++){
+                maxLen = Math.max(maxLen, dist[i][j]);
+            }
+        }
         return maxLen;
     }
 }
