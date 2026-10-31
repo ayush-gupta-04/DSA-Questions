@@ -43,6 +43,7 @@
 
 **harder**
 - (*)[Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/description/)⭐
+- (*)[Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/)
 
 ## Shortest Path
 - (*)[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)⭐
