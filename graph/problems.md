@@ -80,6 +80,7 @@
 - (*)[Minimum Spanning Tree | Krushkal's Algorithm](https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1)⭐
 - (*)[Minimum cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
 - (*)[Optimize Water Distribution in A Village](https://www.geeksforgeeks.org/dsa/minimum-cost-to-provide-water/)
+- (*)[Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/)⭐
 
 ## Other-Algorithms
 - (*)[Bridges in Graph || Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)⭐
