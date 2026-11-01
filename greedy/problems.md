@@ -21,10 +21,10 @@
 - (*)[Minimum Number of Platforms Required](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1)
 - (*)[Insert Intervals](https://leetcode.com/problems/insert-interval)⭐
 - (*)[Merge Intervals](https://leetcode.com/problems/merge-intervals)
-- (*)[Non-Overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)⭐
 - (*)[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 - (*)[My Calendar I](https://leetcode.com/problems/my-calendar-i/)
 - (*)[My Calendar II](https://leetcode.com/problems/my-calendar-ii/)
+- [Non-Overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)
 - [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)
   
 
