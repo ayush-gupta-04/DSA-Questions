@@ -104,6 +104,7 @@
 - (*)[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)
 - (*)[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)
 - (*)[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)
+- (*)[Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
 
 ## DP on Squares
 - [Maximal Squares](https://leetcode.com/problems/maximal-square/description)
