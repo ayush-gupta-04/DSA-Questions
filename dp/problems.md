@@ -101,6 +101,7 @@
 ## Bitmask DP
 - (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 - (*)[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/)
+- (*)[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)
 
 ## DP on Squares
 - [Maximal Squares](https://leetcode.com/problems/maximal-square/description)
