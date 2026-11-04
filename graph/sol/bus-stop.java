@@ -11,6 +11,27 @@
 // 4. For each bus, we ride it to all of its stops.
 // 5. From those new stops, we catch new buses, and so on, level by level, until we hit the target stop.
 
+
+/*
+ * WHY `visitedBuses` INSTEAD OF ONLY `visitedStops` (Avoiding TLE):
+ *
+ * 1. The Redundant Loop Problem:
+ *    When you board a bus, you can reach ALL of its stops in 1 transfer.
+ *    If you only track `visitedStops`, every stop along that bus will 
+ *    re-trigger and re-scan the entire `routes[busId]` array.
+ *    - Example: Bus 0 has 1,000 stops. 
+ *      When popping stop 1 -> scans all 1,000 stops.
+ *      When popping stop 2 -> re-scans all 1,000 stops again!
+ *      This leads to O(stops * routes) iterations, exploding into TLE.
+ *
+ * 2. Why `visitedBuses` Fixes It:
+ *    - Marking `visitedBuses[busId] = true` guarantees each route array 
+ *      is traversed AT MOST ONCE across the entire BFS.
+ *    - Strictly bounds total traversal to O(sum of all routes[i].length) <= 10^5.
+ *    - A primitive `boolean[]` of size <= 500 is cache-friendly and avoids 
+ *      the heavy Integer autoboxing and hash overhead of 10^6 stop IDs.
+ */
+
 import java.util.*;
 
 class Solution {
