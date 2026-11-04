@@ -1,3 +1,55 @@
+/*
+ * ============================================================================
+ * INTUITION: Two-Level Topological Sort (Macro & Micro Ordering)
+ * ============================================================================
+ * The problem requires two distinct constraints to be satisfied simultaneously:
+ *  1. Micro-level: Item-to-item dependencies (u must appear before v).
+ *  2. Macro-level: Group cohesion (all items in group G must appear contiguously).
+ *
+ * If items in the same group must stay together, then groups themselves have 
+ * dependencies. For instance, if item u (in group A) must come before item v 
+ * (in group B), the entire group A must be scheduled before group B.
+ *
+ * To make this uniform:
+ *  - Treat "ungrouped" items (-1) as individual single-member groups.
+ *  - Decompose the problem into two separate Directed Acyclic Graphs (DAGs):
+ *      1. Group Graph: Orders the groups relative to each other.
+ *      2. Item Graph:  Orders items relative to each other.
+ *
+ * If neither graph has a cycle, we can simply place the ordered items into 
+ * their respective group buckets and output group by group.
+ * ============================================================================
+ * APPROACH:
+ * ============================================================================
+ * 1. Normalize Groups:
+ *    - Assign each item with group[i] == -1 its own unique group ID starting 
+ *      from m, m + 1, ... so every element belongs to an isolated group.
+ *
+ * 2. Build Dual Dependency Graphs:
+ *    - Item Graph:  u -> v for every dependency u in beforeItems[v].
+ *    - Group Graph: group[u] -> group[v] whenever u -> v and group[u] != group[v].
+ *    - Track in-degrees for both graphs.
+ *
+ * 3. Topological Sort (Kahn's Algorithm):
+ *    - Run topological sort on the Item Graph (gives globally valid item order).
+ *    - Run topological sort on the Group Graph (gives valid group order).
+ *    - Cycle check: If sortedItems.size() < n or sortedGroups.size() < totalGroups, 
+ *      a dependency conflict exists; return [].
+ *
+ * 4. Combine / Bucket Placement:
+ *    - Bucket the topologically sorted items by their group ID. Since the items 
+ *      are inserted in topological order, their relative intra-group dependencies 
+ *      are preserved automatically.
+ *    - Traverse the sorted groups in order, appending each group's bucket of 
+ *      items into the final result array.
+ *
+ * Complexity:
+ *  - Time Complexity:  O(V + E) = O(n + m + sum(beforeItems.length))
+ *  - Space Complexity: O(V + E) for graphs, in-degrees, and queue structures.
+ * ============================================================================
+ */
+
+
 
 import java.util.*;
 
@@ -64,7 +116,11 @@ class Solution {
             resultList.addAll(groupToOrderedItems.getOrDefault(groupId, new ArrayList<>()));
         }
 
-        return resultList.stream().mapToInt(Integer::intValue).toArray();
+        int[] arr = new int[resultList.size()];
+        int k = 0;
+        for(int a : resultList) arr[k++] = a;
+
+        return arr;
     }
 
     private List<Integer> topologicalSort(List<List<Integer>> graph, int[] indegree) {
