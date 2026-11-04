@@ -1,4 +1,4 @@
-```
+
 import java.util.*;
 
 class Solution {
@@ -67,13 +67,6 @@ class Solution {
         return resultList.stream().mapToInt(Integer::intValue).toArray();
     }
 
-    /**
-     * Performs a topological sort (Kahn's algorithm) on a given graph.
-     * @param graph The adjacency list of the graph.
-     * @param indegree The in-degree of each node.
-     * @return A list of sorted nodes. If a cycle is detected, the list size
-     * will be smaller than the number of nodes.
-     */
     private List<Integer> topologicalSort(List<List<Integer>> graph, int[] indegree) {
         List<Integer> sortedList = new ArrayList<>();
         Queue<Integer> queue = new LinkedList<>();
@@ -100,5 +93,3 @@ class Solution {
         return sortedList;
     }
 }
-
-```
