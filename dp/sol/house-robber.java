@@ -6,11 +6,9 @@ class Solution {
     int fun(int i , int[] nums){
         if(i == 0) return nums[0];
 
+        int p = nums[i] + (i >= 2 ? fun(i-2 , nums) : 0);
         int np = fun(i-1 , nums);
-        int p = nums[i];
-        if(i >= 2){
-            p += fun(i-2, nums);
-        }
+
         return Math.max(p , np);
     }
     public int rob(int[] nums) {
@@ -27,14 +25,11 @@ class Solution {
 class Solution {
     int fun(int i , int[] nums, int[] dp){
         if(i == 0) return nums[0];
-
         if(dp[i] != -1) return dp[i];
 
+        int p = nums[i] + (i >= 2 ? fun(i-2 , nums, dp) : 0);
         int np = fun(i-1 , nums, dp);
-        int p = nums[i];
-        if(i >= 2){
-            p += fun(i-2, nums, dp);
-        }
+
         return dp[i] = Math.max(p , np);
     }
     public int rob(int[] nums) {
@@ -44,7 +39,6 @@ class Solution {
         return fun(n-1 , nums , dp);
     }
 }
-
 
 
 
@@ -68,12 +62,9 @@ class Solution {
         int[] dp = new int[n];
         dp[0] = nums[0];
         for(int i = 1 ;i < n;i++){
+            int p = nums[i] + (i >= 2 ? dp[i-2] : 0);
             int np = dp[i-1];
-            int p = nums[i];
-            if(i >= 2){
-                p += dp[i-2];
-            }
-            dp[i] = Math.max(p, np);
+            dp[i] = Math.max(p , np);
         }
         return dp[n-1];
     }
@@ -95,21 +86,13 @@ class Solution {
         int a = 0;
         int b = nums[0];
         for(int i = 1 ;i < n;i++){
+            int p = nums[i] + (i >= 2 ? a : 0);
             int np = b;
-            int p = nums[i];
-            if(i >= 2){
-                p += a;
-            }
-
             int c = Math.max(p , np);
+
             a = b;
             b = c;
         }
         return b;
     }
 }
-
-
-
-
-
