@@ -36,6 +36,6 @@ class Solution {
         Collections.sort(cuts);
 
         return bottomUp(cuts);
-        // return topDown(0,cuts.size()-1, cuts);
+        // return topDown(1,cuts.size()-2, cuts);
     }
 }
