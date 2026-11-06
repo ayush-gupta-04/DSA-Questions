@@ -2,7 +2,7 @@
 
 ### Fibonacci Style
 - (*)[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
-- (*)[Frog Jump](https://www.geeksforgeeks.org/problems/geek-jump/1)
+- (*)[Frog Jump](https://www.geeksforgeeks.org/problems/geek-jump/1)⭐
 - (*)[House Robber](https://leetcode.com/problems/house-robber/) ⭐
 - (*)[House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - (*)[Painting the Fence](https://www.geeksforgeeks.org/problems/painting-the-fence3727/1)
@@ -15,9 +15,9 @@
 ### Grid DP
 - (*)[Ninja Training](https://www.geeksforgeeks.org/problems/geeks-training/1)
 - (*)[Unique Paths](https://leetcode.com/problems/unique-paths/description/)
-- (*)[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)
-- (*)[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)
-- (*)[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)
+- (*)[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)⭐
+- (*)[Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)⭐
+- (*)[Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)⭐
 - (*)[Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/)
 - [Triangle](https://leetcode.com/problems/triangle/description/)
 - [Unique Paths 2](https://leetcode.com/problems/unique-paths-ii/description/)
@@ -28,11 +28,11 @@
 
 
 ### Knapsack DP
-- (*)[Subset Sum Equals K](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1)
+- (*)[Subset Sum Equals K](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1)⭐
 - (*)[Partition Sub-Set With Minimal Absolute Diff](https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1)
-- (*)[Count Sub-Set Sum Equals K](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1)
+- (*)[Count Sub-Set Sum Equals K](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1)⭐
 - (*)[Target Sum](https://leetcode.com/problems/target-sum/description/)
-- (*)[Coin Change](https://leetcode.com/problems/coin-change/description/)
+- (*)[Coin Change](https://leetcode.com/problems/coin-change/description/)⭐
 - (*)[Unbounded Knapsack](https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1)
 - (*)[Rod Cutting Problem](https://www.geeksforgeeks.org/problems/rod-cutting0840/1)
 - (*)[Tallest Billboard](https://leetcode.com/problems/tallest-billboard/description/)
@@ -99,15 +99,15 @@
 - [Count Numbers With Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
 
 ## Bitmask DP
-- (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
-- (*)[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/)
-- (*)[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)
-- (*)[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)
-- (*)[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)
-- (*)[Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
+- (*)[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)⭐
+- (*)[Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/)⭐
+- (*)[Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/)⭐
+- (*)[Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)⭐
+- (*)[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)⭐
+- (*)[Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)⭐
 
 ## DP on Squares
-- (*)[Maximal Squares](https://leetcode.com/problems/maximal-square/description)
+- (*)[Maximal Squares](https://leetcode.com/problems/maximal-square/description)⭐
 - [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)
 
 ## Game Theory
