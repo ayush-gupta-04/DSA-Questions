@@ -9,9 +9,9 @@
 - (*)[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
 - (*)[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 - (*)[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)
-- (*)[Sort Linked List](https://leetcode.com/problems/sort-list/description/)
+- (*)[Sort Linked List](https://leetcode.com/problems/sort-list/description/)⭐
 - (*)[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list)
-- (*)[Sort Linked List of 0's & 1's & 2's](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1)
+- (*)[Sort Linked List of 0's & 1's & 2's](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1)⭐
 - (*)[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 - (*)[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 
@@ -20,11 +20,11 @@
 - (*)[Pair Sum in Doubly Linked List](https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1)
 
 ### Good Problems
-- (*)[Rotate Linked List](https://leetcode.com/problems/rotate-list/description/)
-- (*)[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
-- (*)[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
-- (*)[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+- (*)[Rotate Linked List](https://leetcode.com/problems/rotate-list/description/)⭐
+- (*)[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)⭐
+- (*)[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)⭐
+- (*)[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)⭐
 - (*)[Flatten a Linked List](https://takeuforward.org/data-structure/flattening-a-linked-list)
-- (*)[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
+- (*)[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)⭐
 - [Reorder Linked List](https://leetcode.com/problems/reorder-list/)
 - [Partition List](https://leetcode.com/problems/partition-list)
