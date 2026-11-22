@@ -90,6 +90,7 @@
 - (*)[Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)⭐
 - (*)[Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/description/)⭐
 - (*)[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
+- [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
 - [Word Break](https://leetcode.com/problems/word-break/description/)
 - [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/)
 - [Scramble String](https://leetcode.com/problems/scramble-string/)
