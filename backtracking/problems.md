@@ -23,12 +23,6 @@
 - (*)[Word Search II](https://leetcode.com/problems/word-search-ii/description/)⭐
 - (*)[Path With Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/)⭐
 
-
-### Partitioning Problems.
-- (*)[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)⭐
-- (*)[Word Break](https://leetcode.com/problems/word-break/)⭐⭐
-- (*)[Decode Ways](https://leetcode.com/problems/decode-ways/)
-
 ### Others
 - (*)[Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
 - (*)[Sort a Stack Using Recursion](https://takeuforward.org/data-structure/sort-a-stack)
